@@ -67,33 +67,33 @@ python run.py
 
 ### 🧾 Main Patient Dashboard
 You can view, filter, and search all patient records here.
-![Dashboard](images/First_Page.png)
+![Dashboard](Images/First_Page.png)
 
 ### 🟢 Add Patient Modal
 This modal allows users to input all required details about a patient, including their name, contact information, and address.
-![Add Patient](images/Add_Patient.png)
+![Add Patient](Images/Add_Patient.png)
 
 ### 🟦 Update Patient Modal
 Click the blue pencil icon to open this form and update patient information.
-![Update Patient](images/Update_Patient.png)
+![Update Patient](Images/Update_Patient.png)
 
 ### 📋 Patient Details View
 Clicking on a patient row shows their full profile, including:
 - Appointments
 - Prescriptions
 - Lab Reports
-![Patient Details 1](images/Patient_Details_1.png)
-![Patient Details 2](images/Patient_Details_2.png)
-![Patient Details 3](images/Patient_Details_3.png)
+![Patient Details 1](Images/Patient_Details_1.png)
+![Patient Details 2](Images/Patient_Details_2.png)
+![Patient Details 3](Images/Patient_Details_3.png)
 
 ### 🧑‍⚕️ Staff Details from Appointment
 Clicking on an appointment opens doctor's profile including address, schedule, and department info.
-![Staff Details](images/Appointment_Staff_Detail.png)
+![Staff Details](Images/Appointment_Staff_Detail.png)
 
 ### 💊 Pharmacy Details
 Clicking on any prescription’s medicine name opens the medicine details.
-![Pharmacy](images/Pharmacy_Details.png)
+![Pharmacy](Images/Pharmacy_Details.png)
 
 ### 🏥 Medical History
 View a patient’s visit records including symptoms, diagnosis, doctor/nurse, and more.
-![Medical History](images/Medical_History.png)
+![Medical History](Images/Medical_History.png)
