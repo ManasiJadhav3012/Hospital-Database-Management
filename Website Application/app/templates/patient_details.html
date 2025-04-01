@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body class="bg-light p-4">
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Patient Details</h2>
+
+        <div class="card p-4">
+            <!-- Patient Details -->
+            <h5><strong>{{ patient.fname }} {{ patient.lname }}</strong></h5>
+            <p><strong>Email:</strong> {{ patient.emailid }}</p>
+            <p><strong>Gender:</strong> {{ patient.gender }}</p>
+            <p><strong>Date of Birth:</strong> {{ patient.dateofbirth }}</p>
+            <p><strong>Age:</strong> {{ patient.age }}</p>
+            <p><strong>Address:</strong> {{ address.streetname }}, {{ address.city }}, {{ address.zipcode }}</p>
+            <p><strong>Phone:</strong> {{ phone.phonenumber }}</p>
+
+            <hr>
+
+            <!-- Appointments -->
+            <h5>Appointments</h5>
+            <div class="list-group mb-4">
+                {% if appointments %}
+                {% for a in appointments %}
+                <a href="{{ url_for('staff_detail', staff_id=a.doctorid, patient_id=patient.patientid) }}"
+                    class="list-group-item list-group-item-action">
+                    <div class="fw-bold">
+                        <i class="bi bi-calendar-event"></i> {{ a.appointmentdate }} at {{ a.appointmenttime }}
+                    </div>
+                    <div class="text-muted">
+                        <p class="mb-0"><strong>Purpose:</strong> {{ a.purpose }} |
+                            <strong>Status:</strong> {{ a.status }}
+                        </p>
+                        <p class="text-muted"><strong>Doctor:</strong> Dr. {{ a.doctor_fname }} {{ a.doctor_lname }}</p>
+                    </div>
+                </a>
+                {% endfor %}
+                {% else %}
+                <div class="list-group-item">No appointments available.</div>
+                {% endif %}
+            </div>
+
+            <hr>
+
+            <!-- Prescriptions -->
+            <h5>Prescriptions</h5>
+            <div class="list-group mb-4">
+                {% if prescriptions %}
+                {% for p in prescriptions %}
+                <a href="{{ url_for('pharmacy_detail', medicine_id=p.medicineid, patient_id=patient.patientid) }}"
+                    class="list-group-item list-group-item-action">
+                    <div class="card p-3 mb-2">
+                        <h6 class="fw-bold mb-1">
+                            <i class="bi bi-capsule me-1"></i> Prescription #{{ p.prescriptionid }} — {{ p.name }}
+                        </h6>
+                        <p class="mb-1"><strong>Dosage:</strong> {{ p.dosage }} | <strong>Frequency:</strong> {{
+                            p.frequency }}</p>
+                        <p class="mb-0"><strong>Prescribed by:</strong> Dr. {{ p.doctor_fname }} {{ p.doctor_lname }}
+                        </p>
+                    </div>
+                </a>
+                {% endfor %}
+                {% else %}
+                <div class="list-group-item">No prescriptions available.</div>
+                {% endif %}
+            </div>
+
+            <hr>
+
+            <!-- Lab Reports -->
+            <h5>Lab Reports</h5>
+            <div class="row row-cols-1 row-cols-md-2 g-3">
+                {% if lab_reports %}
+                {% for report in lab_reports %}
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h6 class="card-title"><strong>{{ report.type }}</strong></h6>
+                            <p class="card-text mb-1">
+                                <strong>Result:</strong> {{ report.result }}
+                            </p>
+                            <p class="card-text text-muted">
+                                <strong>Doctor:</strong> Dr. {{ report.doctor_fname }} {{ report.doctor_lname }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% else %}
+                <p class="text-muted">No lab reports found.</p>
+                {% endif %}
+            </div>
+
+
+            <div class="mt-4 text-center">
+                <a href="{{ url_for('home') }}" class="btn btn-primary me-2">Back to Home</a>
+                <a href="{{ url_for('medical_history', patient_id=patient.patientid) }}"
+                    class="btn btn-outline-dark">Medical History</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

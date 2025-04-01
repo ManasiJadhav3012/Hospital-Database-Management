@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital - Patient Database</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>Hospital - Patient Database</h1>
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addModal">
+                <i class="fas fa-plus"></i> Add Patient
+            </button>
+        </div>
+
+        <div class="table-container">
+            <table id="patientsTable" class="table table-hover table-bordered align-middle">
+                <thead>
+                    <tr>
+                        <th>Actions</th>
+                        <th>PatientID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Gender</th>
+                        <th>DOB</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th><input type="text" placeholder="Search ID" class="form-control form-control-sm" /></th>
+                        <th><input type="text" placeholder="Search First" class="form-control form-control-sm" /></th>
+                        <th><input type="text" placeholder="Search Last" class="form-control form-control-sm" /></th>
+                        <th><input type="text" placeholder="Search Email" class="form-control form-control-sm" /></th>
+                        <th><input type="text" placeholder="Search Gender" class="form-control form-control-sm" /></th>
+                        <th><input type="text" placeholder="Search DOB" class="form-control form-control-sm" /></th>
+                        <th><input type="text" placeholder="Search Age" class="form-control form-control-sm" /></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for patient in patients %}
+                    <tr class="patient-row" data-id="{{ patient.patientid }}" style="cursor: pointer;">
+                        <td class="action-buttons">
+                            <a href="#" class="btn btn-sm btn-edit" data-id="{{ patient.patientid }}"><i
+                                    class="fas fa-pen"></i></a>
+                            <form action="{{ url_for('delete_patient', patient_id=patient.patientid) }}" method="POST"
+                                style="display:inline;">
+                                <button type="submit" class="btn btn-sm btn-delete"
+                                    onclick="return confirm('Are you sure you want to delete this patient?')">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </form>
+                        </td>
+                        <td>{{ patient.patientid }}</td>
+                        <td>{{ patient.fname }}</td>
+                        <td>{{ patient.lname }}</td>
+                        <td>{{ patient.emailid }}</td>
+                        <td>{{ patient.gender }}</td>
+                        <td>{{ patient.dateofbirth }}</td>
+                        <td>{{ patient.age }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <script>
+            document.querySelectorAll(".patient-row").forEach(row => {
+                row.addEventListener("click", function (e) {
+                    if (e.target.closest(".btn-edit") || e.target.closest(".btn-delete")) return;
+
+                    const patientId = this.getAttribute("data-id");
+                    window.location.href = `/patient/${patientId}`;
+                });
+            });
+        </script>
+
+        <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered custom-modal-width">
+                <form method="POST" action="/add">
+                    <div class="modal-content">
+                        <div class="modal-header bg-success text-white">
+                            <h5 class="modal-title" id="addModalLabel">Add New Patient</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6 mb-2">
+                                        <input type="text" name="fname" placeholder="First Name" class="form-control"
+                                            required>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <input type="text" name="lname" placeholder="Last Name" class="form-control"
+                                            required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-2">
+                                        <input type="email" name="emailid" placeholder="Email" class="form-control">
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <input type="text" name="gender" placeholder="Gender" class="form-control"
+                                            required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-2">
+                                        <input type="date" name="dateofbirth" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <input type="number" name="age" placeholder="Age" class="form-control" required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-2">
+                                        <input type="text" name="streetname" placeholder="Street" class="form-control"
+                                            required>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <input type="text" name="city" placeholder="City" class="form-control" required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-2">
+                                        <input type="text" name="zipcode" placeholder="Zip Code" class="form-control"
+                                            required>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <input type="text" name="phone" placeholder="Phone Number" class="form-control"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-success">Add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            const table = $('#patientsTable').DataTable();
+
+            $('#patientsTable thead tr:eq(1) th').each(function (i) {
+                $('input', this).on('keyup change', function () {
+                    if (table.column(i).search() !== this.value) {
+                        table.column(i).search(this.value).draw();
+                    }
+                });
+            });
+        });
+    </script>
+
+    <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <form action="{{ url_for('update_patient') }}" method="POST">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-white">
+                        <h5 class="modal-title" id="updateModalLabel">Update Patient</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <input type="hidden" name="patientid" id="modalPatientID">
+
+                        <div class="mb-2">
+                            <label>First Name</label>
+                            <input type="text" name="fname" id="modalFname" class="form-control" required>
+                        </div>
+
+                        <div class="mb-2">
+                            <label>Last Name</label>
+                            <input type="text" name="lname" id="modalLname" class="form-control" required>
+                        </div>
+
+                        <div class="mb-2">
+                            <label>Email</label>
+                            <input type="email" name="emailid" id="modalEmailID" class="form-control">
+                        </div>
+
+                        <div class="mb-2">
+                            <label>Gender</label>
+                            <input type="text" name="gender" id="modalGender" class="form-control" required>
+                        </div>
+
+                        <div class="mb-2">
+                            <label>Date of Birth</label>
+                            <input type="date" name="dateofbirth" id="modalDOB" class="form-control" required>
+                        </div>
+
+                        <div class="mb-2">
+                            <label>Age</label>
+                            <input type="number" name="age" id="modalAge" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success">Update</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.querySelectorAll(".btn-edit").forEach(button => {
+            button.addEventListener("click", function () {
+                const row = this.closest("tr");
+                document.getElementById("modalPatientID").value = this.dataset.id;
+                document.getElementById("modalFname").value = row.children[2].innerText;
+                document.getElementById("modalLname").value = row.children[3].innerText;
+                document.getElementById("modalEmailID").value = row.children[4].innerText;
+                document.getElementById("modalGender").value = row.children[5].innerText;
+                document.getElementById("modalDOB").value = row.children[6].innerText;
+                document.getElementById("modalAge").value = row.children[7].innerText;
+
+                const modal = new bootstrap.Modal(document.getElementById("updateModal"));
+                modal.show();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

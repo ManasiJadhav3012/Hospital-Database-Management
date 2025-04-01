@@ -1,0 +1,5001 @@
+PatientID,DoctorID,Type,Result
+4181,1,MRI,Normal
+1756,2,MRI,Normal
+4516,3,X-Ray,Critical
+1518,4,Urine Test,Normal
+3634,5,Blood Test,Critical
+3352,6,Blood Test,Normal
+4700,7,Urine Test,Normal
+2461,8,X-Ray,Normal
+4436,9,X-Ray,Abnormal
+250,10,X-Ray,Normal
+2191,11,Urine Test,Critical
+832,12,Urine Test,Normal
+107,13,Blood Test,Normal
+484,14,Blood Test,Normal
+1214,15,X-Ray,Critical
+3327,16,Urine Test,Critical
+2998,17,Blood Test,Abnormal
+1028,18,Urine Test,Critical
+4654,19,Urine Test,Abnormal
+878,20,Blood Test,Abnormal
+3295,21,MRI,Critical
+1640,22,X-Ray,Critical
+609,23,X-Ray,Normal
+3527,24,X-Ray,Critical
+1243,25,X-Ray,Abnormal
+2446,26,X-Ray,Abnormal
+652,27,Blood Test,Abnormal
+975,28,Blood Test,Critical
+4614,29,Urine Test,Abnormal
+4186,30,X-Ray,Abnormal
+1034,31,MRI,Normal
+644,32,Urine Test,Critical
+4411,33,Blood Test,Abnormal
+1114,34,X-Ray,Critical
+4095,35,X-Ray,Normal
+4031,36,X-Ray,Critical
+3200,37,Urine Test,Critical
+2671,38,Urine Test,Critical
+509,39,X-Ray,Critical
+4431,40,Urine Test,Critical
+4415,41,X-Ray,Normal
+4085,42,X-Ray,Normal
+358,43,MRI,Abnormal
+1855,44,Blood Test,Critical
+1,45,MRI,Abnormal
+2678,46,X-Ray,Abnormal
+2556,47,Blood Test,Normal
+4706,48,Urine Test,Normal
+944,49,X-Ray,Critical
+498,50,MRI,Normal
+1219,51,MRI,Critical
+4933,52,Urine Test,Critical
+4827,53,MRI,Normal
+867,54,Urine Test,Abnormal
+3477,55,Blood Test,Critical
+3646,56,Blood Test,Normal
+4731,57,Blood Test,Normal
+564,58,X-Ray,Normal
+1536,59,X-Ray,Normal
+2501,60,Blood Test,Abnormal
+3685,61,Blood Test,Abnormal
+1781,62,Blood Test,Critical
+1848,63,X-Ray,Normal
+4984,64,X-Ray,Abnormal
+2377,65,MRI,Abnormal
+973,66,MRI,Abnormal
+2319,67,MRI,Critical
+2318,68,MRI,Abnormal
+2917,69,Blood Test,Abnormal
+3884,70,MRI,Abnormal
+4625,71,MRI,Critical
+1562,72,Blood Test,Normal
+1298,73,MRI,Abnormal
+3257,74,X-Ray,Abnormal
+1328,75,Blood Test,Critical
+513,76,MRI,Critical
+827,77,Urine Test,Abnormal
+2039,78,MRI,Critical
+2783,79,X-Ray,Abnormal
+3621,80,X-Ray,Normal
+1768,81,Blood Test,Normal
+777,82,Urine Test,Abnormal
+3508,83,MRI,Abnormal
+1445,84,MRI,Abnormal
+3256,85,Urine Test,Abnormal
+750,86,X-Ray,Normal
+2451,87,Urine Test,Critical
+2650,88,X-Ray,Normal
+1133,89,MRI,Abnormal
+3878,90,Blood Test,Abnormal
+2456,91,Blood Test,Critical
+2762,92,Urine Test,Critical
+2846,93,X-Ray,Abnormal
+1763,94,Urine Test,Abnormal
+2785,95,Blood Test,Critical
+3956,96,X-Ray,Critical
+4648,97,MRI,Abnormal
+4480,98,MRI,Abnormal
+4344,99,MRI,Abnormal
+3614,100,X-Ray,Abnormal
+1398,101,Urine Test,Abnormal
+3161,102,X-Ray,Abnormal
+3184,103,MRI,Abnormal
+1465,104,Blood Test,Normal
+4283,105,Blood Test,Normal
+1635,106,X-Ray,Critical
+3713,107,X-Ray,Abnormal
+1216,108,MRI,Abnormal
+1764,109,Urine Test,Critical
+349,110,MRI,Critical
+3489,111,MRI,Critical
+4543,112,Blood Test,Abnormal
+3372,113,Blood Test,Abnormal
+1263,114,MRI,Normal
+2579,115,X-Ray,Normal
+4921,116,X-Ray,Critical
+4535,117,Urine Test,Normal
+2005,118,X-Ray,Normal
+3673,119,Blood Test,Critical
+583,120,Blood Test,Normal
+3714,121,Urine Test,Critical
+3411,122,Blood Test,Critical
+2127,123,X-Ray,Abnormal
+3461,124,Urine Test,Critical
+2933,125,MRI,Abnormal
+3860,126,Blood Test,Abnormal
+2642,127,Blood Test,Critical
+302,128,Urine Test,Normal
+3747,129,X-Ray,Normal
+100,130,Blood Test,Abnormal
+3066,131,Blood Test,Normal
+3550,132,MRI,Abnormal
+807,133,X-Ray,Abnormal
+2237,134,Blood Test,Critical
+3572,135,MRI,Critical
+4813,136,MRI,Normal
+82,137,Blood Test,Abnormal
+3418,138,Blood Test,Abnormal
+837,139,Blood Test,Abnormal
+3075,140,X-Ray,Abnormal
+1472,141,Blood Test,Normal
+1243,142,Blood Test,Normal
+3992,143,MRI,Normal
+3497,144,Blood Test,Abnormal
+2807,145,Urine Test,Critical
+4263,146,MRI,Critical
+4089,147,X-Ray,Normal
+132,148,X-Ray,Critical
+278,149,Urine Test,Normal
+1264,150,Urine Test,Abnormal
+1700,151,Blood Test,Normal
+3868,152,MRI,Abnormal
+3817,153,X-Ray,Abnormal
+3334,154,MRI,Normal
+842,155,Urine Test,Abnormal
+471,156,MRI,Normal
+1456,157,Urine Test,Critical
+2434,158,MRI,Abnormal
+1114,159,MRI,Critical
+1577,160,Blood Test,Normal
+4836,161,Blood Test,Normal
+705,162,Blood Test,Abnormal
+949,163,Blood Test,Abnormal
+769,164,Urine Test,Abnormal
+736,165,Blood Test,Normal
+1341,166,Urine Test,Normal
+2916,167,Urine Test,Abnormal
+649,168,Urine Test,Normal
+929,169,X-Ray,Abnormal
+379,170,MRI,Critical
+3304,171,Urine Test,Critical
+1825,172,Urine Test,Critical
+3843,173,Blood Test,Abnormal
+3903,174,X-Ray,Normal
+339,175,Urine Test,Critical
+815,176,Urine Test,Normal
+2191,177,Blood Test,Critical
+1597,178,Blood Test,Normal
+2035,179,X-Ray,Normal
+2736,180,X-Ray,Normal
+3583,181,MRI,Normal
+2070,182,Blood Test,Normal
+462,183,X-Ray,Critical
+4306,184,MRI,Abnormal
+540,185,MRI,Abnormal
+4301,186,Blood Test,Critical
+3109,187,Blood Test,Critical
+3288,188,X-Ray,Normal
+3333,189,Blood Test,Normal
+1027,190,Blood Test,Abnormal
+2599,191,Urine Test,Normal
+93,192,X-Ray,Critical
+4833,193,X-Ray,Normal
+2888,194,MRI,Critical
+1077,195,X-Ray,Critical
+1635,196,X-Ray,Abnormal
+3305,197,Urine Test,Normal
+1294,198,Urine Test,Critical
+57,199,Urine Test,Normal
+2366,200,Blood Test,Normal
+4256,201,Urine Test,Critical
+3732,202,Urine Test,Normal
+4233,203,Urine Test,Critical
+456,204,MRI,Critical
+2390,205,Urine Test,Normal
+1294,206,Urine Test,Abnormal
+227,207,X-Ray,Normal
+4828,208,X-Ray,Critical
+889,209,Blood Test,Critical
+1534,210,Urine Test,Normal
+4370,211,Blood Test,Abnormal
+3373,212,MRI,Normal
+2514,213,MRI,Critical
+3741,214,MRI,Normal
+769,215,MRI,Critical
+840,216,Urine Test,Critical
+1188,217,Blood Test,Critical
+2972,218,MRI,Abnormal
+1823,219,Urine Test,Normal
+3871,220,MRI,Abnormal
+4224,221,MRI,Critical
+2553,222,MRI,Normal
+2843,223,X-Ray,Normal
+4379,224,Urine Test,Critical
+2749,225,Urine Test,Critical
+4787,226,X-Ray,Critical
+620,227,X-Ray,Abnormal
+4495,228,Blood Test,Normal
+617,229,MRI,Abnormal
+762,230,Urine Test,Critical
+4432,231,Urine Test,Critical
+989,232,MRI,Abnormal
+3545,233,Urine Test,Critical
+746,234,Urine Test,Critical
+1450,235,X-Ray,Abnormal
+4242,236,Blood Test,Critical
+4992,237,Urine Test,Abnormal
+4970,238,Blood Test,Abnormal
+4528,239,MRI,Normal
+4046,240,MRI,Critical
+85,241,Urine Test,Abnormal
+963,242,MRI,Normal
+3957,243,X-Ray,Abnormal
+1754,244,Urine Test,Critical
+1481,245,MRI,Normal
+2061,246,Blood Test,Normal
+3827,247,Urine Test,Normal
+4689,248,X-Ray,Critical
+2693,249,Urine Test,Abnormal
+2571,250,Urine Test,Abnormal
+2375,251,MRI,Abnormal
+3906,252,MRI,Normal
+735,253,Urine Test,Abnormal
+1551,254,Blood Test,Critical
+2916,255,X-Ray,Normal
+3599,256,MRI,Normal
+4400,257,Blood Test,Normal
+3500,258,Urine Test,Abnormal
+2902,259,Blood Test,Abnormal
+2417,260,MRI,Critical
+119,261,Urine Test,Critical
+610,262,MRI,Abnormal
+966,263,Blood Test,Normal
+4935,264,X-Ray,Critical
+751,265,Blood Test,Abnormal
+2382,266,Blood Test,Critical
+4334,267,X-Ray,Critical
+4676,268,MRI,Abnormal
+274,269,MRI,Critical
+4770,270,MRI,Abnormal
+1812,271,Urine Test,Critical
+1516,272,MRI,Normal
+1410,273,MRI,Abnormal
+2379,274,Blood Test,Critical
+4532,275,Urine Test,Normal
+937,276,Urine Test,Normal
+2549,277,Blood Test,Abnormal
+1036,278,X-Ray,Critical
+3911,279,X-Ray,Critical
+428,280,MRI,Critical
+390,281,Blood Test,Abnormal
+2141,282,Blood Test,Abnormal
+2435,283,X-Ray,Normal
+1606,284,Blood Test,Abnormal
+2809,285,MRI,Normal
+4429,286,Urine Test,Abnormal
+3859,287,Blood Test,Normal
+782,288,Blood Test,Abnormal
+755,289,Urine Test,Normal
+27,290,Blood Test,Abnormal
+210,291,Blood Test,Normal
+1265,292,Urine Test,Critical
+2077,293,Urine Test,Normal
+1279,294,Urine Test,Abnormal
+2841,295,MRI,Normal
+1890,296,Urine Test,Abnormal
+290,297,X-Ray,Abnormal
+4023,298,MRI,Normal
+509,299,MRI,Abnormal
+1845,300,X-Ray,Normal
+1695,301,Blood Test,Abnormal
+1064,302,Urine Test,Critical
+2696,303,MRI,Critical
+104,304,Blood Test,Abnormal
+4569,305,Blood Test,Normal
+3727,306,Blood Test,Critical
+4518,307,Urine Test,Abnormal
+2877,308,Urine Test,Normal
+2392,309,X-Ray,Abnormal
+2976,310,MRI,Abnormal
+1634,311,Urine Test,Critical
+2157,312,Blood Test,Normal
+2912,313,X-Ray,Critical
+2669,314,MRI,Critical
+3159,315,MRI,Abnormal
+1333,316,MRI,Critical
+828,317,Blood Test,Abnormal
+4386,318,MRI,Critical
+2578,319,Urine Test,Normal
+285,320,Blood Test,Critical
+773,321,X-Ray,Critical
+1893,322,X-Ray,Critical
+1362,323,Blood Test,Abnormal
+4757,324,Urine Test,Critical
+2968,325,Urine Test,Abnormal
+3768,326,X-Ray,Critical
+3122,327,Blood Test,Normal
+1104,328,X-Ray,Abnormal
+2306,329,MRI,Critical
+3432,330,X-Ray,Abnormal
+38,331,Urine Test,Normal
+1193,332,MRI,Normal
+1846,333,Blood Test,Normal
+3885,334,Blood Test,Critical
+3394,335,MRI,Normal
+447,336,MRI,Abnormal
+2354,337,Blood Test,Abnormal
+1770,338,MRI,Normal
+4977,339,Urine Test,Normal
+2628,340,Blood Test,Critical
+333,341,Blood Test,Critical
+215,342,Urine Test,Critical
+2440,343,X-Ray,Normal
+498,344,Blood Test,Normal
+4676,345,Blood Test,Normal
+749,346,Urine Test,Abnormal
+1447,347,Urine Test,Critical
+1394,348,MRI,Critical
+4665,349,X-Ray,Critical
+4629,350,MRI,Abnormal
+1783,351,X-Ray,Normal
+538,352,Urine Test,Abnormal
+854,353,MRI,Normal
+511,354,X-Ray,Normal
+3337,355,Urine Test,Abnormal
+1752,356,Blood Test,Normal
+3672,357,X-Ray,Normal
+2487,358,Urine Test,Normal
+4941,359,X-Ray,Normal
+3686,360,MRI,Abnormal
+1905,361,MRI,Critical
+1027,362,X-Ray,Normal
+3979,363,Urine Test,Critical
+1992,364,Blood Test,Abnormal
+3170,365,X-Ray,Normal
+1469,366,Urine Test,Critical
+4991,367,MRI,Normal
+3325,368,X-Ray,Abnormal
+53,369,Blood Test,Normal
+4628,370,X-Ray,Normal
+584,371,X-Ray,Critical
+2068,372,MRI,Critical
+4445,373,Blood Test,Critical
+1673,374,Blood Test,Critical
+2143,375,X-Ray,Normal
+1518,376,MRI,Normal
+3988,377,X-Ray,Critical
+4106,378,Blood Test,Abnormal
+650,379,X-Ray,Critical
+511,380,X-Ray,Critical
+827,381,Urine Test,Abnormal
+2759,382,Blood Test,Critical
+670,383,Urine Test,Critical
+4594,384,MRI,Abnormal
+900,385,MRI,Critical
+4486,386,MRI,Normal
+165,387,X-Ray,Abnormal
+2694,388,Blood Test,Abnormal
+1640,389,Urine Test,Critical
+4023,390,MRI,Normal
+3055,391,X-Ray,Critical
+4149,392,MRI,Abnormal
+669,393,MRI,Normal
+2224,394,X-Ray,Normal
+3337,395,Urine Test,Critical
+3524,396,Blood Test,Critical
+4349,397,Urine Test,Critical
+2738,398,Urine Test,Abnormal
+4249,399,MRI,Abnormal
+4624,400,MRI,Normal
+2944,401,Urine Test,Critical
+2458,402,MRI,Critical
+3128,403,X-Ray,Normal
+4438,404,Blood Test,Critical
+4525,405,X-Ray,Abnormal
+476,406,MRI,Normal
+4643,407,X-Ray,Abnormal
+1824,408,Urine Test,Critical
+637,409,MRI,Normal
+3220,410,X-Ray,Abnormal
+848,411,Blood Test,Abnormal
+3068,412,X-Ray,Abnormal
+800,413,MRI,Normal
+3855,414,MRI,Abnormal
+1751,415,MRI,Normal
+566,416,X-Ray,Normal
+1510,417,X-Ray,Normal
+694,418,Urine Test,Critical
+563,419,Urine Test,Normal
+4944,420,Urine Test,Abnormal
+2790,421,X-Ray,Normal
+1719,422,MRI,Abnormal
+3246,423,Urine Test,Abnormal
+4045,424,Urine Test,Normal
+1784,425,X-Ray,Abnormal
+4044,426,X-Ray,Normal
+2105,427,Blood Test,Critical
+3079,428,Urine Test,Critical
+2074,429,Blood Test,Critical
+1479,430,MRI,Normal
+1205,431,Urine Test,Normal
+836,432,X-Ray,Abnormal
+4787,433,X-Ray,Normal
+3947,434,MRI,Abnormal
+1820,435,Urine Test,Normal
+4542,436,MRI,Abnormal
+3831,437,Blood Test,Normal
+2330,438,X-Ray,Critical
+381,439,X-Ray,Critical
+4122,440,X-Ray,Normal
+1490,441,Urine Test,Critical
+4306,442,Blood Test,Critical
+4293,443,MRI,Normal
+1374,444,MRI,Critical
+2898,445,MRI,Normal
+4844,446,Blood Test,Normal
+2634,447,Urine Test,Critical
+1968,448,Blood Test,Abnormal
+2356,449,MRI,Normal
+883,450,Blood Test,Abnormal
+2861,451,X-Ray,Abnormal
+4684,452,MRI,Critical
+2389,453,Urine Test,Abnormal
+1118,454,X-Ray,Normal
+3833,455,Urine Test,Abnormal
+1150,456,Blood Test,Critical
+1744,457,X-Ray,Critical
+1685,458,MRI,Critical
+4529,459,Urine Test,Normal
+557,460,X-Ray,Normal
+1348,461,MRI,Abnormal
+565,462,X-Ray,Critical
+1016,463,X-Ray,Normal
+2190,464,MRI,Normal
+3396,465,Urine Test,Normal
+1271,466,Blood Test,Critical
+3414,467,X-Ray,Abnormal
+872,468,MRI,Abnormal
+74,469,MRI,Abnormal
+2476,470,MRI,Abnormal
+4776,471,X-Ray,Abnormal
+4962,472,X-Ray,Normal
+1065,473,Blood Test,Abnormal
+953,474,Urine Test,Abnormal
+1186,475,Blood Test,Critical
+2430,476,MRI,Normal
+139,477,Urine Test,Critical
+3307,478,Urine Test,Abnormal
+3114,479,X-Ray,Critical
+3368,480,X-Ray,Critical
+2136,481,MRI,Normal
+4798,482,MRI,Abnormal
+235,483,Blood Test,Abnormal
+591,484,X-Ray,Abnormal
+4725,485,Urine Test,Critical
+2986,486,Blood Test,Critical
+551,487,MRI,Abnormal
+1915,488,MRI,Abnormal
+3745,489,Urine Test,Critical
+3689,490,MRI,Normal
+1983,491,Blood Test,Abnormal
+123,492,X-Ray,Critical
+1885,493,X-Ray,Abnormal
+4599,494,MRI,Normal
+1426,495,MRI,Normal
+621,496,Blood Test,Normal
+2123,497,MRI,Normal
+4216,498,Blood Test,Critical
+1769,499,Urine Test,Normal
+1904,500,Urine Test,Abnormal
+2501,501,X-Ray,Normal
+2828,502,Urine Test,Critical
+4005,503,Blood Test,Normal
+1923,504,MRI,Normal
+1047,505,X-Ray,Normal
+4176,506,X-Ray,Normal
+2251,507,MRI,Normal
+2447,508,Urine Test,Normal
+3206,509,Urine Test,Abnormal
+1247,510,X-Ray,Normal
+1752,511,Urine Test,Normal
+2173,512,X-Ray,Critical
+2019,513,X-Ray,Critical
+2195,514,X-Ray,Critical
+1751,515,Urine Test,Critical
+2587,516,MRI,Abnormal
+791,517,Blood Test,Abnormal
+2331,518,Urine Test,Normal
+4138,519,Urine Test,Abnormal
+3167,520,MRI,Abnormal
+1118,521,Blood Test,Critical
+3312,522,Blood Test,Normal
+446,523,MRI,Critical
+941,524,X-Ray,Critical
+1344,525,Urine Test,Critical
+4330,526,MRI,Normal
+391,527,MRI,Critical
+716,528,MRI,Abnormal
+2346,529,Urine Test,Critical
+2959,530,Urine Test,Abnormal
+113,531,X-Ray,Normal
+135,532,X-Ray,Abnormal
+2579,533,X-Ray,Critical
+4817,534,X-Ray,Critical
+2930,535,Urine Test,Normal
+3019,536,Urine Test,Critical
+1672,537,Blood Test,Critical
+2933,538,MRI,Critical
+2013,539,Blood Test,Abnormal
+1052,540,MRI,Critical
+2366,541,X-Ray,Abnormal
+4525,542,Urine Test,Normal
+3692,543,Urine Test,Abnormal
+3614,544,MRI,Abnormal
+4828,545,Blood Test,Normal
+2998,546,Urine Test,Abnormal
+254,547,Blood Test,Normal
+195,548,Urine Test,Critical
+3038,549,MRI,Normal
+4660,550,Blood Test,Abnormal
+2894,551,Blood Test,Normal
+3134,552,MRI,Abnormal
+4153,553,Urine Test,Abnormal
+1300,554,Urine Test,Abnormal
+900,555,X-Ray,Critical
+2282,556,Blood Test,Critical
+4606,557,Urine Test,Abnormal
+247,558,Urine Test,Abnormal
+1595,559,Urine Test,Critical
+999,560,MRI,Abnormal
+1577,561,MRI,Abnormal
+1885,562,Blood Test,Critical
+1508,563,Urine Test,Critical
+1725,564,MRI,Critical
+2653,565,Urine Test,Critical
+3037,566,Blood Test,Abnormal
+3879,567,X-Ray,Abnormal
+2619,568,MRI,Normal
+1083,569,X-Ray,Normal
+1445,570,Blood Test,Critical
+4804,571,X-Ray,Critical
+3011,572,X-Ray,Critical
+1598,573,Blood Test,Normal
+3378,574,Urine Test,Critical
+3794,575,MRI,Critical
+4452,576,X-Ray,Normal
+1565,577,Urine Test,Abnormal
+2491,578,Urine Test,Normal
+4513,579,Urine Test,Abnormal
+3640,580,X-Ray,Abnormal
+258,581,MRI,Normal
+4038,582,MRI,Critical
+589,583,Blood Test,Normal
+4500,584,Urine Test,Normal
+1404,585,MRI,Abnormal
+3068,586,X-Ray,Abnormal
+2198,587,Urine Test,Normal
+2832,588,Urine Test,Critical
+3202,589,Urine Test,Critical
+2940,590,MRI,Abnormal
+3036,591,Urine Test,Abnormal
+1987,592,Urine Test,Critical
+686,593,Urine Test,Critical
+1388,594,X-Ray,Normal
+3100,595,MRI,Abnormal
+4254,596,MRI,Abnormal
+661,597,Blood Test,Normal
+4822,598,Urine Test,Normal
+3329,599,MRI,Abnormal
+4330,600,X-Ray,Normal
+407,601,MRI,Normal
+2743,602,MRI,Critical
+3510,603,X-Ray,Normal
+1615,604,Blood Test,Abnormal
+4784,605,Blood Test,Abnormal
+3957,606,Urine Test,Abnormal
+2708,607,Blood Test,Critical
+3015,608,MRI,Normal
+22,609,X-Ray,Abnormal
+3134,610,Blood Test,Normal
+2387,611,Urine Test,Normal
+89,612,MRI,Abnormal
+3956,613,Blood Test,Abnormal
+4516,614,MRI,Abnormal
+2299,615,X-Ray,Critical
+119,616,MRI,Normal
+4941,617,Urine Test,Critical
+3997,618,Blood Test,Critical
+4102,619,MRI,Abnormal
+2,620,Blood Test,Normal
+2465,621,Urine Test,Abnormal
+3282,622,Blood Test,Normal
+2987,623,Urine Test,Normal
+4548,624,Blood Test,Normal
+4404,625,X-Ray,Abnormal
+1524,626,MRI,Normal
+4482,627,X-Ray,Abnormal
+633,628,MRI,Abnormal
+3670,629,Blood Test,Abnormal
+1430,630,MRI,Critical
+1055,631,MRI,Critical
+1106,632,X-Ray,Critical
+4373,633,Blood Test,Abnormal
+3787,634,Blood Test,Abnormal
+4044,635,Blood Test,Normal
+440,636,Blood Test,Abnormal
+878,637,X-Ray,Abnormal
+638,638,Urine Test,Abnormal
+349,639,MRI,Critical
+2404,640,Urine Test,Normal
+4475,641,X-Ray,Critical
+4398,642,MRI,Abnormal
+1080,643,Blood Test,Normal
+958,644,Urine Test,Normal
+623,645,MRI,Normal
+2533,646,X-Ray,Normal
+1781,647,Urine Test,Normal
+3144,648,MRI,Critical
+3666,649,Blood Test,Critical
+1025,650,Blood Test,Abnormal
+4501,651,MRI,Critical
+4485,652,Urine Test,Normal
+1345,653,MRI,Critical
+3157,654,X-Ray,Abnormal
+4104,655,Urine Test,Normal
+2129,656,MRI,Critical
+1412,657,MRI,Critical
+1665,658,Urine Test,Normal
+3838,659,X-Ray,Abnormal
+3252,660,Urine Test,Abnormal
+3454,661,Blood Test,Critical
+2008,662,Blood Test,Critical
+1305,663,MRI,Abnormal
+1534,664,X-Ray,Normal
+2919,665,X-Ray,Normal
+2350,666,Blood Test,Critical
+1174,667,X-Ray,Critical
+466,668,Urine Test,Critical
+3751,669,Urine Test,Critical
+1061,670,Urine Test,Normal
+1964,671,MRI,Normal
+331,672,X-Ray,Critical
+4979,673,X-Ray,Normal
+856,674,Blood Test,Normal
+3569,675,Urine Test,Abnormal
+4524,676,Urine Test,Abnormal
+2152,677,Blood Test,Abnormal
+4724,678,Blood Test,Abnormal
+2700,679,X-Ray,Normal
+2751,680,MRI,Normal
+3578,681,Urine Test,Normal
+4484,682,Urine Test,Normal
+833,683,X-Ray,Critical
+1835,684,MRI,Abnormal
+1901,685,X-Ray,Normal
+2688,686,Urine Test,Critical
+408,687,Blood Test,Abnormal
+3048,688,Urine Test,Normal
+98,689,Blood Test,Critical
+159,690,X-Ray,Critical
+3639,691,MRI,Critical
+2424,692,MRI,Critical
+1967,693,Blood Test,Critical
+3342,694,X-Ray,Abnormal
+4111,695,Urine Test,Abnormal
+4247,696,Blood Test,Normal
+1469,697,Urine Test,Critical
+4099,698,MRI,Critical
+4137,699,X-Ray,Critical
+1087,700,MRI,Critical
+3823,701,Blood Test,Critical
+3953,702,Urine Test,Abnormal
+2612,703,X-Ray,Abnormal
+1157,704,Urine Test,Normal
+2090,705,Urine Test,Critical
+3587,706,Urine Test,Critical
+4136,707,MRI,Critical
+507,708,MRI,Normal
+2762,709,Blood Test,Abnormal
+667,710,X-Ray,Abnormal
+3172,711,Urine Test,Normal
+3770,712,MRI,Normal
+4164,713,MRI,Critical
+2310,714,MRI,Critical
+4241,715,MRI,Critical
+4371,716,Urine Test,Normal
+2625,717,Blood Test,Critical
+4826,718,Urine Test,Abnormal
+2179,719,X-Ray,Abnormal
+2303,720,MRI,Abnormal
+1243,721,X-Ray,Critical
+3873,722,MRI,Abnormal
+2495,723,X-Ray,Critical
+4960,724,X-Ray,Critical
+2780,725,MRI,Abnormal
+3693,726,MRI,Normal
+4736,727,MRI,Normal
+4375,728,MRI,Normal
+3612,729,X-Ray,Abnormal
+1617,730,Urine Test,Abnormal
+3664,731,Blood Test,Critical
+777,732,MRI,Critical
+2831,733,Blood Test,Abnormal
+2307,734,MRI,Abnormal
+3365,735,X-Ray,Abnormal
+972,736,X-Ray,Abnormal
+195,737,MRI,Normal
+3197,738,MRI,Critical
+1610,739,X-Ray,Critical
+4529,740,Blood Test,Normal
+3180,741,MRI,Normal
+3760,742,Blood Test,Abnormal
+1234,743,X-Ray,Normal
+1518,744,Blood Test,Abnormal
+3303,745,X-Ray,Normal
+450,746,MRI,Normal
+358,747,Blood Test,Critical
+3826,748,Blood Test,Abnormal
+3867,749,MRI,Normal
+1789,750,X-Ray,Critical
+1850,751,Urine Test,Critical
+259,752,Urine Test,Normal
+4422,753,Blood Test,Abnormal
+1803,754,Blood Test,Normal
+1227,755,X-Ray,Normal
+1879,756,MRI,Critical
+2951,757,Urine Test,Normal
+2505,758,MRI,Critical
+1793,759,Urine Test,Critical
+2224,760,Blood Test,Normal
+1153,761,Urine Test,Critical
+3480,762,X-Ray,Critical
+1217,763,X-Ray,Abnormal
+339,764,X-Ray,Abnormal
+1311,765,X-Ray,Normal
+3531,766,X-Ray,Normal
+4692,767,MRI,Abnormal
+3401,768,Blood Test,Normal
+2777,769,X-Ray,Normal
+4328,770,Blood Test,Normal
+3517,771,X-Ray,Normal
+837,772,X-Ray,Normal
+403,773,X-Ray,Normal
+1285,774,Urine Test,Normal
+3079,775,Blood Test,Critical
+1005,776,Blood Test,Normal
+1402,777,Blood Test,Abnormal
+4747,778,Urine Test,Normal
+1354,779,Blood Test,Abnormal
+420,780,X-Ray,Critical
+4936,781,X-Ray,Abnormal
+916,782,X-Ray,Critical
+4134,783,Urine Test,Abnormal
+1703,784,Blood Test,Normal
+759,785,Urine Test,Abnormal
+3083,786,Urine Test,Normal
+3934,787,Urine Test,Normal
+609,788,Urine Test,Normal
+1890,789,Urine Test,Critical
+364,790,Urine Test,Critical
+4490,791,Blood Test,Abnormal
+2255,792,X-Ray,Critical
+1368,793,MRI,Critical
+2854,794,X-Ray,Normal
+1341,795,MRI,Critical
+2886,796,X-Ray,Normal
+4478,797,X-Ray,Abnormal
+3412,798,X-Ray,Abnormal
+3125,799,X-Ray,Normal
+1300,800,X-Ray,Normal
+942,801,Urine Test,Abnormal
+2337,802,Blood Test,Critical
+2091,803,MRI,Normal
+512,804,Urine Test,Normal
+4770,805,Blood Test,Normal
+57,806,Urine Test,Normal
+3978,807,Urine Test,Critical
+1713,808,Blood Test,Critical
+3383,809,MRI,Normal
+1269,810,Urine Test,Normal
+2102,811,Urine Test,Critical
+4738,812,Blood Test,Abnormal
+231,813,Blood Test,Normal
+4058,814,X-Ray,Abnormal
+589,815,MRI,Critical
+4604,816,Urine Test,Abnormal
+964,817,X-Ray,Abnormal
+291,818,MRI,Abnormal
+3056,819,Blood Test,Normal
+3493,820,X-Ray,Abnormal
+3433,821,X-Ray,Normal
+3121,822,Blood Test,Critical
+4000,823,MRI,Normal
+2144,824,Urine Test,Normal
+1167,825,Blood Test,Critical
+555,826,MRI,Abnormal
+4769,827,Blood Test,Normal
+4183,828,Blood Test,Abnormal
+2149,829,Urine Test,Critical
+4450,830,Blood Test,Abnormal
+2371,831,MRI,Normal
+896,832,MRI,Normal
+2792,833,MRI,Normal
+1294,834,MRI,Critical
+154,835,Urine Test,Normal
+4664,836,Blood Test,Critical
+2409,837,Urine Test,Normal
+2190,838,Urine Test,Abnormal
+2158,839,MRI,Normal
+567,840,Urine Test,Critical
+2995,841,MRI,Abnormal
+3425,842,X-Ray,Critical
+2270,843,X-Ray,Normal
+526,844,Blood Test,Critical
+3498,845,Blood Test,Abnormal
+3341,846,X-Ray,Critical
+1232,847,Blood Test,Normal
+3434,848,Blood Test,Normal
+3842,849,Blood Test,Abnormal
+2764,850,Urine Test,Normal
+2060,851,Blood Test,Critical
+2302,852,X-Ray,Critical
+4619,853,MRI,Abnormal
+4999,854,MRI,Critical
+417,855,Blood Test,Normal
+3273,856,Urine Test,Abnormal
+2391,857,MRI,Normal
+654,858,X-Ray,Critical
+3866,859,X-Ray,Normal
+2480,860,Blood Test,Critical
+1324,861,Urine Test,Abnormal
+3923,862,X-Ray,Normal
+2007,863,X-Ray,Normal
+1402,864,MRI,Critical
+476,865,Urine Test,Abnormal
+3748,866,Blood Test,Abnormal
+3929,867,Blood Test,Abnormal
+1183,868,X-Ray,Abnormal
+2881,869,MRI,Critical
+324,870,X-Ray,Normal
+4726,871,X-Ray,Abnormal
+2758,872,MRI,Abnormal
+4056,873,Urine Test,Critical
+812,874,Blood Test,Critical
+750,875,MRI,Abnormal
+2559,876,Urine Test,Normal
+4162,877,MRI,Abnormal
+1430,878,MRI,Critical
+3407,879,MRI,Critical
+4213,880,MRI,Critical
+4695,881,MRI,Normal
+586,882,Urine Test,Critical
+1456,883,Blood Test,Critical
+1821,884,MRI,Critical
+1422,885,Blood Test,Normal
+1708,886,Blood Test,Abnormal
+1902,887,MRI,Critical
+1306,888,Blood Test,Normal
+4385,889,X-Ray,Critical
+3246,890,MRI,Normal
+2140,891,Urine Test,Critical
+4040,892,X-Ray,Abnormal
+4607,893,X-Ray,Abnormal
+17,894,Urine Test,Normal
+3580,895,Blood Test,Critical
+2461,896,Blood Test,Abnormal
+4303,897,Blood Test,Abnormal
+2583,898,MRI,Abnormal
+1712,899,Blood Test,Critical
+3913,900,MRI,Abnormal
+1184,901,X-Ray,Normal
+4989,902,Blood Test,Critical
+3772,903,Urine Test,Critical
+3961,904,Urine Test,Critical
+1054,905,MRI,Abnormal
+4586,906,X-Ray,Abnormal
+318,907,Urine Test,Normal
+2480,908,MRI,Normal
+3630,909,Urine Test,Normal
+1959,910,Urine Test,Normal
+571,911,Blood Test,Normal
+3225,912,MRI,Normal
+4162,913,Urine Test,Critical
+4995,914,Urine Test,Abnormal
+3225,915,Urine Test,Critical
+1321,916,MRI,Abnormal
+4269,917,X-Ray,Normal
+4010,918,Urine Test,Normal
+3580,919,X-Ray,Normal
+3057,920,MRI,Critical
+638,921,MRI,Critical
+3771,922,MRI,Normal
+1068,923,X-Ray,Abnormal
+231,924,Urine Test,Abnormal
+422,925,MRI,Abnormal
+118,926,MRI,Abnormal
+3675,927,Blood Test,Normal
+978,928,X-Ray,Normal
+4938,929,MRI,Abnormal
+1590,930,X-Ray,Critical
+3261,931,X-Ray,Critical
+2449,932,Blood Test,Normal
+348,933,Urine Test,Normal
+1800,934,MRI,Normal
+3905,935,MRI,Abnormal
+3748,936,Urine Test,Critical
+4908,937,X-Ray,Normal
+3050,938,Urine Test,Critical
+690,939,Urine Test,Normal
+1569,940,Urine Test,Abnormal
+2912,941,Urine Test,Normal
+1468,942,Blood Test,Abnormal
+2823,943,Urine Test,Abnormal
+183,944,MRI,Normal
+3958,945,Urine Test,Normal
+1017,946,Blood Test,Normal
+4683,947,Urine Test,Abnormal
+2982,948,Urine Test,Abnormal
+545,949,X-Ray,Abnormal
+990,950,MRI,Normal
+4632,951,X-Ray,Critical
+1863,952,X-Ray,Normal
+4307,953,Urine Test,Critical
+477,954,X-Ray,Critical
+3380,955,X-Ray,Critical
+802,956,Urine Test,Abnormal
+2347,957,MRI,Abnormal
+1067,958,Urine Test,Normal
+3372,959,Urine Test,Abnormal
+865,960,MRI,Abnormal
+1423,961,MRI,Normal
+1409,962,Urine Test,Critical
+1883,963,X-Ray,Normal
+2964,964,Urine Test,Critical
+1118,965,MRI,Normal
+938,966,X-Ray,Normal
+2380,967,X-Ray,Normal
+2658,968,MRI,Normal
+1774,969,Blood Test,Abnormal
+4801,970,Urine Test,Normal
+425,971,X-Ray,Abnormal
+2620,972,X-Ray,Critical
+1464,973,Blood Test,Critical
+1965,974,Blood Test,Critical
+3975,975,Urine Test,Normal
+3350,976,X-Ray,Normal
+2994,977,Blood Test,Critical
+2462,978,Blood Test,Normal
+690,979,MRI,Normal
+1027,980,Blood Test,Abnormal
+1451,981,Blood Test,Critical
+4266,982,Urine Test,Abnormal
+4127,983,Urine Test,Abnormal
+1819,984,X-Ray,Abnormal
+235,985,MRI,Abnormal
+4990,986,X-Ray,Normal
+3150,987,Blood Test,Abnormal
+4808,988,Blood Test,Normal
+2091,989,Urine Test,Normal
+4542,990,X-Ray,Critical
+1497,991,Blood Test,Critical
+4792,992,MRI,Abnormal
+2832,993,X-Ray,Critical
+1673,994,Urine Test,Abnormal
+2367,995,Urine Test,Abnormal
+1919,996,X-Ray,Normal
+838,997,MRI,Critical
+2329,998,X-Ray,Abnormal
+987,999,Blood Test,Critical
+4825,1000,MRI,Normal
+1545,1001,Urine Test,Normal
+221,1002,X-Ray,Normal
+772,1003,X-Ray,Critical
+2456,1004,MRI,Abnormal
+67,1005,Urine Test,Abnormal
+3730,1006,MRI,Critical
+4265,1007,X-Ray,Critical
+2436,1008,X-Ray,Critical
+2240,1009,Blood Test,Critical
+3579,1010,Blood Test,Abnormal
+947,1011,MRI,Abnormal
+4312,1012,MRI,Abnormal
+4683,1013,X-Ray,Normal
+1451,1014,MRI,Abnormal
+29,1015,X-Ray,Abnormal
+1082,1016,X-Ray,Normal
+3620,1017,X-Ray,Normal
+2471,1018,Urine Test,Critical
+1672,1019,Urine Test,Normal
+3604,1020,X-Ray,Normal
+605,1021,X-Ray,Normal
+1274,1022,MRI,Critical
+2173,1023,Urine Test,Abnormal
+3993,1024,X-Ray,Abnormal
+1888,1025,Blood Test,Abnormal
+797,1026,X-Ray,Normal
+1696,1027,Blood Test,Abnormal
+459,1028,Urine Test,Abnormal
+3563,1029,Blood Test,Abnormal
+3643,1030,MRI,Abnormal
+3026,1031,Urine Test,Critical
+4416,1032,Blood Test,Abnormal
+4536,1033,MRI,Normal
+770,1034,MRI,Normal
+3931,1035,X-Ray,Normal
+2744,1036,X-Ray,Critical
+2881,1037,MRI,Critical
+3165,1038,Blood Test,Critical
+3697,1039,Urine Test,Critical
+4940,1040,Urine Test,Normal
+1412,1041,Blood Test,Critical
+528,1042,X-Ray,Abnormal
+4992,1043,Urine Test,Normal
+3722,1044,Urine Test,Critical
+3030,1045,MRI,Critical
+1595,1046,MRI,Normal
+3153,1047,Urine Test,Normal
+2036,1048,Blood Test,Normal
+1707,1049,MRI,Normal
+301,1050,Blood Test,Critical
+2129,1051,MRI,Normal
+1872,1052,X-Ray,Abnormal
+3808,1053,Urine Test,Critical
+736,1054,X-Ray,Abnormal
+103,1055,MRI,Normal
+2804,1056,MRI,Abnormal
+4328,1057,X-Ray,Critical
+1207,1058,Blood Test,Normal
+317,1059,MRI,Normal
+1097,1060,Blood Test,Normal
+1291,1061,X-Ray,Normal
+1365,1062,X-Ray,Abnormal
+3340,1063,MRI,Critical
+3213,1064,Urine Test,Normal
+2517,1065,MRI,Abnormal
+3765,1066,Blood Test,Critical
+371,1067,Urine Test,Normal
+3139,1068,Urine Test,Normal
+4940,1069,Urine Test,Normal
+3835,1070,MRI,Critical
+1513,1071,Blood Test,Abnormal
+623,1072,Urine Test,Normal
+3780,1073,Urine Test,Normal
+1788,1074,Blood Test,Normal
+1713,1075,X-Ray,Critical
+4863,1076,Blood Test,Critical
+4219,1077,MRI,Abnormal
+3470,1078,Blood Test,Normal
+4078,1079,Blood Test,Critical
+4020,1080,X-Ray,Critical
+2892,1081,Urine Test,Abnormal
+2561,1082,MRI,Abnormal
+625,1083,MRI,Abnormal
+762,1084,Urine Test,Critical
+4360,1085,MRI,Normal
+4378,1086,MRI,Abnormal
+3773,1087,Blood Test,Critical
+510,1088,Urine Test,Abnormal
+528,1089,X-Ray,Critical
+2443,1090,MRI,Abnormal
+812,1091,MRI,Critical
+1569,1092,X-Ray,Abnormal
+1771,1093,Urine Test,Abnormal
+3443,1094,Blood Test,Abnormal
+181,1095,Urine Test,Normal
+2358,1096,X-Ray,Critical
+3993,1097,Urine Test,Normal
+796,1098,Blood Test,Normal
+162,1099,MRI,Critical
+1920,1100,X-Ray,Normal
+850,1101,Blood Test,Normal
+2955,1102,MRI,Normal
+3532,1103,MRI,Normal
+1516,1104,X-Ray,Critical
+1635,1105,Blood Test,Normal
+745,1106,Urine Test,Abnormal
+841,1107,X-Ray,Normal
+1558,1108,MRI,Abnormal
+1200,1109,Blood Test,Normal
+3766,1110,Blood Test,Critical
+3029,1111,Urine Test,Abnormal
+3151,1112,X-Ray,Normal
+1481,1113,Urine Test,Critical
+886,1114,Urine Test,Normal
+2147,1115,MRI,Critical
+925,1116,X-Ray,Abnormal
+1333,1117,Urine Test,Abnormal
+3666,1118,MRI,Normal
+2208,1119,Blood Test,Normal
+2857,1120,Urine Test,Normal
+446,1121,X-Ray,Abnormal
+1179,1122,MRI,Abnormal
+468,1123,X-Ray,Critical
+2816,1124,Urine Test,Abnormal
+3281,1125,X-Ray,Normal
+4116,1126,Blood Test,Critical
+897,1127,Blood Test,Normal
+2763,1128,Blood Test,Abnormal
+4438,1129,Urine Test,Normal
+2743,1130,MRI,Normal
+3964,1131,Urine Test,Abnormal
+4503,1132,Blood Test,Critical
+4019,1133,Blood Test,Critical
+4852,1134,X-Ray,Critical
+2325,1135,Blood Test,Critical
+2756,1136,MRI,Critical
+226,1137,X-Ray,Abnormal
+2069,1138,Urine Test,Normal
+4931,1139,MRI,Critical
+2778,1140,Urine Test,Normal
+3765,1141,Blood Test,Abnormal
+2137,1142,X-Ray,Abnormal
+3732,1143,Blood Test,Normal
+4518,1144,X-Ray,Normal
+4589,1145,Urine Test,Normal
+2706,1146,Urine Test,Critical
+2038,1147,X-Ray,Normal
+545,1148,MRI,Abnormal
+253,1149,X-Ray,Critical
+4665,1150,Urine Test,Abnormal
+1657,1151,Urine Test,Abnormal
+3658,1152,Urine Test,Normal
+295,1153,MRI,Critical
+1041,1154,Blood Test,Critical
+4891,1155,X-Ray,Critical
+4201,1156,MRI,Abnormal
+1846,1157,Urine Test,Critical
+4061,1158,X-Ray,Normal
+3639,1159,X-Ray,Critical
+3948,1160,MRI,Normal
+444,1161,Urine Test,Abnormal
+645,1162,X-Ray,Abnormal
+3317,1163,Urine Test,Critical
+1918,1164,Urine Test,Normal
+4858,1165,Blood Test,Abnormal
+4159,1166,X-Ray,Abnormal
+2482,1167,Urine Test,Critical
+2821,1168,Urine Test,Abnormal
+3156,1169,X-Ray,Normal
+4619,1170,Urine Test,Critical
+501,1171,Urine Test,Abnormal
+2618,1172,MRI,Critical
+1523,1173,Urine Test,Critical
+1403,1174,X-Ray,Normal
+376,1175,Blood Test,Normal
+4695,1176,MRI,Abnormal
+4113,1177,Blood Test,Normal
+1751,1178,MRI,Normal
+3839,1179,Blood Test,Abnormal
+2517,1180,MRI,Critical
+1062,1181,MRI,Abnormal
+3857,1182,X-Ray,Normal
+2368,1183,Urine Test,Normal
+1702,1184,Urine Test,Normal
+1981,1185,Urine Test,Abnormal
+359,1186,Urine Test,Critical
+840,1187,Blood Test,Abnormal
+3769,1188,MRI,Abnormal
+3040,1189,MRI,Critical
+4002,1190,Urine Test,Critical
+3273,1191,Blood Test,Normal
+4913,1192,MRI,Critical
+378,1193,MRI,Critical
+4202,1194,X-Ray,Normal
+3364,1195,Blood Test,Normal
+383,1196,X-Ray,Normal
+4424,1197,Urine Test,Abnormal
+28,1198,Blood Test,Normal
+4287,1199,Urine Test,Critical
+248,1200,X-Ray,Normal
+4768,1201,Urine Test,Abnormal
+1797,1202,MRI,Abnormal
+1275,1203,Blood Test,Critical
+3896,1204,Blood Test,Abnormal
+1081,1205,Urine Test,Normal
+806,1206,Urine Test,Abnormal
+1307,1207,X-Ray,Critical
+2422,1208,Urine Test,Critical
+2165,1209,Urine Test,Normal
+2361,1210,Urine Test,Abnormal
+1135,1211,MRI,Abnormal
+2463,1212,Blood Test,Critical
+3709,1213,MRI,Abnormal
+1189,1214,Urine Test,Abnormal
+1549,1215,Urine Test,Normal
+3082,1216,Urine Test,Critical
+1162,1217,X-Ray,Normal
+3898,1218,X-Ray,Critical
+4788,1219,MRI,Normal
+2209,1220,X-Ray,Normal
+2965,1221,MRI,Abnormal
+783,1222,MRI,Normal
+3517,1223,MRI,Normal
+2258,1224,MRI,Critical
+4048,1225,MRI,Abnormal
+3409,1226,Urine Test,Abnormal
+4809,1227,X-Ray,Normal
+2814,1228,MRI,Critical
+3990,1229,X-Ray,Critical
+4190,1230,Urine Test,Critical
+3889,1231,Urine Test,Critical
+2202,1232,Urine Test,Abnormal
+3492,1233,Urine Test,Normal
+3347,1234,Blood Test,Critical
+1342,1235,MRI,Abnormal
+1933,1236,X-Ray,Abnormal
+4972,1237,X-Ray,Abnormal
+3540,1238,Urine Test,Abnormal
+3933,1239,MRI,Abnormal
+1560,1240,X-Ray,Abnormal
+1760,1241,MRI,Critical
+55,1242,MRI,Critical
+47,1243,Blood Test,Abnormal
+2318,1244,Blood Test,Normal
+3683,1245,Blood Test,Critical
+1924,1246,X-Ray,Abnormal
+1285,1247,MRI,Abnormal
+4882,1248,MRI,Critical
+542,1249,X-Ray,Normal
+4801,1250,X-Ray,Critical
+96,1251,Blood Test,Normal
+4810,1252,X-Ray,Critical
+3749,1253,X-Ray,Normal
+2747,1254,X-Ray,Abnormal
+20,1255,Urine Test,Normal
+1953,1256,Blood Test,Critical
+3162,1257,MRI,Abnormal
+162,1258,Urine Test,Abnormal
+1220,1259,MRI,Normal
+3042,1260,Blood Test,Abnormal
+52,1261,MRI,Critical
+4592,1262,MRI,Critical
+2540,1263,X-Ray,Critical
+3001,1264,Urine Test,Normal
+658,1265,Urine Test,Critical
+2664,1266,Blood Test,Critical
+4091,1267,Urine Test,Critical
+4992,1268,Urine Test,Critical
+1995,1269,MRI,Critical
+2138,1270,X-Ray,Normal
+3456,1271,Urine Test,Abnormal
+3480,1272,Blood Test,Critical
+788,1273,X-Ray,Abnormal
+1031,1274,X-Ray,Critical
+295,1275,MRI,Abnormal
+302,1276,Blood Test,Normal
+225,1277,Urine Test,Normal
+4954,1278,Urine Test,Critical
+2432,1279,X-Ray,Critical
+1862,1280,Blood Test,Normal
+81,1281,Blood Test,Normal
+2385,1282,X-Ray,Abnormal
+188,1283,MRI,Abnormal
+686,1284,Urine Test,Abnormal
+3845,1285,Blood Test,Critical
+1584,1286,X-Ray,Abnormal
+710,1287,Blood Test,Normal
+1428,1288,X-Ray,Critical
+3412,1289,X-Ray,Abnormal
+4840,1290,Blood Test,Critical
+363,1291,X-Ray,Critical
+2723,1292,MRI,Abnormal
+2975,1293,MRI,Normal
+561,1294,MRI,Critical
+2220,1295,X-Ray,Abnormal
+63,1296,MRI,Critical
+3556,1297,MRI,Normal
+1284,1298,MRI,Normal
+4609,1299,MRI,Critical
+4689,1300,Urine Test,Critical
+2418,1301,X-Ray,Normal
+4119,1302,MRI,Abnormal
+4045,1303,MRI,Abnormal
+3936,1304,X-Ray,Abnormal
+3500,1305,X-Ray,Critical
+343,1306,MRI,Abnormal
+3475,1307,X-Ray,Critical
+762,1308,X-Ray,Abnormal
+3351,1309,X-Ray,Abnormal
+1297,1310,MRI,Abnormal
+4989,1311,Urine Test,Abnormal
+4127,1312,Blood Test,Normal
+2690,1313,MRI,Normal
+496,1314,MRI,Critical
+1654,1315,Urine Test,Critical
+4094,1316,MRI,Critical
+422,1317,Blood Test,Critical
+2574,1318,Blood Test,Abnormal
+3740,1319,Blood Test,Normal
+468,1320,Urine Test,Critical
+4718,1321,X-Ray,Abnormal
+3261,1322,X-Ray,Normal
+1104,1323,Blood Test,Abnormal
+629,1324,MRI,Abnormal
+2498,1325,X-Ray,Abnormal
+1615,1326,Blood Test,Critical
+1092,1327,X-Ray,Normal
+1746,1328,Blood Test,Abnormal
+4432,1329,X-Ray,Critical
+710,1330,Blood Test,Normal
+1709,1331,MRI,Abnormal
+1824,1332,Urine Test,Normal
+2180,1333,MRI,Critical
+807,1334,X-Ray,Critical
+3235,1335,Urine Test,Normal
+3720,1336,Urine Test,Normal
+1626,1337,Urine Test,Critical
+40,1338,Urine Test,Normal
+3484,1339,Blood Test,Abnormal
+1395,1340,Blood Test,Critical
+4772,1341,Urine Test,Critical
+3384,1342,X-Ray,Normal
+701,1343,X-Ray,Abnormal
+3641,1344,MRI,Abnormal
+3435,1345,MRI,Abnormal
+1974,1346,Urine Test,Normal
+1454,1347,X-Ray,Critical
+203,1348,MRI,Critical
+270,1349,Blood Test,Normal
+658,1350,Urine Test,Critical
+4763,1351,Urine Test,Normal
+3213,1352,Urine Test,Critical
+2789,1353,X-Ray,Abnormal
+1556,1354,Blood Test,Normal
+2600,1355,MRI,Normal
+2236,1356,Urine Test,Normal
+3768,1357,MRI,Critical
+870,1358,Blood Test,Abnormal
+3496,1359,X-Ray,Normal
+733,1360,MRI,Normal
+4678,1361,Blood Test,Normal
+4470,1362,Blood Test,Critical
+630,1363,X-Ray,Critical
+2724,1364,Blood Test,Critical
+1484,1365,Urine Test,Abnormal
+1522,1366,Blood Test,Normal
+906,1367,Urine Test,Abnormal
+1208,1368,MRI,Critical
+4192,1369,MRI,Abnormal
+3191,1370,MRI,Critical
+3867,1371,Blood Test,Abnormal
+3444,1372,Blood Test,Abnormal
+1921,1373,Blood Test,Normal
+4553,1374,X-Ray,Abnormal
+3698,1375,Blood Test,Abnormal
+3753,1376,MRI,Abnormal
+4661,1377,MRI,Abnormal
+3339,1378,MRI,Abnormal
+3594,1379,Blood Test,Normal
+3034,1380,MRI,Normal
+1252,1381,X-Ray,Critical
+867,1382,MRI,Critical
+593,1383,Urine Test,Critical
+4486,1384,Urine Test,Abnormal
+2307,1385,MRI,Normal
+1912,1386,Blood Test,Normal
+2400,1387,Urine Test,Abnormal
+993,1388,Urine Test,Abnormal
+3060,1389,Blood Test,Normal
+1397,1390,MRI,Critical
+3522,1391,X-Ray,Critical
+2806,1392,MRI,Critical
+733,1393,Blood Test,Abnormal
+1329,1394,X-Ray,Normal
+2335,1395,X-Ray,Normal
+4539,1396,MRI,Abnormal
+3729,1397,X-Ray,Abnormal
+4076,1398,Urine Test,Abnormal
+4754,1399,MRI,Normal
+2630,1400,Urine Test,Abnormal
+4073,1401,MRI,Critical
+3914,1402,MRI,Abnormal
+3602,1403,X-Ray,Critical
+1616,1404,MRI,Normal
+1231,1405,MRI,Critical
+3994,1406,Urine Test,Critical
+1281,1407,MRI,Critical
+2646,1408,X-Ray,Critical
+1869,1409,MRI,Normal
+652,1410,Urine Test,Abnormal
+3726,1411,MRI,Critical
+730,1412,MRI,Normal
+4053,1413,Urine Test,Normal
+1381,1414,Urine Test,Normal
+2723,1415,MRI,Critical
+3045,1416,X-Ray,Abnormal
+2202,1417,X-Ray,Critical
+1841,1418,Blood Test,Normal
+540,1419,Urine Test,Critical
+2080,1420,X-Ray,Normal
+887,1421,Urine Test,Critical
+3429,1422,Blood Test,Critical
+362,1423,Blood Test,Critical
+3886,1424,Urine Test,Normal
+1280,1425,Blood Test,Critical
+16,1426,Urine Test,Abnormal
+93,1427,Blood Test,Abnormal
+1808,1428,MRI,Abnormal
+2967,1429,Blood Test,Normal
+1425,1430,X-Ray,Normal
+540,1431,Blood Test,Normal
+631,1432,Blood Test,Normal
+4751,1433,MRI,Normal
+1358,1434,MRI,Critical
+4298,1435,X-Ray,Critical
+3399,1436,Blood Test,Critical
+366,1437,X-Ray,Critical
+31,1438,X-Ray,Critical
+1275,1439,Urine Test,Normal
+4818,1440,Blood Test,Critical
+2504,1441,X-Ray,Abnormal
+2134,1442,MRI,Normal
+4642,1443,X-Ray,Critical
+477,1444,Urine Test,Abnormal
+452,1445,X-Ray,Abnormal
+3267,1446,Urine Test,Abnormal
+3340,1447,Urine Test,Abnormal
+558,1448,Blood Test,Normal
+2071,1449,Urine Test,Abnormal
+2715,1450,MRI,Normal
+1678,1451,Urine Test,Abnormal
+4254,1452,MRI,Critical
+146,1453,MRI,Abnormal
+3766,1454,Urine Test,Critical
+4623,1455,X-Ray,Critical
+1663,1456,Urine Test,Abnormal
+4164,1457,Urine Test,Abnormal
+2165,1458,X-Ray,Normal
+3971,1459,Blood Test,Abnormal
+705,1460,X-Ray,Critical
+3783,1461,Urine Test,Critical
+1528,1462,X-Ray,Normal
+2359,1463,Blood Test,Normal
+2349,1464,X-Ray,Critical
+2181,1465,X-Ray,Normal
+2090,1466,Blood Test,Abnormal
+1035,1467,X-Ray,Critical
+1079,1468,X-Ray,Critical
+3701,1469,X-Ray,Abnormal
+1736,1470,MRI,Normal
+4579,1471,X-Ray,Normal
+2278,1472,Blood Test,Abnormal
+1328,1473,Urine Test,Critical
+1302,1474,X-Ray,Normal
+1967,1475,MRI,Abnormal
+3478,1476,Urine Test,Normal
+1903,1477,X-Ray,Critical
+107,1478,Urine Test,Normal
+4915,1479,Blood Test,Critical
+1788,1480,MRI,Abnormal
+4002,1481,MRI,Normal
+2117,1482,Blood Test,Normal
+1611,1483,MRI,Abnormal
+266,1484,Blood Test,Abnormal
+2297,1485,Blood Test,Critical
+797,1486,Blood Test,Critical
+3887,1487,X-Ray,Normal
+2662,1488,Blood Test,Critical
+3295,1489,X-Ray,Abnormal
+2191,1490,X-Ray,Critical
+4982,1491,Urine Test,Abnormal
+2696,1492,Urine Test,Critical
+2148,1493,MRI,Critical
+624,1494,Urine Test,Critical
+2772,1495,MRI,Abnormal
+1776,1496,X-Ray,Critical
+4027,1497,Blood Test,Abnormal
+2713,1498,X-Ray,Normal
+302,1499,MRI,Abnormal
+837,1500,Urine Test,Critical
+1365,1501,MRI,Critical
+884,1502,MRI,Normal
+2242,1503,MRI,Normal
+361,1504,X-Ray,Critical
+1880,1505,Urine Test,Normal
+4981,1506,Urine Test,Abnormal
+2263,1507,Urine Test,Critical
+840,1508,Blood Test,Critical
+976,1509,X-Ray,Critical
+1514,1510,Urine Test,Abnormal
+2824,1511,MRI,Critical
+304,1512,Blood Test,Normal
+4504,1513,Urine Test,Critical
+1155,1514,Urine Test,Critical
+3912,1515,Blood Test,Abnormal
+268,1516,MRI,Critical
+4302,1517,X-Ray,Normal
+416,1518,X-Ray,Abnormal
+3930,1519,X-Ray,Normal
+3882,1520,Urine Test,Critical
+1334,1521,Urine Test,Normal
+2594,1522,X-Ray,Normal
+4817,1523,MRI,Abnormal
+2563,1524,X-Ray,Critical
+475,1525,MRI,Critical
+1361,1526,Urine Test,Abnormal
+1402,1527,X-Ray,Critical
+4235,1528,Urine Test,Normal
+1859,1529,MRI,Normal
+4910,1530,X-Ray,Normal
+1208,1531,Urine Test,Critical
+3074,1532,Blood Test,Critical
+2918,1533,Urine Test,Critical
+2620,1534,Urine Test,Critical
+4559,1535,MRI,Critical
+1928,1536,Urine Test,Normal
+1713,1537,MRI,Normal
+503,1538,Urine Test,Abnormal
+3528,1539,Urine Test,Abnormal
+236,1540,X-Ray,Critical
+3965,1541,MRI,Abnormal
+4242,1542,Urine Test,Abnormal
+1284,1543,Urine Test,Normal
+2360,1544,X-Ray,Critical
+1977,1545,X-Ray,Critical
+2621,1546,X-Ray,Critical
+2486,1547,Urine Test,Normal
+2581,1548,X-Ray,Abnormal
+1975,1549,X-Ray,Normal
+4156,1550,Urine Test,Abnormal
+4220,1551,MRI,Abnormal
+1497,1552,Urine Test,Normal
+2479,1553,Blood Test,Abnormal
+3875,1554,MRI,Abnormal
+3108,1555,Urine Test,Critical
+4097,1556,X-Ray,Critical
+4618,1557,Blood Test,Normal
+4335,1558,Urine Test,Normal
+3736,1559,MRI,Normal
+2742,1560,MRI,Normal
+4172,1561,Blood Test,Abnormal
+2486,1562,Blood Test,Critical
+4866,1563,X-Ray,Critical
+3274,1564,X-Ray,Normal
+308,1565,X-Ray,Abnormal
+3208,1566,Urine Test,Critical
+3319,1567,Blood Test,Normal
+1867,1568,X-Ray,Critical
+3978,1569,Blood Test,Normal
+4118,1570,Blood Test,Abnormal
+1916,1571,Urine Test,Critical
+4472,1572,MRI,Abnormal
+495,1573,X-Ray,Abnormal
+1280,1574,Urine Test,Critical
+375,1575,Urine Test,Critical
+3231,1576,X-Ray,Critical
+4440,1577,X-Ray,Abnormal
+4380,1578,MRI,Abnormal
+4367,1579,Urine Test,Normal
+4386,1580,X-Ray,Critical
+1808,1581,Blood Test,Critical
+1950,1582,MRI,Normal
+4650,1583,X-Ray,Normal
+2396,1584,MRI,Abnormal
+1428,1585,MRI,Abnormal
+2191,1586,Blood Test,Normal
+2134,1587,Urine Test,Abnormal
+3679,1588,MRI,Critical
+3903,1589,X-Ray,Critical
+2542,1590,Blood Test,Abnormal
+475,1591,Urine Test,Normal
+2162,1592,MRI,Critical
+4208,1593,Urine Test,Critical
+589,1594,Urine Test,Abnormal
+4664,1595,Urine Test,Normal
+4826,1596,Urine Test,Abnormal
+3644,1597,X-Ray,Critical
+3914,1598,X-Ray,Critical
+3225,1599,Urine Test,Abnormal
+1760,1600,Urine Test,Normal
+4199,1601,Urine Test,Critical
+4346,1602,MRI,Abnormal
+2608,1603,X-Ray,Abnormal
+2779,1604,X-Ray,Critical
+1773,1605,MRI,Abnormal
+4374,1606,MRI,Normal
+3000,1607,MRI,Abnormal
+1809,1608,X-Ray,Abnormal
+792,1609,MRI,Critical
+1236,1610,X-Ray,Critical
+1486,1611,Blood Test,Normal
+1482,1612,X-Ray,Critical
+1540,1613,MRI,Normal
+3175,1614,MRI,Critical
+4178,1615,Urine Test,Abnormal
+868,1616,X-Ray,Abnormal
+2701,1617,Blood Test,Critical
+363,1618,X-Ray,Abnormal
+716,1619,MRI,Normal
+2388,1620,X-Ray,Normal
+4852,1621,Blood Test,Normal
+4952,1622,X-Ray,Normal
+2445,1623,MRI,Abnormal
+4007,1624,MRI,Abnormal
+4328,1625,Urine Test,Normal
+3413,1626,Urine Test,Abnormal
+32,1627,MRI,Critical
+654,1628,Blood Test,Normal
+1481,1629,Blood Test,Normal
+906,1630,Blood Test,Critical
+1934,1631,Urine Test,Abnormal
+3633,1632,MRI,Critical
+4744,1633,MRI,Normal
+336,1634,X-Ray,Normal
+4049,1635,Urine Test,Normal
+369,1636,X-Ray,Normal
+1620,1637,Urine Test,Critical
+3647,1638,Urine Test,Abnormal
+4368,1639,MRI,Abnormal
+1468,1640,Blood Test,Normal
+1417,1641,Blood Test,Critical
+113,1642,MRI,Critical
+2061,1643,MRI,Critical
+3563,1644,Blood Test,Normal
+3130,1645,MRI,Normal
+3369,1646,MRI,Normal
+2090,1647,Urine Test,Abnormal
+3310,1648,MRI,Critical
+2882,1649,MRI,Normal
+4544,1650,Blood Test,Normal
+688,1651,X-Ray,Critical
+4462,1652,Urine Test,Critical
+4861,1653,MRI,Critical
+264,1654,Blood Test,Abnormal
+4381,1655,Blood Test,Abnormal
+3478,1656,X-Ray,Critical
+2801,1657,MRI,Abnormal
+2853,1658,MRI,Abnormal
+1199,1659,Blood Test,Critical
+1634,1660,Blood Test,Normal
+2204,1661,Blood Test,Normal
+1258,1662,X-Ray,Critical
+4881,1663,MRI,Normal
+4463,1664,Blood Test,Normal
+249,1665,Blood Test,Abnormal
+143,1666,Blood Test,Critical
+684,1667,X-Ray,Abnormal
+3093,1668,MRI,Normal
+2031,1669,X-Ray,Abnormal
+434,1670,Urine Test,Normal
+2933,1671,MRI,Critical
+1147,1672,X-Ray,Abnormal
+1202,1673,MRI,Critical
+3373,1674,X-Ray,Critical
+1828,1675,MRI,Abnormal
+2314,1676,MRI,Abnormal
+3921,1677,Urine Test,Critical
+397,1678,Urine Test,Abnormal
+2888,1679,Urine Test,Abnormal
+1682,1680,Urine Test,Critical
+595,1681,MRI,Critical
+699,1682,Urine Test,Normal
+507,1683,MRI,Normal
+1065,1684,X-Ray,Normal
+663,1685,X-Ray,Abnormal
+498,1686,Blood Test,Normal
+2869,1687,Blood Test,Normal
+2170,1688,MRI,Normal
+766,1689,X-Ray,Critical
+959,1690,Blood Test,Abnormal
+1211,1691,Urine Test,Abnormal
+2214,1692,MRI,Abnormal
+477,1693,Urine Test,Critical
+1858,1694,X-Ray,Abnormal
+3869,1695,MRI,Normal
+4306,1696,X-Ray,Abnormal
+1505,1697,X-Ray,Normal
+1773,1698,X-Ray,Normal
+4861,1699,Urine Test,Abnormal
+1112,1700,X-Ray,Normal
+3623,1701,X-Ray,Critical
+1548,1702,X-Ray,Critical
+2328,1703,MRI,Critical
+2549,1704,Blood Test,Abnormal
+3543,1705,Blood Test,Abnormal
+649,1706,MRI,Abnormal
+1206,1707,MRI,Normal
+4740,1708,Blood Test,Normal
+3852,1709,X-Ray,Normal
+514,1710,Urine Test,Critical
+1992,1711,MRI,Normal
+350,1712,MRI,Normal
+1269,1713,MRI,Abnormal
+3026,1714,X-Ray,Abnormal
+2600,1715,X-Ray,Abnormal
+3515,1716,Urine Test,Abnormal
+2565,1717,Urine Test,Normal
+2372,1718,MRI,Normal
+3961,1719,MRI,Abnormal
+4548,1720,Urine Test,Critical
+246,1721,X-Ray,Abnormal
+2710,1722,MRI,Abnormal
+1535,1723,Blood Test,Normal
+2192,1724,Blood Test,Abnormal
+4185,1725,Urine Test,Abnormal
+1803,1726,Blood Test,Abnormal
+1664,1727,Urine Test,Normal
+3682,1728,Urine Test,Normal
+3263,1729,MRI,Critical
+4395,1730,MRI,Critical
+64,1731,Blood Test,Normal
+2235,1732,Urine Test,Abnormal
+359,1733,Urine Test,Normal
+3485,1734,X-Ray,Normal
+4588,1735,Urine Test,Abnormal
+3869,1736,Blood Test,Abnormal
+4048,1737,MRI,Normal
+3614,1738,Blood Test,Abnormal
+2175,1739,X-Ray,Abnormal
+3628,1740,Urine Test,Critical
+2086,1741,MRI,Abnormal
+4771,1742,X-Ray,Critical
+4937,1743,X-Ray,Normal
+909,1744,Blood Test,Abnormal
+2095,1745,X-Ray,Normal
+3412,1746,Urine Test,Critical
+1680,1747,Blood Test,Abnormal
+3586,1748,Urine Test,Normal
+2659,1749,X-Ray,Normal
+1727,1750,Urine Test,Normal
+3286,1751,Blood Test,Normal
+4642,1752,MRI,Abnormal
+1251,1753,X-Ray,Normal
+2958,1754,MRI,Abnormal
+4450,1755,X-Ray,Normal
+2043,1756,Urine Test,Critical
+4374,1757,Blood Test,Normal
+3297,1758,MRI,Normal
+1354,1759,Blood Test,Abnormal
+4604,1760,MRI,Abnormal
+3214,1761,Blood Test,Normal
+4128,1762,Blood Test,Critical
+1347,1763,MRI,Critical
+3499,1764,MRI,Normal
+366,1765,Blood Test,Normal
+2370,1766,Blood Test,Abnormal
+4983,1767,Blood Test,Abnormal
+3241,1768,Urine Test,Critical
+3995,1769,Blood Test,Normal
+3061,1770,Urine Test,Critical
+123,1771,X-Ray,Critical
+1743,1772,X-Ray,Critical
+91,1773,Urine Test,Normal
+2825,1774,MRI,Abnormal
+1700,1775,X-Ray,Critical
+2057,1776,Blood Test,Normal
+924,1777,Blood Test,Critical
+4561,1778,X-Ray,Critical
+526,1779,Blood Test,Abnormal
+4397,1780,X-Ray,Normal
+266,1781,X-Ray,Normal
+2371,1782,MRI,Normal
+3222,1783,Urine Test,Critical
+1846,1784,Urine Test,Critical
+3600,1785,Blood Test,Normal
+591,1786,MRI,Abnormal
+1744,1787,X-Ray,Critical
+3365,1788,Blood Test,Normal
+4375,1789,MRI,Abnormal
+848,1790,MRI,Abnormal
+4203,1791,MRI,Abnormal
+3213,1792,X-Ray,Critical
+1978,1793,MRI,Normal
+1445,1794,Blood Test,Normal
+2965,1795,MRI,Critical
+2369,1796,Urine Test,Normal
+1589,1797,MRI,Abnormal
+227,1798,Blood Test,Normal
+379,1799,Blood Test,Abnormal
+1119,1800,X-Ray,Critical
+132,1801,Blood Test,Normal
+4161,1802,MRI,Critical
+566,1803,Urine Test,Critical
+1977,1804,MRI,Abnormal
+2143,1805,Blood Test,Critical
+529,1806,MRI,Normal
+2935,1807,Urine Test,Critical
+3462,1808,Urine Test,Critical
+4324,1809,Urine Test,Abnormal
+2891,1810,X-Ray,Normal
+2390,1811,Urine Test,Critical
+1140,1812,Urine Test,Critical
+257,1813,Urine Test,Critical
+1921,1814,Urine Test,Abnormal
+1972,1815,Urine Test,Critical
+3806,1816,Urine Test,Critical
+1085,1817,X-Ray,Critical
+418,1818,X-Ray,Normal
+2990,1819,Urine Test,Abnormal
+4731,1820,MRI,Abnormal
+172,1821,MRI,Normal
+4628,1822,Blood Test,Critical
+4052,1823,Blood Test,Normal
+793,1824,Blood Test,Critical
+3608,1825,X-Ray,Normal
+3374,1826,Urine Test,Critical
+2662,1827,Urine Test,Normal
+3532,1828,MRI,Abnormal
+4550,1829,Blood Test,Abnormal
+3630,1830,Urine Test,Abnormal
+3617,1831,X-Ray,Normal
+4955,1832,Urine Test,Critical
+1096,1833,X-Ray,Abnormal
+1099,1834,Urine Test,Normal
+964,1835,X-Ray,Critical
+1520,1836,X-Ray,Normal
+1227,1837,X-Ray,Critical
+2168,1838,Urine Test,Critical
+2024,1839,Urine Test,Critical
+3409,1840,Urine Test,Normal
+1951,1841,Urine Test,Normal
+1214,1842,Urine Test,Normal
+84,1843,X-Ray,Normal
+784,1844,MRI,Normal
+3526,1845,MRI,Critical
+3083,1846,X-Ray,Normal
+2671,1847,Blood Test,Normal
+4142,1848,X-Ray,Normal
+2801,1849,Urine Test,Abnormal
+517,1850,Blood Test,Critical
+1473,1851,X-Ray,Normal
+4677,1852,MRI,Normal
+3206,1853,MRI,Normal
+3958,1854,Blood Test,Abnormal
+4123,1855,X-Ray,Critical
+142,1856,Urine Test,Normal
+2585,1857,Urine Test,Critical
+545,1858,Urine Test,Normal
+4219,1859,X-Ray,Abnormal
+123,1860,X-Ray,Critical
+1484,1861,Urine Test,Abnormal
+754,1862,X-Ray,Normal
+2240,1863,Urine Test,Abnormal
+4934,1864,Blood Test,Critical
+4612,1865,MRI,Critical
+1537,1866,Urine Test,Critical
+1394,1867,X-Ray,Critical
+548,1868,Urine Test,Critical
+930,1869,MRI,Normal
+2927,1870,Blood Test,Abnormal
+2377,1871,X-Ray,Normal
+2337,1872,X-Ray,Abnormal
+4329,1873,Urine Test,Normal
+4898,1874,MRI,Critical
+3282,1875,Urine Test,Abnormal
+2177,1876,MRI,Normal
+1513,1877,MRI,Normal
+782,1878,Urine Test,Normal
+3744,1879,Blood Test,Critical
+2058,1880,MRI,Abnormal
+2208,1881,Blood Test,Abnormal
+2216,1882,MRI,Critical
+674,1883,Urine Test,Normal
+4469,1884,Urine Test,Normal
+1222,1885,MRI,Critical
+2466,1886,Blood Test,Critical
+2829,1887,MRI,Critical
+53,1888,Urine Test,Normal
+1534,1889,Blood Test,Abnormal
+69,1890,Blood Test,Abnormal
+2161,1891,MRI,Critical
+163,1892,Urine Test,Critical
+1725,1893,Blood Test,Critical
+3292,1894,X-Ray,Abnormal
+3847,1895,MRI,Normal
+3926,1896,Urine Test,Normal
+2132,1897,Blood Test,Critical
+642,1898,Urine Test,Abnormal
+4970,1899,X-Ray,Normal
+2383,1900,MRI,Normal
+498,1901,Urine Test,Abnormal
+2380,1902,MRI,Abnormal
+1790,1903,MRI,Normal
+4220,1904,Blood Test,Critical
+1432,1905,X-Ray,Abnormal
+4120,1906,X-Ray,Normal
+3683,1907,Urine Test,Normal
+3500,1908,Blood Test,Normal
+2384,1909,X-Ray,Abnormal
+3756,1910,Blood Test,Normal
+3617,1911,Urine Test,Normal
+737,1912,Urine Test,Normal
+4003,1913,Urine Test,Normal
+2892,1914,Blood Test,Normal
+4319,1915,Blood Test,Critical
+4452,1916,Urine Test,Critical
+727,1917,Urine Test,Normal
+1323,1918,Urine Test,Critical
+3931,1919,MRI,Critical
+414,1920,Blood Test,Critical
+1042,1921,MRI,Critical
+2778,1922,Blood Test,Abnormal
+4835,1923,Urine Test,Normal
+2762,1924,Blood Test,Normal
+4308,1925,Urine Test,Critical
+2489,1926,X-Ray,Abnormal
+2238,1927,Blood Test,Normal
+3981,1928,X-Ray,Normal
+2992,1929,MRI,Critical
+4145,1930,Blood Test,Abnormal
+3960,1931,Urine Test,Critical
+1538,1932,Blood Test,Normal
+1643,1933,X-Ray,Abnormal
+2703,1934,MRI,Critical
+3531,1935,Blood Test,Critical
+343,1936,MRI,Critical
+3769,1937,Urine Test,Critical
+844,1938,Urine Test,Normal
+2863,1939,Urine Test,Normal
+4238,1940,Blood Test,Critical
+3724,1941,Blood Test,Abnormal
+2539,1942,X-Ray,Critical
+4905,1943,Blood Test,Critical
+380,1944,Urine Test,Abnormal
+4841,1945,Blood Test,Critical
+3154,1946,MRI,Critical
+2222,1947,MRI,Abnormal
+2236,1948,Urine Test,Critical
+912,1949,Blood Test,Abnormal
+3578,1950,X-Ray,Abnormal
+143,1951,X-Ray,Critical
+403,1952,Urine Test,Normal
+4430,1953,MRI,Abnormal
+2285,1954,MRI,Normal
+4482,1955,MRI,Normal
+3204,1956,X-Ray,Critical
+1035,1957,Urine Test,Abnormal
+4200,1958,MRI,Critical
+1593,1959,MRI,Normal
+392,1960,MRI,Critical
+3678,1961,X-Ray,Critical
+3907,1962,Urine Test,Normal
+2311,1963,X-Ray,Abnormal
+2524,1964,MRI,Abnormal
+3160,1965,Blood Test,Critical
+3928,1966,MRI,Normal
+1632,1967,Urine Test,Critical
+3841,1968,MRI,Critical
+4661,1969,X-Ray,Normal
+218,1970,MRI,Critical
+142,1971,Blood Test,Abnormal
+3545,1972,Urine Test,Normal
+3883,1973,Urine Test,Normal
+1089,1974,MRI,Critical
+1421,1975,Urine Test,Critical
+42,1976,Urine Test,Critical
+2995,1977,MRI,Abnormal
+4432,1978,MRI,Critical
+1358,1979,Urine Test,Abnormal
+634,1980,Urine Test,Abnormal
+3760,1981,X-Ray,Normal
+692,1982,X-Ray,Normal
+748,1983,Blood Test,Critical
+981,1984,MRI,Critical
+911,1985,Urine Test,Critical
+2773,1986,Blood Test,Abnormal
+3664,1987,Blood Test,Critical
+3612,1988,Blood Test,Critical
+726,1989,Urine Test,Abnormal
+1364,1990,X-Ray,Critical
+4694,1991,MRI,Abnormal
+4742,1992,MRI,Normal
+868,1993,X-Ray,Normal
+3769,1994,MRI,Abnormal
+237,1995,Blood Test,Abnormal
+2130,1996,MRI,Critical
+388,1997,Blood Test,Critical
+1414,1998,Urine Test,Abnormal
+4894,1999,Urine Test,Normal
+1538,2000,Urine Test,Abnormal
+1219,2001,MRI,Normal
+320,2002,Blood Test,Abnormal
+3907,2003,Blood Test,Normal
+788,2004,MRI,Abnormal
+4123,2005,Blood Test,Critical
+1630,2006,MRI,Abnormal
+2537,2007,Urine Test,Critical
+3603,2008,Urine Test,Abnormal
+3096,2009,Urine Test,Abnormal
+1002,2010,Urine Test,Abnormal
+3999,2011,X-Ray,Normal
+2221,2012,MRI,Abnormal
+4965,2013,X-Ray,Abnormal
+2578,2014,MRI,Critical
+1415,2015,X-Ray,Critical
+2013,2016,X-Ray,Critical
+4279,2017,X-Ray,Critical
+1533,2018,Urine Test,Critical
+4249,2019,Blood Test,Normal
+1576,2020,Blood Test,Critical
+1994,2021,Blood Test,Abnormal
+254,2022,Blood Test,Normal
+3068,2023,Blood Test,Critical
+692,2024,Urine Test,Abnormal
+4908,2025,MRI,Normal
+2749,2026,MRI,Normal
+2269,2027,MRI,Normal
+1426,2028,Urine Test,Normal
+450,2029,Blood Test,Abnormal
+4577,2030,Blood Test,Critical
+2570,2031,X-Ray,Abnormal
+4710,2032,X-Ray,Critical
+1497,2033,Urine Test,Abnormal
+2202,2034,Blood Test,Normal
+4228,2035,MRI,Normal
+3957,2036,Urine Test,Normal
+3820,2037,X-Ray,Abnormal
+4571,2038,MRI,Abnormal
+3080,2039,X-Ray,Normal
+158,2040,MRI,Abnormal
+3302,2041,Urine Test,Abnormal
+1397,2042,MRI,Abnormal
+3867,2043,MRI,Critical
+1102,2044,MRI,Abnormal
+71,2045,X-Ray,Normal
+3136,2046,MRI,Normal
+4016,2047,Urine Test,Abnormal
+3812,2048,Blood Test,Abnormal
+3277,2049,Blood Test,Abnormal
+2977,2050,MRI,Normal
+2439,2051,MRI,Abnormal
+325,2052,Urine Test,Normal
+4399,2053,Blood Test,Normal
+850,2054,X-Ray,Normal
+2601,2055,X-Ray,Normal
+4951,2056,X-Ray,Critical
+2191,2057,X-Ray,Normal
+3414,2058,Blood Test,Critical
+3944,2059,X-Ray,Normal
+2658,2060,X-Ray,Abnormal
+1837,2061,Urine Test,Abnormal
+97,2062,Blood Test,Abnormal
+3585,2063,Blood Test,Abnormal
+756,2064,X-Ray,Abnormal
+4977,2065,X-Ray,Critical
+2212,2066,Blood Test,Critical
+1150,2067,Urine Test,Normal
+241,2068,Blood Test,Critical
+1267,2069,MRI,Abnormal
+2198,2070,X-Ray,Critical
+4448,2071,MRI,Critical
+69,2072,X-Ray,Abnormal
+1386,2073,Urine Test,Abnormal
+1784,2074,Blood Test,Normal
+2952,2075,Urine Test,Critical
+2061,2076,MRI,Critical
+1983,2077,X-Ray,Normal
+4196,2078,MRI,Abnormal
+2526,2079,MRI,Normal
+950,2080,MRI,Abnormal
+4054,2081,Blood Test,Critical
+3623,2082,Blood Test,Critical
+1270,2083,MRI,Abnormal
+4969,2084,Blood Test,Normal
+1286,2085,Urine Test,Normal
+77,2086,Urine Test,Abnormal
+2180,2087,X-Ray,Abnormal
+2028,2088,Urine Test,Normal
+2122,2089,MRI,Abnormal
+4151,2090,Urine Test,Abnormal
+2658,2091,Urine Test,Normal
+1374,2092,Urine Test,Normal
+1821,2093,Urine Test,Normal
+2972,2094,MRI,Normal
+4584,2095,MRI,Abnormal
+3833,2096,Urine Test,Abnormal
+2747,2097,X-Ray,Abnormal
+2468,2098,MRI,Normal
+1312,2099,Blood Test,Critical
+2368,2100,X-Ray,Abnormal
+1841,2101,Urine Test,Normal
+2278,2102,X-Ray,Abnormal
+2964,2103,Blood Test,Normal
+3079,2104,X-Ray,Normal
+2007,2105,MRI,Normal
+504,2106,X-Ray,Abnormal
+2816,2107,Urine Test,Abnormal
+3554,2108,X-Ray,Normal
+2164,2109,X-Ray,Abnormal
+3411,2110,X-Ray,Critical
+4205,2111,MRI,Abnormal
+1576,2112,X-Ray,Critical
+4797,2113,X-Ray,Critical
+3611,2114,X-Ray,Abnormal
+748,2115,X-Ray,Normal
+4100,2116,MRI,Normal
+2389,2117,Urine Test,Critical
+4533,2118,Blood Test,Normal
+4150,2119,Urine Test,Critical
+3077,2120,MRI,Abnormal
+2751,2121,MRI,Critical
+4318,2122,X-Ray,Critical
+4335,2123,Urine Test,Abnormal
+603,2124,X-Ray,Abnormal
+2380,2125,Urine Test,Critical
+306,2126,Urine Test,Normal
+3838,2127,MRI,Critical
+3120,2128,Urine Test,Normal
+2128,2129,X-Ray,Critical
+1092,2130,MRI,Critical
+4296,2131,Blood Test,Critical
+768,2132,X-Ray,Normal
+2096,2133,Urine Test,Normal
+3916,2134,Blood Test,Normal
+200,2135,MRI,Abnormal
+1564,2136,X-Ray,Critical
+2072,2137,X-Ray,Critical
+1753,2138,X-Ray,Critical
+222,2139,X-Ray,Normal
+2290,2140,X-Ray,Abnormal
+4971,2141,MRI,Normal
+4775,2142,Blood Test,Critical
+665,2143,Blood Test,Normal
+3501,2144,MRI,Critical
+2600,2145,Blood Test,Abnormal
+514,2146,Blood Test,Normal
+4107,2147,Blood Test,Critical
+2606,2148,X-Ray,Normal
+4467,2149,X-Ray,Critical
+4799,2150,Blood Test,Normal
+1733,2151,X-Ray,Critical
+1512,2152,Blood Test,Abnormal
+3296,2153,Blood Test,Abnormal
+2604,2154,Blood Test,Abnormal
+3337,2155,X-Ray,Abnormal
+3225,2156,Blood Test,Critical
+4044,2157,MRI,Abnormal
+3972,2158,MRI,Abnormal
+4757,2159,X-Ray,Critical
+120,2160,MRI,Abnormal
+4046,2161,Urine Test,Abnormal
+4245,2162,MRI,Normal
+683,2163,MRI,Abnormal
+4937,2164,MRI,Critical
+4557,2165,X-Ray,Critical
+215,2166,MRI,Normal
+807,2167,X-Ray,Critical
+2861,2168,Blood Test,Abnormal
+2098,2169,MRI,Critical
+4093,2170,X-Ray,Critical
+4919,2171,X-Ray,Normal
+1620,2172,Blood Test,Normal
+627,2173,Blood Test,Abnormal
+4062,2174,Blood Test,Critical
+980,2175,X-Ray,Abnormal
+2789,2176,X-Ray,Normal
+3181,2177,X-Ray,Abnormal
+2603,2178,MRI,Critical
+4521,2179,MRI,Critical
+1965,2180,Urine Test,Critical
+3891,2181,Blood Test,Abnormal
+671,2182,X-Ray,Abnormal
+1887,2183,MRI,Abnormal
+224,2184,Urine Test,Critical
+4376,2185,X-Ray,Normal
+1708,2186,X-Ray,Normal
+4363,2187,Blood Test,Critical
+1765,2188,Urine Test,Critical
+2388,2189,Blood Test,Abnormal
+864,2190,MRI,Critical
+3491,2191,Urine Test,Critical
+4157,2192,Blood Test,Critical
+4767,2193,MRI,Normal
+877,2194,Blood Test,Critical
+1408,2195,MRI,Abnormal
+2400,2196,MRI,Abnormal
+2331,2197,Blood Test,Abnormal
+3761,2198,Urine Test,Abnormal
+486,2199,MRI,Abnormal
+1203,2200,MRI,Abnormal
+2261,2201,Blood Test,Abnormal
+4530,2202,Urine Test,Abnormal
+2081,2203,MRI,Critical
+229,2204,Blood Test,Critical
+3666,2205,Urine Test,Abnormal
+1948,2206,Urine Test,Abnormal
+772,2207,Blood Test,Critical
+149,2208,X-Ray,Abnormal
+2241,2209,X-Ray,Abnormal
+3982,2210,X-Ray,Normal
+1901,2211,MRI,Normal
+591,2212,MRI,Abnormal
+4732,2213,Blood Test,Abnormal
+111,2214,MRI,Abnormal
+4650,2215,MRI,Critical
+2118,2216,MRI,Abnormal
+4494,2217,Urine Test,Normal
+4494,2218,Blood Test,Normal
+1497,2219,X-Ray,Critical
+2149,2220,X-Ray,Critical
+1549,2221,X-Ray,Abnormal
+3439,2222,Blood Test,Normal
+2499,2223,X-Ray,Normal
+3536,2224,MRI,Abnormal
+2530,2225,MRI,Abnormal
+1805,2226,X-Ray,Normal
+3229,2227,MRI,Abnormal
+4698,2228,Blood Test,Normal
+4078,2229,MRI,Abnormal
+3246,2230,Urine Test,Normal
+2889,2231,X-Ray,Critical
+2034,2232,Urine Test,Abnormal
+2050,2233,MRI,Normal
+3606,2234,X-Ray,Abnormal
+2152,2235,Urine Test,Normal
+1639,2236,Blood Test,Critical
+1355,2237,X-Ray,Critical
+1475,2238,MRI,Normal
+585,2239,MRI,Abnormal
+1478,2240,Blood Test,Critical
+3011,2241,Blood Test,Normal
+3988,2242,Blood Test,Critical
+4802,2243,Urine Test,Abnormal
+2505,2244,Blood Test,Abnormal
+2116,2245,MRI,Critical
+1428,2246,Urine Test,Abnormal
+3618,2247,MRI,Critical
+4390,2248,Urine Test,Critical
+2098,2249,X-Ray,Normal
+385,2250,Urine Test,Normal
+193,2251,MRI,Critical
+287,2252,Urine Test,Abnormal
+3166,2253,Blood Test,Critical
+3586,2254,Urine Test,Critical
+2106,2255,X-Ray,Abnormal
+2263,2256,X-Ray,Abnormal
+1010,2257,MRI,Normal
+1370,2258,MRI,Critical
+3688,2259,Blood Test,Critical
+633,2260,Urine Test,Abnormal
+330,2261,Blood Test,Critical
+4424,2262,MRI,Normal
+2296,2263,MRI,Normal
+4139,2264,Urine Test,Normal
+888,2265,Blood Test,Normal
+1092,2266,X-Ray,Critical
+2200,2267,Urine Test,Normal
+1904,2268,X-Ray,Critical
+2505,2269,X-Ray,Critical
+2254,2270,X-Ray,Normal
+2899,2271,X-Ray,Critical
+2305,2272,MRI,Critical
+1399,2273,MRI,Normal
+1774,2274,X-Ray,Critical
+2367,2275,X-Ray,Abnormal
+193,2276,Urine Test,Critical
+1199,2277,Blood Test,Abnormal
+2402,2278,X-Ray,Abnormal
+4805,2279,Urine Test,Critical
+4842,2280,MRI,Normal
+3369,2281,Urine Test,Abnormal
+3750,2282,Blood Test,Abnormal
+4193,2283,Urine Test,Critical
+4190,2284,Urine Test,Normal
+925,2285,Urine Test,Critical
+1895,2286,Blood Test,Critical
+4142,2287,X-Ray,Abnormal
+2237,2288,Blood Test,Critical
+1739,2289,Blood Test,Normal
+852,2290,MRI,Abnormal
+4379,2291,Urine Test,Abnormal
+721,2292,MRI,Normal
+2882,2293,X-Ray,Normal
+1287,2294,Urine Test,Critical
+1385,2295,Urine Test,Abnormal
+3770,2296,MRI,Normal
+2372,2297,X-Ray,Abnormal
+3096,2298,X-Ray,Normal
+2476,2299,Urine Test,Normal
+4958,2300,X-Ray,Normal
+674,2301,MRI,Abnormal
+3921,2302,X-Ray,Abnormal
+3217,2303,X-Ray,Abnormal
+3071,2304,Blood Test,Abnormal
+85,2305,Blood Test,Abnormal
+4772,2306,X-Ray,Abnormal
+1232,2307,Blood Test,Normal
+2632,2308,Urine Test,Critical
+3210,2309,Urine Test,Abnormal
+3105,2310,Urine Test,Abnormal
+980,2311,MRI,Abnormal
+1127,2312,X-Ray,Normal
+3236,2313,MRI,Critical
+3871,2314,X-Ray,Normal
+714,2315,Urine Test,Normal
+800,2316,Blood Test,Normal
+4866,2317,MRI,Abnormal
+1934,2318,Blood Test,Normal
+4512,2319,Urine Test,Critical
+3949,2320,X-Ray,Critical
+4768,2321,X-Ray,Abnormal
+3241,2322,Blood Test,Abnormal
+1804,2323,Urine Test,Critical
+2456,2324,X-Ray,Critical
+4928,2325,X-Ray,Normal
+1489,2326,X-Ray,Normal
+2770,2327,MRI,Abnormal
+531,2328,Blood Test,Normal
+4802,2329,Urine Test,Critical
+750,2330,Urine Test,Normal
+1996,2331,MRI,Abnormal
+4697,2332,MRI,Normal
+4894,2333,Blood Test,Abnormal
+2475,2334,Blood Test,Normal
+1479,2335,Urine Test,Critical
+653,2336,Blood Test,Abnormal
+828,2337,MRI,Abnormal
+2138,2338,Urine Test,Critical
+4499,2339,Urine Test,Normal
+3419,2340,Blood Test,Normal
+2947,2341,X-Ray,Abnormal
+4273,2342,Blood Test,Abnormal
+1991,2343,Blood Test,Normal
+1386,2344,MRI,Abnormal
+1917,2345,MRI,Critical
+4870,2346,MRI,Abnormal
+396,2347,X-Ray,Normal
+690,2348,X-Ray,Abnormal
+2990,2349,MRI,Abnormal
+1048,2350,MRI,Critical
+3860,2351,Urine Test,Critical
+203,2352,Blood Test,Normal
+3126,2353,Urine Test,Abnormal
+1674,2354,MRI,Normal
+1530,2355,Urine Test,Abnormal
+2273,2356,Blood Test,Normal
+259,2357,Urine Test,Normal
+2965,2358,MRI,Abnormal
+4403,2359,Urine Test,Abnormal
+596,2360,MRI,Normal
+840,2361,MRI,Abnormal
+1743,2362,MRI,Abnormal
+4982,2363,X-Ray,Abnormal
+3812,2364,Urine Test,Critical
+2407,2365,X-Ray,Critical
+4944,2366,Blood Test,Critical
+5,2367,Blood Test,Critical
+3520,2368,MRI,Abnormal
+4356,2369,X-Ray,Abnormal
+1302,2370,Urine Test,Critical
+3011,2371,Urine Test,Abnormal
+353,2372,Blood Test,Normal
+4595,2373,MRI,Critical
+4162,2374,Blood Test,Abnormal
+2262,2375,Urine Test,Critical
+1258,2376,Urine Test,Critical
+2389,2377,MRI,Critical
+890,2378,MRI,Critical
+3957,2379,MRI,Abnormal
+1223,2380,Blood Test,Abnormal
+4592,2381,X-Ray,Critical
+751,2382,X-Ray,Normal
+2423,2383,X-Ray,Abnormal
+520,2384,MRI,Critical
+2008,2385,X-Ray,Normal
+4293,2386,Blood Test,Critical
+3508,2387,X-Ray,Abnormal
+1753,2388,Urine Test,Normal
+2754,2389,X-Ray,Normal
+3562,2390,Urine Test,Abnormal
+4137,2391,X-Ray,Critical
+436,2392,X-Ray,Normal
+794,2393,MRI,Critical
+416,2394,Blood Test,Critical
+4773,2395,Blood Test,Critical
+1358,2396,X-Ray,Abnormal
+4740,2397,Blood Test,Critical
+319,2398,Blood Test,Abnormal
+4389,2399,X-Ray,Critical
+3339,2400,MRI,Critical
+3707,2401,Urine Test,Normal
+112,2402,Urine Test,Abnormal
+2029,2403,MRI,Normal
+12,2404,Urine Test,Abnormal
+4962,2405,Blood Test,Critical
+4007,2406,X-Ray,Normal
+1400,2407,Urine Test,Normal
+4768,2408,X-Ray,Abnormal
+3344,2409,Urine Test,Abnormal
+4464,2410,X-Ray,Abnormal
+4967,2411,Blood Test,Critical
+1886,2412,Blood Test,Abnormal
+569,2413,X-Ray,Critical
+1849,2414,Urine Test,Normal
+3379,2415,MRI,Abnormal
+1059,2416,Blood Test,Critical
+2309,2417,Urine Test,Normal
+1872,2418,Urine Test,Abnormal
+4194,2419,Blood Test,Critical
+838,2420,Urine Test,Abnormal
+1556,2421,X-Ray,Critical
+4268,2422,Blood Test,Critical
+4088,2423,Blood Test,Critical
+3566,2424,Blood Test,Critical
+4156,2425,Blood Test,Critical
+4932,2426,MRI,Normal
+3800,2427,MRI,Normal
+2654,2428,Blood Test,Critical
+1026,2429,Blood Test,Abnormal
+597,2430,Blood Test,Critical
+4755,2431,MRI,Normal
+436,2432,Urine Test,Abnormal
+3043,2433,MRI,Normal
+1770,2434,MRI,Abnormal
+1331,2435,Urine Test,Critical
+767,2436,MRI,Abnormal
+4,2437,Urine Test,Normal
+2038,2438,Urine Test,Critical
+3719,2439,X-Ray,Normal
+2531,2440,Urine Test,Critical
+3543,2441,Urine Test,Abnormal
+1178,2442,X-Ray,Normal
+3808,2443,MRI,Abnormal
+4059,2444,Blood Test,Abnormal
+2768,2445,MRI,Abnormal
+2507,2446,Blood Test,Critical
+1669,2447,Blood Test,Critical
+3705,2448,Blood Test,Abnormal
+1128,2449,Blood Test,Normal
+4859,2450,Blood Test,Critical
+2321,2451,Urine Test,Normal
+3152,2452,X-Ray,Critical
+3565,2453,MRI,Abnormal
+1705,2454,Urine Test,Normal
+1910,2455,Blood Test,Abnormal
+2602,2456,MRI,Critical
+3744,2457,MRI,Critical
+1453,2458,Urine Test,Normal
+4786,2459,MRI,Abnormal
+4634,2460,Blood Test,Critical
+2701,2461,Blood Test,Normal
+2329,2462,Urine Test,Critical
+4561,2463,X-Ray,Abnormal
+1317,2464,MRI,Normal
+3541,2465,X-Ray,Critical
+3386,2466,Blood Test,Critical
+4227,2467,MRI,Normal
+2703,2468,X-Ray,Abnormal
+3223,2469,MRI,Critical
+831,2470,Urine Test,Abnormal
+2894,2471,MRI,Abnormal
+1027,2472,X-Ray,Abnormal
+4795,2473,X-Ray,Critical
+2648,2474,Blood Test,Normal
+4635,2475,X-Ray,Critical
+39,2476,X-Ray,Critical
+1514,2477,Urine Test,Normal
+3146,2478,X-Ray,Abnormal
+1168,2479,Urine Test,Abnormal
+2573,2480,Blood Test,Critical
+891,2481,Urine Test,Abnormal
+3524,2482,Urine Test,Abnormal
+215,2483,MRI,Critical
+3895,2484,X-Ray,Abnormal
+4839,2485,Blood Test,Critical
+3885,2486,Urine Test,Critical
+2434,2487,Urine Test,Abnormal
+3104,2488,MRI,Critical
+2716,2489,Blood Test,Critical
+4094,2490,MRI,Abnormal
+3755,2491,MRI,Abnormal
+3407,2492,MRI,Normal
+2048,2493,Urine Test,Critical
+3636,2494,Urine Test,Critical
+567,2495,MRI,Normal
+1856,2496,Blood Test,Abnormal
+3478,2497,Urine Test,Abnormal
+4362,2498,Blood Test,Normal
+179,2499,Urine Test,Abnormal
+2145,2500,MRI,Abnormal
+187,2501,Blood Test,Abnormal
+4007,2502,Urine Test,Abnormal
+2846,2503,MRI,Normal
+149,2504,Blood Test,Abnormal
+3795,2505,X-Ray,Normal
+825,2506,MRI,Normal
+553,2507,MRI,Critical
+2929,2508,Urine Test,Normal
+876,2509,X-Ray,Critical
+679,2510,Blood Test,Abnormal
+284,2511,Blood Test,Normal
+1477,2512,Urine Test,Critical
+4846,2513,X-Ray,Normal
+1395,2514,MRI,Normal
+3526,2515,MRI,Abnormal
+2594,2516,Blood Test,Abnormal
+4165,2517,MRI,Normal
+1319,2518,Urine Test,Normal
+2984,2519,MRI,Abnormal
+4708,2520,Blood Test,Critical
+1845,2521,MRI,Critical
+4890,2522,X-Ray,Critical
+4283,2523,X-Ray,Critical
+4786,2524,MRI,Abnormal
+1574,2525,Urine Test,Normal
+1134,2526,MRI,Normal
+183,2527,Blood Test,Critical
+4138,2528,Blood Test,Normal
+4214,2529,X-Ray,Critical
+1528,2530,X-Ray,Critical
+1384,2531,MRI,Normal
+3535,2532,Blood Test,Abnormal
+3094,2533,Blood Test,Critical
+3045,2534,Urine Test,Normal
+2960,2535,X-Ray,Critical
+2719,2536,Blood Test,Abnormal
+1225,2537,Urine Test,Abnormal
+968,2538,Urine Test,Critical
+3610,2539,MRI,Abnormal
+2654,2540,MRI,Normal
+4308,2541,Urine Test,Abnormal
+3637,2542,MRI,Abnormal
+2459,2543,Urine Test,Abnormal
+4346,2544,Urine Test,Critical
+906,2545,Blood Test,Abnormal
+499,2546,Urine Test,Normal
+4584,2547,MRI,Abnormal
+4702,2548,Urine Test,Abnormal
+902,2549,MRI,Abnormal
+271,2550,Blood Test,Normal
+4801,2551,MRI,Normal
+1271,2552,Urine Test,Normal
+1455,2553,Blood Test,Abnormal
+2878,2554,X-Ray,Normal
+2116,2555,MRI,Critical
+2429,2556,Urine Test,Critical
+2753,2557,X-Ray,Critical
+1750,2558,MRI,Abnormal
+3163,2559,Blood Test,Critical
+3946,2560,X-Ray,Critical
+4494,2561,MRI,Critical
+979,2562,Blood Test,Normal
+1681,2563,X-Ray,Normal
+4094,2564,X-Ray,Abnormal
+3975,2565,MRI,Normal
+847,2566,Urine Test,Normal
+1538,2567,X-Ray,Normal
+3068,2568,MRI,Critical
+3829,2569,Urine Test,Critical
+2674,2570,Urine Test,Normal
+4542,2571,Urine Test,Abnormal
+2132,2572,X-Ray,Critical
+1795,2573,X-Ray,Normal
+1081,2574,X-Ray,Normal
+1786,2575,MRI,Normal
+2768,2576,Blood Test,Normal
+1695,2577,Urine Test,Normal
+408,2578,MRI,Normal
+3663,2579,X-Ray,Normal
+4667,2580,Urine Test,Abnormal
+1655,2581,Urine Test,Critical
+3750,2582,Urine Test,Normal
+2182,2583,Urine Test,Normal
+4489,2584,Blood Test,Critical
+3515,2585,MRI,Critical
+4818,2586,Blood Test,Normal
+686,2587,Urine Test,Abnormal
+3191,2588,X-Ray,Critical
+4247,2589,X-Ray,Abnormal
+1758,2590,Urine Test,Normal
+2878,2591,X-Ray,Abnormal
+317,2592,X-Ray,Normal
+2946,2593,Blood Test,Abnormal
+4030,2594,Urine Test,Normal
+1867,2595,Blood Test,Critical
+4047,2596,Urine Test,Normal
+2133,2597,Blood Test,Critical
+4593,2598,Blood Test,Abnormal
+78,2599,MRI,Normal
+522,2600,Blood Test,Critical
+1112,2601,Blood Test,Normal
+2109,2602,Urine Test,Abnormal
+2326,2603,X-Ray,Abnormal
+1441,2604,Urine Test,Normal
+4007,2605,MRI,Critical
+1230,2606,MRI,Critical
+4943,2607,X-Ray,Critical
+4313,2608,Blood Test,Abnormal
+685,2609,X-Ray,Critical
+3117,2610,Urine Test,Normal
+3419,2611,MRI,Abnormal
+3611,2612,Blood Test,Abnormal
+3852,2613,X-Ray,Critical
+2517,2614,MRI,Critical
+2260,2615,Blood Test,Abnormal
+1372,2616,Blood Test,Critical
+3949,2617,Urine Test,Abnormal
+3110,2618,Blood Test,Abnormal
+3420,2619,MRI,Normal
+3442,2620,MRI,Critical
+2043,2621,Blood Test,Critical
+557,2622,Blood Test,Critical
+3702,2623,X-Ray,Critical
+663,2624,MRI,Abnormal
+2573,2625,X-Ray,Abnormal
+3574,2626,MRI,Critical
+2476,2627,Urine Test,Critical
+3173,2628,MRI,Critical
+4113,2629,MRI,Critical
+2927,2630,X-Ray,Abnormal
+1933,2631,Urine Test,Abnormal
+3722,2632,Blood Test,Abnormal
+569,2633,MRI,Critical
+3514,2634,MRI,Critical
+2316,2635,Urine Test,Critical
+1662,2636,X-Ray,Abnormal
+3893,2637,MRI,Abnormal
+4719,2638,Blood Test,Critical
+2156,2639,Blood Test,Critical
+174,2640,Urine Test,Critical
+1116,2641,Urine Test,Normal
+4267,2642,MRI,Abnormal
+1428,2643,Blood Test,Abnormal
+2563,2644,Blood Test,Normal
+1802,2645,X-Ray,Critical
+1993,2646,Urine Test,Critical
+2338,2647,MRI,Normal
+1631,2648,Urine Test,Critical
+2718,2649,MRI,Abnormal
+3305,2650,MRI,Abnormal
+3714,2651,Blood Test,Abnormal
+4549,2652,X-Ray,Normal
+1343,2653,X-Ray,Normal
+2425,2654,Urine Test,Critical
+2136,2655,X-Ray,Normal
+1130,2656,X-Ray,Critical
+1576,2657,Urine Test,Abnormal
+2387,2658,MRI,Abnormal
+4596,2659,MRI,Critical
+4497,2660,X-Ray,Normal
+4993,2661,X-Ray,Abnormal
+1348,2662,Blood Test,Abnormal
+4970,2663,X-Ray,Normal
+2836,2664,X-Ray,Normal
+2520,2665,Blood Test,Critical
+1552,2666,Urine Test,Abnormal
+1660,2667,MRI,Critical
+2203,2668,MRI,Critical
+3523,2669,X-Ray,Critical
+411,2670,MRI,Critical
+2627,2671,Blood Test,Critical
+1277,2672,Urine Test,Normal
+2427,2673,MRI,Abnormal
+1396,2674,Blood Test,Abnormal
+1547,2675,Urine Test,Critical
+3432,2676,Urine Test,Abnormal
+2782,2677,MRI,Normal
+3826,2678,X-Ray,Critical
+2597,2679,MRI,Normal
+1249,2680,Urine Test,Normal
+485,2681,Urine Test,Abnormal
+2586,2682,Blood Test,Critical
+2077,2683,Blood Test,Critical
+1508,2684,MRI,Abnormal
+4698,2685,Urine Test,Abnormal
+1140,2686,Blood Test,Critical
+1025,2687,MRI,Abnormal
+2194,2688,Blood Test,Normal
+4306,2689,X-Ray,Abnormal
+1765,2690,Blood Test,Critical
+336,2691,Urine Test,Abnormal
+4367,2692,X-Ray,Critical
+253,2693,Blood Test,Abnormal
+4973,2694,X-Ray,Abnormal
+3408,2695,Urine Test,Critical
+2391,2696,Urine Test,Critical
+3142,2697,Urine Test,Critical
+4945,2698,MRI,Abnormal
+1734,2699,Blood Test,Abnormal
+1217,2700,MRI,Critical
+122,2701,MRI,Abnormal
+3751,2702,Blood Test,Abnormal
+1163,2703,Urine Test,Normal
+1585,2704,Blood Test,Normal
+2918,2705,Blood Test,Critical
+4949,2706,X-Ray,Normal
+2879,2707,X-Ray,Abnormal
+4942,2708,X-Ray,Critical
+3691,2709,Blood Test,Normal
+303,2710,Urine Test,Normal
+2074,2711,MRI,Normal
+4077,2712,Urine Test,Normal
+3491,2713,X-Ray,Normal
+4868,2714,X-Ray,Critical
+4132,2715,Blood Test,Normal
+1899,2716,Blood Test,Critical
+4772,2717,MRI,Normal
+2695,2718,MRI,Normal
+4405,2719,Urine Test,Critical
+575,2720,MRI,Critical
+3462,2721,Urine Test,Abnormal
+302,2722,Blood Test,Abnormal
+794,2723,X-Ray,Abnormal
+2486,2724,Blood Test,Abnormal
+866,2725,Urine Test,Critical
+4102,2726,Blood Test,Normal
+706,2727,Urine Test,Critical
+3029,2728,Blood Test,Critical
+1881,2729,MRI,Normal
+518,2730,Urine Test,Normal
+4889,2731,MRI,Normal
+303,2732,Urine Test,Critical
+2279,2733,X-Ray,Abnormal
+521,2734,Blood Test,Normal
+3143,2735,MRI,Abnormal
+2380,2736,Blood Test,Abnormal
+2917,2737,Blood Test,Critical
+1913,2738,Urine Test,Critical
+837,2739,Urine Test,Critical
+1784,2740,Urine Test,Normal
+55,2741,Urine Test,Critical
+2165,2742,Urine Test,Critical
+1586,2743,Blood Test,Abnormal
+2317,2744,MRI,Abnormal
+3963,2745,MRI,Critical
+165,2746,Blood Test,Normal
+3630,2747,MRI,Abnormal
+3453,2748,MRI,Normal
+4261,2749,X-Ray,Normal
+4168,2750,X-Ray,Critical
+4536,2751,MRI,Abnormal
+1699,2752,Blood Test,Critical
+3047,2753,X-Ray,Abnormal
+1773,2754,X-Ray,Normal
+4166,2755,MRI,Normal
+4109,2756,MRI,Normal
+2081,2757,Blood Test,Normal
+4253,2758,Urine Test,Normal
+2306,2759,Urine Test,Abnormal
+2550,2760,Blood Test,Abnormal
+2113,2761,X-Ray,Normal
+1739,2762,Blood Test,Abnormal
+1259,2763,Blood Test,Critical
+4004,2764,X-Ray,Critical
+2025,2765,X-Ray,Abnormal
+3851,2766,X-Ray,Abnormal
+4169,2767,MRI,Abnormal
+4008,2768,Blood Test,Normal
+2449,2769,X-Ray,Normal
+44,2770,Urine Test,Critical
+4035,2771,Urine Test,Critical
+3058,2772,X-Ray,Normal
+160,2773,MRI,Normal
+2127,2774,Blood Test,Normal
+1755,2775,X-Ray,Normal
+1319,2776,Urine Test,Critical
+3573,2777,X-Ray,Normal
+3552,2778,X-Ray,Critical
+1670,2779,Blood Test,Abnormal
+4256,2780,MRI,Abnormal
+3385,2781,X-Ray,Normal
+1124,2782,X-Ray,Critical
+4394,2783,Blood Test,Critical
+2796,2784,Urine Test,Normal
+2319,2785,Urine Test,Normal
+3131,2786,Blood Test,Abnormal
+4524,2787,Blood Test,Normal
+1808,2788,Blood Test,Abnormal
+2306,2789,Blood Test,Critical
+4352,2790,Urine Test,Normal
+2635,2791,MRI,Critical
+2850,2792,Urine Test,Abnormal
+3214,2793,X-Ray,Normal
+432,2794,Blood Test,Abnormal
+1916,2795,Blood Test,Normal
+2996,2796,Blood Test,Abnormal
+3259,2797,Urine Test,Abnormal
+3584,2798,Urine Test,Normal
+4768,2799,Urine Test,Normal
+4092,2800,Urine Test,Critical
+1161,2801,X-Ray,Abnormal
+1938,2802,MRI,Abnormal
+2951,2803,MRI,Abnormal
+1499,2804,X-Ray,Normal
+1857,2805,Urine Test,Critical
+1919,2806,MRI,Normal
+3332,2807,Urine Test,Critical
+3017,2808,Blood Test,Abnormal
+4891,2809,Blood Test,Critical
+3485,2810,Urine Test,Normal
+3391,2811,X-Ray,Normal
+4779,2812,MRI,Abnormal
+4389,2813,X-Ray,Abnormal
+3347,2814,Urine Test,Critical
+1833,2815,Urine Test,Abnormal
+1519,2816,X-Ray,Critical
+3218,2817,X-Ray,Normal
+4941,2818,Urine Test,Critical
+4052,2819,X-Ray,Normal
+2552,2820,Urine Test,Critical
+380,2821,Urine Test,Critical
+3945,2822,MRI,Normal
+2672,2823,X-Ray,Abnormal
+2665,2824,X-Ray,Critical
+2040,2825,Blood Test,Normal
+4202,2826,MRI,Critical
+1859,2827,Urine Test,Critical
+1783,2828,Urine Test,Normal
+1526,2829,Blood Test,Critical
+914,2830,Blood Test,Abnormal
+2267,2831,Blood Test,Critical
+171,2832,Blood Test,Abnormal
+612,2833,MRI,Critical
+1136,2834,Urine Test,Normal
+2053,2835,X-Ray,Critical
+2703,2836,Blood Test,Abnormal
+2586,2837,X-Ray,Critical
+3276,2838,Urine Test,Critical
+3162,2839,Urine Test,Critical
+1646,2840,MRI,Normal
+1514,2841,Urine Test,Critical
+355,2842,MRI,Normal
+2818,2843,Blood Test,Normal
+4220,2844,MRI,Normal
+4467,2845,MRI,Normal
+334,2846,Blood Test,Abnormal
+1666,2847,MRI,Normal
+2332,2848,Blood Test,Normal
+4593,2849,X-Ray,Critical
+4850,2850,MRI,Critical
+1619,2851,MRI,Abnormal
+2597,2852,Urine Test,Normal
+3973,2853,Blood Test,Critical
+3259,2854,Blood Test,Abnormal
+2090,2855,MRI,Normal
+1193,2856,Blood Test,Normal
+737,2857,Blood Test,Critical
+3272,2858,MRI,Abnormal
+521,2859,MRI,Normal
+4293,2860,Blood Test,Normal
+2921,2861,Urine Test,Normal
+3680,2862,MRI,Critical
+165,2863,X-Ray,Normal
+625,2864,MRI,Critical
+1937,2865,Blood Test,Normal
+1244,2866,X-Ray,Critical
+1720,2867,X-Ray,Abnormal
+3588,2868,MRI,Normal
+366,2869,MRI,Normal
+4519,2870,Blood Test,Abnormal
+4269,2871,MRI,Normal
+2019,2872,Blood Test,Normal
+4808,2873,X-Ray,Abnormal
+2464,2874,MRI,Abnormal
+481,2875,Blood Test,Abnormal
+4867,2876,MRI,Critical
+3506,2877,MRI,Abnormal
+1469,2878,Blood Test,Abnormal
+4418,2879,Blood Test,Critical
+2695,2880,MRI,Critical
+1226,2881,Urine Test,Critical
+3400,2882,Urine Test,Critical
+2996,2883,Urine Test,Abnormal
+3643,2884,X-Ray,Abnormal
+2793,2885,MRI,Abnormal
+3199,2886,Blood Test,Abnormal
+492,2887,X-Ray,Normal
+2448,2888,Urine Test,Critical
+2088,2889,Blood Test,Abnormal
+3163,2890,MRI,Critical
+3606,2891,X-Ray,Critical
+3029,2892,MRI,Abnormal
+2928,2893,Urine Test,Abnormal
+1345,2894,X-Ray,Normal
+4922,2895,X-Ray,Abnormal
+4783,2896,X-Ray,Abnormal
+1664,2897,Urine Test,Critical
+723,2898,MRI,Abnormal
+397,2899,X-Ray,Abnormal
+1278,2900,MRI,Abnormal
+4197,2901,X-Ray,Critical
+3208,2902,Blood Test,Critical
+3188,2903,Blood Test,Normal
+3342,2904,X-Ray,Normal
+197,2905,Blood Test,Critical
+2569,2906,Urine Test,Normal
+81,2907,Blood Test,Normal
+4220,2908,MRI,Abnormal
+4240,2909,X-Ray,Normal
+417,2910,Urine Test,Abnormal
+616,2911,MRI,Critical
+323,2912,Urine Test,Abnormal
+1758,2913,Urine Test,Normal
+2204,2914,Urine Test,Critical
+4521,2915,Urine Test,Critical
+4633,2916,MRI,Critical
+3487,2917,Urine Test,Abnormal
+3899,2918,MRI,Abnormal
+324,2919,X-Ray,Abnormal
+148,2920,Urine Test,Critical
+3880,2921,Blood Test,Critical
+2211,2922,X-Ray,Normal
+2151,2923,Blood Test,Abnormal
+4296,2924,MRI,Critical
+2886,2925,MRI,Critical
+2021,2926,Blood Test,Abnormal
+4838,2927,X-Ray,Critical
+2599,2928,X-Ray,Critical
+1953,2929,Blood Test,Critical
+4237,2930,Urine Test,Critical
+4140,2931,Urine Test,Abnormal
+2570,2932,Urine Test,Abnormal
+700,2933,X-Ray,Critical
+3801,2934,Blood Test,Abnormal
+3106,2935,MRI,Critical
+1614,2936,X-Ray,Abnormal
+3740,2937,Urine Test,Critical
+4512,2938,Urine Test,Critical
+4547,2939,Blood Test,Normal
+1872,2940,MRI,Normal
+3198,2941,X-Ray,Normal
+1126,2942,X-Ray,Normal
+2908,2943,X-Ray,Critical
+1528,2944,X-Ray,Normal
+355,2945,Blood Test,Normal
+905,2946,Blood Test,Abnormal
+4878,2947,Urine Test,Normal
+1780,2948,X-Ray,Critical
+3569,2949,X-Ray,Abnormal
+1424,2950,MRI,Normal
+2871,2951,MRI,Critical
+616,2952,Urine Test,Critical
+1710,2953,Blood Test,Normal
+3767,2954,Urine Test,Normal
+1369,2955,Urine Test,Critical
+987,2956,MRI,Critical
+2804,2957,Urine Test,Critical
+1779,2958,MRI,Normal
+4983,2959,Urine Test,Normal
+4417,2960,MRI,Normal
+929,2961,X-Ray,Critical
+4212,2962,Urine Test,Normal
+2129,2963,MRI,Normal
+4156,2964,MRI,Critical
+4034,2965,Blood Test,Normal
+4057,2966,X-Ray,Normal
+4566,2967,X-Ray,Critical
+1751,2968,MRI,Critical
+2916,2969,Urine Test,Critical
+2925,2970,X-Ray,Abnormal
+4496,2971,Urine Test,Critical
+2487,2972,Blood Test,Normal
+3069,2973,MRI,Critical
+4163,2974,X-Ray,Critical
+507,2975,Blood Test,Critical
+2871,2976,X-Ray,Abnormal
+3265,2977,Urine Test,Critical
+1189,2978,X-Ray,Abnormal
+1433,2979,X-Ray,Normal
+3002,2980,Urine Test,Abnormal
+1041,2981,X-Ray,Critical
+3402,2982,MRI,Normal
+4852,2983,MRI,Abnormal
+3812,2984,X-Ray,Normal
+1797,2985,Urine Test,Abnormal
+1816,2986,MRI,Abnormal
+2149,2987,Blood Test,Critical
+4530,2988,Blood Test,Abnormal
+4493,2989,MRI,Critical
+4671,2990,Urine Test,Abnormal
+283,2991,Urine Test,Normal
+1403,2992,Blood Test,Critical
+4733,2993,Blood Test,Normal
+4629,2994,MRI,Normal
+715,2995,Blood Test,Abnormal
+4096,2996,Blood Test,Normal
+446,2997,X-Ray,Critical
+776,2998,MRI,Normal
+1505,2999,X-Ray,Abnormal
+1103,3000,Blood Test,Normal
+1957,3001,Blood Test,Normal
+1175,3002,X-Ray,Critical
+2570,3003,Urine Test,Critical
+1436,3004,X-Ray,Critical
+4171,3005,X-Ray,Normal
+4579,3006,Urine Test,Critical
+4302,3007,Urine Test,Abnormal
+4303,3008,Urine Test,Critical
+287,3009,Urine Test,Critical
+3308,3010,Urine Test,Normal
+808,3011,Urine Test,Critical
+2520,3012,Urine Test,Abnormal
+1231,3013,MRI,Normal
+1058,3014,Urine Test,Abnormal
+2594,3015,Blood Test,Normal
+2455,3016,Blood Test,Normal
+3930,3017,Blood Test,Critical
+1420,3018,Blood Test,Critical
+4592,3019,MRI,Normal
+3568,3020,Blood Test,Critical
+256,3021,Urine Test,Critical
+4830,3022,Urine Test,Abnormal
+3893,3023,Blood Test,Critical
+3415,3024,MRI,Critical
+3121,3025,X-Ray,Critical
+3958,3026,X-Ray,Critical
+1732,3027,Blood Test,Critical
+504,3028,Blood Test,Critical
+3100,3029,Blood Test,Normal
+3743,3030,MRI,Normal
+371,3031,Urine Test,Critical
+1973,3032,Blood Test,Abnormal
+1945,3033,X-Ray,Critical
+1354,3034,Urine Test,Normal
+4863,3035,Blood Test,Abnormal
+2380,3036,Urine Test,Abnormal
+3140,3037,X-Ray,Abnormal
+1899,3038,X-Ray,Normal
+3049,3039,Urine Test,Abnormal
+785,3040,Blood Test,Normal
+2642,3041,X-Ray,Critical
+3461,3042,Urine Test,Normal
+1128,3043,Blood Test,Abnormal
+3198,3044,Urine Test,Abnormal
+2309,3045,Urine Test,Normal
+3719,3046,Urine Test,Abnormal
+265,3047,X-Ray,Normal
+2716,3048,Blood Test,Normal
+819,3049,Blood Test,Normal
+4906,3050,X-Ray,Critical
+4557,3051,Blood Test,Abnormal
+14,3052,Urine Test,Normal
+3139,3053,Urine Test,Abnormal
+3345,3054,X-Ray,Normal
+2266,3055,X-Ray,Critical
+426,3056,X-Ray,Normal
+51,3057,Blood Test,Normal
+3687,3058,X-Ray,Critical
+3834,3059,X-Ray,Abnormal
+399,3060,Blood Test,Abnormal
+1003,3061,MRI,Abnormal
+3294,3062,X-Ray,Critical
+1339,3063,X-Ray,Critical
+978,3064,X-Ray,Normal
+197,3065,MRI,Critical
+1480,3066,Urine Test,Normal
+1318,3067,Urine Test,Critical
+3067,3068,X-Ray,Critical
+449,3069,MRI,Normal
+616,3070,Urine Test,Normal
+1696,3071,X-Ray,Abnormal
+1880,3072,Blood Test,Critical
+3265,3073,X-Ray,Normal
+3463,3074,Blood Test,Normal
+3832,3075,Urine Test,Abnormal
+3803,3076,Blood Test,Critical
+1242,3077,Blood Test,Normal
+4933,3078,Urine Test,Normal
+1347,3079,Blood Test,Normal
+970,3080,Urine Test,Abnormal
+4436,3081,MRI,Normal
+1361,3082,X-Ray,Normal
+4308,3083,Urine Test,Normal
+2949,3084,MRI,Normal
+4720,3085,Blood Test,Normal
+4898,3086,X-Ray,Abnormal
+468,3087,Urine Test,Critical
+468,3088,Urine Test,Abnormal
+385,3089,Urine Test,Abnormal
+2487,3090,Blood Test,Abnormal
+2711,3091,Urine Test,Normal
+3563,3092,X-Ray,Abnormal
+2428,3093,MRI,Critical
+1156,3094,Urine Test,Abnormal
+1462,3095,Urine Test,Abnormal
+812,3096,Urine Test,Critical
+2767,3097,Urine Test,Abnormal
+2658,3098,Urine Test,Critical
+987,3099,MRI,Critical
+289,3100,X-Ray,Normal
+2405,3101,Blood Test,Normal
+802,3102,Blood Test,Abnormal
+66,3103,Blood Test,Critical
+1396,3104,MRI,Critical
+3181,3105,X-Ray,Abnormal
+4418,3106,Urine Test,Abnormal
+1724,3107,Urine Test,Abnormal
+1312,3108,X-Ray,Abnormal
+576,3109,X-Ray,Critical
+2782,3110,MRI,Normal
+3718,3111,MRI,Normal
+4837,3112,MRI,Normal
+1290,3113,Urine Test,Critical
+1765,3114,Urine Test,Abnormal
+4413,3115,Urine Test,Abnormal
+410,3116,MRI,Normal
+3931,3117,X-Ray,Critical
+1435,3118,Blood Test,Critical
+872,3119,Blood Test,Critical
+4718,3120,Blood Test,Abnormal
+2759,3121,Blood Test,Normal
+973,3122,MRI,Critical
+2479,3123,Blood Test,Critical
+4234,3124,Blood Test,Normal
+3770,3125,Blood Test,Abnormal
+2233,3126,Blood Test,Normal
+693,3127,X-Ray,Abnormal
+4176,3128,X-Ray,Normal
+2356,3129,X-Ray,Abnormal
+97,3130,MRI,Critical
+3185,3131,X-Ray,Abnormal
+4574,3132,Urine Test,Abnormal
+2521,3133,X-Ray,Critical
+557,3134,Blood Test,Critical
+412,3135,X-Ray,Critical
+2912,3136,Urine Test,Abnormal
+1143,3137,MRI,Normal
+4750,3138,X-Ray,Normal
+2433,3139,Urine Test,Normal
+382,3140,MRI,Normal
+3907,3141,MRI,Critical
+300,3142,Blood Test,Abnormal
+612,3143,Urine Test,Abnormal
+2065,3144,Urine Test,Critical
+3283,3145,MRI,Abnormal
+2046,3146,MRI,Abnormal
+18,3147,X-Ray,Abnormal
+4068,3148,Blood Test,Normal
+199,3149,MRI,Normal
+3477,3150,Urine Test,Critical
+4254,3151,Urine Test,Abnormal
+4755,3152,MRI,Normal
+2161,3153,X-Ray,Critical
+1921,3154,MRI,Abnormal
+78,3155,X-Ray,Critical
+4885,3156,Urine Test,Abnormal
+1120,3157,Urine Test,Normal
+1632,3158,Urine Test,Abnormal
+303,3159,Urine Test,Abnormal
+4841,3160,Blood Test,Abnormal
+1809,3161,Blood Test,Normal
+1074,3162,Urine Test,Abnormal
+490,3163,Blood Test,Normal
+278,3164,Urine Test,Abnormal
+1859,3165,X-Ray,Abnormal
+3823,3166,MRI,Abnormal
+2266,3167,MRI,Abnormal
+1272,3168,Blood Test,Normal
+1190,3169,X-Ray,Abnormal
+3874,3170,Urine Test,Abnormal
+3412,3171,X-Ray,Critical
+3674,3172,MRI,Normal
+4612,3173,X-Ray,Abnormal
+928,3174,Blood Test,Critical
+799,3175,X-Ray,Critical
+138,3176,Blood Test,Normal
+1238,3177,Urine Test,Normal
+3331,3178,Blood Test,Abnormal
+3444,3179,MRI,Abnormal
+2948,3180,X-Ray,Abnormal
+2506,3181,Urine Test,Normal
+2504,3182,X-Ray,Abnormal
+1453,3183,X-Ray,Normal
+3816,3184,MRI,Critical
+4451,3185,X-Ray,Abnormal
+3356,3186,X-Ray,Critical
+1878,3187,Blood Test,Critical
+4338,3188,Blood Test,Critical
+2323,3189,MRI,Normal
+2722,3190,MRI,Critical
+3139,3191,MRI,Normal
+3030,3192,Blood Test,Critical
+508,3193,X-Ray,Abnormal
+1916,3194,X-Ray,Abnormal
+4440,3195,Blood Test,Abnormal
+3715,3196,Urine Test,Abnormal
+1940,3197,MRI,Critical
+3560,3198,MRI,Abnormal
+4824,3199,Urine Test,Normal
+1360,3200,X-Ray,Critical
+883,3201,Blood Test,Critical
+906,3202,MRI,Normal
+3449,3203,Urine Test,Abnormal
+4323,3204,Blood Test,Critical
+643,3205,Urine Test,Normal
+308,3206,X-Ray,Abnormal
+3486,3207,X-Ray,Normal
+1521,3208,Urine Test,Normal
+108,3209,Blood Test,Critical
+116,3210,MRI,Normal
+4401,3211,X-Ray,Critical
+1786,3212,Blood Test,Critical
+1553,3213,Urine Test,Abnormal
+2203,3214,MRI,Critical
+657,3215,Blood Test,Critical
+4053,3216,X-Ray,Abnormal
+4006,3217,MRI,Critical
+1872,3218,MRI,Abnormal
+809,3219,MRI,Abnormal
+4223,3220,Blood Test,Normal
+4018,3221,Blood Test,Abnormal
+4716,3222,X-Ray,Critical
+4019,3223,X-Ray,Normal
+1812,3224,X-Ray,Normal
+4915,3225,X-Ray,Abnormal
+1878,3226,Urine Test,Normal
+2857,3227,Urine Test,Normal
+4781,3228,Urine Test,Normal
+3003,3229,Blood Test,Normal
+45,3230,Urine Test,Abnormal
+2243,3231,Urine Test,Normal
+2350,3232,Blood Test,Abnormal
+1438,3233,X-Ray,Normal
+2806,3234,MRI,Critical
+1,3235,MRI,Normal
+2767,3236,Urine Test,Normal
+3359,3237,MRI,Critical
+3691,3238,MRI,Abnormal
+4795,3239,Urine Test,Critical
+3422,3240,Blood Test,Normal
+159,3241,X-Ray,Normal
+1070,3242,MRI,Abnormal
+126,3243,X-Ray,Normal
+1394,3244,X-Ray,Normal
+4040,3245,Blood Test,Critical
+4341,3246,MRI,Normal
+4191,3247,Blood Test,Critical
+3406,3248,X-Ray,Abnormal
+2951,3249,Blood Test,Normal
+728,3250,Blood Test,Critical
+1124,3251,X-Ray,Normal
+444,3252,MRI,Critical
+3065,3253,Urine Test,Abnormal
+3770,3254,Blood Test,Abnormal
+2277,3255,MRI,Critical
+4968,3256,MRI,Abnormal
+3945,3257,Urine Test,Abnormal
+562,3258,MRI,Normal
+3757,3259,MRI,Critical
+314,3260,X-Ray,Abnormal
+3194,3261,MRI,Critical
+1640,3262,Blood Test,Abnormal
+4283,3263,Blood Test,Critical
+3043,3264,X-Ray,Normal
+2117,3265,X-Ray,Critical
+4757,3266,X-Ray,Critical
+2284,3267,Blood Test,Normal
+1161,3268,Urine Test,Normal
+4835,3269,Urine Test,Critical
+1323,3270,Urine Test,Normal
+1355,3271,X-Ray,Critical
+4438,3272,Urine Test,Critical
+2223,3273,X-Ray,Abnormal
+4607,3274,Urine Test,Critical
+1173,3275,Urine Test,Critical
+1807,3276,Urine Test,Abnormal
+3612,3277,X-Ray,Normal
+1617,3278,MRI,Critical
+4811,3279,MRI,Normal
+1951,3280,X-Ray,Normal
+605,3281,MRI,Critical
+2359,3282,MRI,Normal
+1114,3283,X-Ray,Normal
+1331,3284,MRI,Normal
+1634,3285,Urine Test,Critical
+1951,3286,Urine Test,Normal
+4036,3287,Urine Test,Abnormal
+4197,3288,Blood Test,Normal
+2779,3289,Blood Test,Abnormal
+3520,3290,MRI,Normal
+3896,3291,Urine Test,Normal
+1231,3292,Urine Test,Normal
+4569,3293,Blood Test,Normal
+1936,3294,Blood Test,Normal
+4994,3295,X-Ray,Critical
+3972,3296,X-Ray,Normal
+1311,3297,Urine Test,Abnormal
+4275,3298,Urine Test,Critical
+1351,3299,X-Ray,Abnormal
+1668,3300,Blood Test,Normal
+2895,3301,X-Ray,Critical
+1759,3302,Blood Test,Normal
+3271,3303,Blood Test,Normal
+3527,3304,X-Ray,Normal
+760,3305,X-Ray,Abnormal
+3525,3306,MRI,Critical
+3362,3307,X-Ray,Abnormal
+2764,3308,Urine Test,Critical
+3482,3309,X-Ray,Critical
+3890,3310,Blood Test,Abnormal
+3812,3311,Blood Test,Normal
+558,3312,Blood Test,Critical
+3717,3313,Urine Test,Critical
+3133,3314,MRI,Critical
+1481,3315,MRI,Normal
+30,3316,Urine Test,Abnormal
+1190,3317,X-Ray,Critical
+1073,3318,MRI,Abnormal
+2819,3319,X-Ray,Abnormal
+3596,3320,MRI,Normal
+796,3321,Blood Test,Critical
+3357,3322,Urine Test,Normal
+1791,3323,Urine Test,Normal
+1975,3324,MRI,Normal
+4636,3325,Urine Test,Critical
+573,3326,Urine Test,Abnormal
+502,3327,MRI,Critical
+1101,3328,X-Ray,Critical
+2741,3329,Blood Test,Normal
+3089,3330,MRI,Critical
+1949,3331,MRI,Abnormal
+4567,3332,Blood Test,Normal
+1883,3333,MRI,Abnormal
+4682,3334,Urine Test,Critical
+2019,3335,MRI,Abnormal
+859,3336,Blood Test,Normal
+324,3337,Urine Test,Abnormal
+3039,3338,X-Ray,Normal
+4951,3339,Urine Test,Normal
+1118,3340,X-Ray,Critical
+4041,3341,X-Ray,Critical
+964,3342,X-Ray,Critical
+3723,3343,MRI,Critical
+2761,3344,Blood Test,Critical
+4392,3345,X-Ray,Normal
+3898,3346,Urine Test,Abnormal
+120,3347,Urine Test,Normal
+568,3348,X-Ray,Abnormal
+3144,3349,X-Ray,Abnormal
+4377,3350,Blood Test,Abnormal
+1542,3351,X-Ray,Abnormal
+2179,3352,X-Ray,Critical
+3220,3353,X-Ray,Critical
+3178,3354,Blood Test,Critical
+4470,3355,MRI,Abnormal
+3063,3356,Urine Test,Normal
+3758,3357,MRI,Normal
+3929,3358,Blood Test,Abnormal
+3485,3359,X-Ray,Abnormal
+4946,3360,Urine Test,Critical
+4900,3361,Blood Test,Critical
+2454,3362,X-Ray,Critical
+646,3363,X-Ray,Normal
+4372,3364,MRI,Normal
+4772,3365,Urine Test,Normal
+1025,3366,Urine Test,Normal
+2345,3367,Blood Test,Abnormal
+2235,3368,Urine Test,Abnormal
+4877,3369,Urine Test,Abnormal
+4549,3370,X-Ray,Normal
+4685,3371,MRI,Abnormal
+4727,3372,MRI,Normal
+2104,3373,Urine Test,Normal
+3478,3374,MRI,Critical
+4192,3375,Blood Test,Critical
+4554,3376,Urine Test,Abnormal
+774,3377,Blood Test,Critical
+3039,3378,Blood Test,Abnormal
+1925,3379,X-Ray,Critical
+1523,3380,X-Ray,Critical
+574,3381,Urine Test,Normal
+533,3382,Blood Test,Critical
+4425,3383,MRI,Critical
+1798,3384,Urine Test,Abnormal
+676,3385,Urine Test,Abnormal
+2132,3386,Urine Test,Normal
+3250,3387,Urine Test,Abnormal
+3720,3388,MRI,Normal
+2232,3389,Urine Test,Critical
+1731,3390,Urine Test,Normal
+875,3391,MRI,Abnormal
+2927,3392,Urine Test,Normal
+570,3393,Urine Test,Critical
+2772,3394,MRI,Normal
+2586,3395,MRI,Normal
+3097,3396,Blood Test,Normal
+530,3397,Urine Test,Normal
+1656,3398,Blood Test,Abnormal
+2285,3399,MRI,Abnormal
+985,3400,Urine Test,Abnormal
+785,3401,X-Ray,Abnormal
+1157,3402,X-Ray,Critical
+1473,3403,Urine Test,Critical
+1509,3404,Blood Test,Normal
+3379,3405,Urine Test,Normal
+2073,3406,X-Ray,Critical
+4004,3407,Blood Test,Abnormal
+985,3408,Blood Test,Normal
+4606,3409,MRI,Critical
+1112,3410,X-Ray,Abnormal
+4983,3411,Urine Test,Critical
+3371,3412,Urine Test,Critical
+2093,3413,MRI,Critical
+1518,3414,X-Ray,Critical
+1135,3415,Blood Test,Critical
+4251,3416,X-Ray,Abnormal
+758,3417,MRI,Abnormal
+2988,3418,Blood Test,Abnormal
+983,3419,X-Ray,Abnormal
+2883,3420,Urine Test,Critical
+623,3421,Blood Test,Critical
+2976,3422,MRI,Abnormal
+1805,3423,Urine Test,Critical
+706,3424,Blood Test,Normal
+2771,3425,Blood Test,Abnormal
+443,3426,Blood Test,Critical
+2682,3427,Blood Test,Critical
+259,3428,X-Ray,Normal
+4340,3429,Blood Test,Critical
+3652,3430,X-Ray,Abnormal
+2491,3431,Urine Test,Normal
+1770,3432,X-Ray,Critical
+176,3433,Urine Test,Abnormal
+3624,3434,Blood Test,Critical
+3475,3435,Urine Test,Critical
+1130,3436,MRI,Critical
+3194,3437,Urine Test,Normal
+1799,3438,Urine Test,Normal
+1897,3439,MRI,Normal
+419,3440,MRI,Normal
+2107,3441,X-Ray,Abnormal
+1107,3442,Blood Test,Abnormal
+4813,3443,Urine Test,Critical
+1591,3444,X-Ray,Normal
+2892,3445,Urine Test,Normal
+2971,3446,Urine Test,Abnormal
+1470,3447,X-Ray,Critical
+1256,3448,X-Ray,Abnormal
+2424,3449,Blood Test,Normal
+773,3450,Urine Test,Normal
+1463,3451,Urine Test,Critical
+4905,3452,Blood Test,Normal
+1114,3453,MRI,Normal
+2366,3454,Blood Test,Abnormal
+3790,3455,MRI,Abnormal
+4650,3456,Blood Test,Abnormal
+632,3457,Blood Test,Normal
+4583,3458,X-Ray,Critical
+474,3459,X-Ray,Abnormal
+4940,3460,Urine Test,Normal
+2697,3461,X-Ray,Abnormal
+4358,3462,Urine Test,Abnormal
+1620,3463,X-Ray,Normal
+4495,3464,Urine Test,Normal
+2318,3465,X-Ray,Critical
+4065,3466,MRI,Normal
+2500,3467,MRI,Normal
+999,3468,Blood Test,Normal
+1241,3469,MRI,Critical
+2774,3470,Blood Test,Critical
+2861,3471,Blood Test,Critical
+3143,3472,MRI,Critical
+4922,3473,Urine Test,Abnormal
+2690,3474,MRI,Normal
+2100,3475,X-Ray,Abnormal
+1624,3476,X-Ray,Critical
+2696,3477,Blood Test,Normal
+3582,3478,Urine Test,Normal
+3822,3479,Blood Test,Abnormal
+4580,3480,Blood Test,Critical
+53,3481,MRI,Abnormal
+4803,3482,X-Ray,Abnormal
+600,3483,Urine Test,Abnormal
+3304,3484,Blood Test,Normal
+2279,3485,MRI,Normal
+1298,3486,MRI,Critical
+3451,3487,Blood Test,Critical
+154,3488,Urine Test,Normal
+2594,3489,MRI,Critical
+3770,3490,Blood Test,Normal
+2409,3491,Urine Test,Critical
+1251,3492,Urine Test,Normal
+428,3493,X-Ray,Abnormal
+1808,3494,X-Ray,Normal
+4691,3495,MRI,Critical
+195,3496,MRI,Normal
+1813,3497,Urine Test,Abnormal
+347,3498,Blood Test,Normal
+3205,3499,X-Ray,Critical
+2299,3500,MRI,Normal
+3152,3501,MRI,Abnormal
+153,3502,MRI,Normal
+233,3503,X-Ray,Critical
+3725,3504,Urine Test,Critical
+2999,3505,Blood Test,Normal
+3742,3506,MRI,Normal
+4954,3507,MRI,Abnormal
+4494,3508,MRI,Critical
+4775,3509,MRI,Normal
+695,3510,MRI,Critical
+2307,3511,X-Ray,Critical
+3034,3512,MRI,Normal
+3212,3513,Blood Test,Abnormal
+4145,3514,Urine Test,Normal
+3238,3515,MRI,Abnormal
+495,3516,Urine Test,Abnormal
+4795,3517,X-Ray,Normal
+3655,3518,Blood Test,Normal
+1545,3519,Urine Test,Critical
+3476,3520,X-Ray,Critical
+2283,3521,X-Ray,Abnormal
+3304,3522,Urine Test,Critical
+548,3523,Urine Test,Abnormal
+2335,3524,Blood Test,Abnormal
+24,3525,X-Ray,Critical
+1729,3526,Blood Test,Normal
+1743,3527,MRI,Abnormal
+2369,3528,Urine Test,Normal
+947,3529,Blood Test,Critical
+2614,3530,X-Ray,Abnormal
+2064,3531,Blood Test,Abnormal
+4436,3532,Urine Test,Critical
+4951,3533,Blood Test,Normal
+2944,3534,MRI,Critical
+1385,3535,MRI,Normal
+2711,3536,X-Ray,Normal
+3666,3537,Blood Test,Normal
+2481,3538,X-Ray,Critical
+2111,3539,Blood Test,Critical
+3565,3540,X-Ray,Critical
+3964,3541,X-Ray,Normal
+3834,3542,Blood Test,Normal
+1949,3543,Blood Test,Abnormal
+756,3544,X-Ray,Normal
+97,3545,X-Ray,Abnormal
+3114,3546,Urine Test,Normal
+4590,3547,Urine Test,Abnormal
+1334,3548,X-Ray,Abnormal
+834,3549,Urine Test,Abnormal
+1901,3550,Blood Test,Abnormal
+447,3551,Blood Test,Abnormal
+4888,3552,Blood Test,Normal
+2947,3553,Urine Test,Abnormal
+1838,3554,Blood Test,Normal
+1648,3555,MRI,Abnormal
+2049,3556,Urine Test,Critical
+1374,3557,MRI,Abnormal
+1387,3558,MRI,Critical
+2874,3559,MRI,Normal
+543,3560,Urine Test,Normal
+4548,3561,MRI,Critical
+1521,3562,Blood Test,Abnormal
+3506,3563,MRI,Critical
+4007,3564,MRI,Normal
+3099,3565,Blood Test,Normal
+4301,3566,X-Ray,Abnormal
+1489,3567,X-Ray,Normal
+3808,3568,MRI,Abnormal
+1357,3569,X-Ray,Normal
+2095,3570,Blood Test,Critical
+3139,3571,X-Ray,Abnormal
+1807,3572,MRI,Critical
+3366,3573,MRI,Abnormal
+4105,3574,Urine Test,Critical
+3430,3575,Blood Test,Abnormal
+692,3576,MRI,Normal
+732,3577,Urine Test,Abnormal
+4257,3578,X-Ray,Normal
+1139,3579,Urine Test,Abnormal
+2145,3580,Urine Test,Normal
+1791,3581,X-Ray,Critical
+476,3582,X-Ray,Critical
+4716,3583,X-Ray,Critical
+4210,3584,Urine Test,Normal
+4317,3585,MRI,Critical
+1330,3586,X-Ray,Critical
+3996,3587,Blood Test,Abnormal
+2105,3588,Urine Test,Abnormal
+2928,3589,X-Ray,Normal
+2846,3590,MRI,Critical
+4601,3591,MRI,Critical
+3580,3592,X-Ray,Critical
+1163,3593,Blood Test,Normal
+2220,3594,Urine Test,Normal
+3154,3595,Blood Test,Critical
+2093,3596,Blood Test,Critical
+4750,3597,X-Ray,Critical
+664,3598,Urine Test,Normal
+882,3599,Urine Test,Normal
+4230,3600,X-Ray,Normal
+1792,3601,MRI,Critical
+1249,3602,X-Ray,Normal
+2029,3603,MRI,Critical
+1827,3604,X-Ray,Abnormal
+4925,3605,X-Ray,Normal
+1141,3606,X-Ray,Critical
+640,3607,Urine Test,Normal
+3236,3608,X-Ray,Normal
+2225,3609,MRI,Abnormal
+1422,3610,MRI,Normal
+3124,3611,MRI,Critical
+1468,3612,MRI,Critical
+2818,3613,X-Ray,Normal
+4612,3614,MRI,Abnormal
+2942,3615,Blood Test,Abnormal
+4488,3616,Urine Test,Critical
+1130,3617,MRI,Critical
+4037,3618,Urine Test,Normal
+1356,3619,MRI,Normal
+4046,3620,MRI,Critical
+4701,3621,Urine Test,Abnormal
+4165,3622,Urine Test,Abnormal
+2560,3623,MRI,Critical
+1808,3624,Urine Test,Critical
+2821,3625,Urine Test,Critical
+2565,3626,MRI,Normal
+2707,3627,X-Ray,Abnormal
+2324,3628,Blood Test,Normal
+2342,3629,X-Ray,Normal
+4141,3630,Blood Test,Abnormal
+3846,3631,Blood Test,Abnormal
+3740,3632,MRI,Normal
+1754,3633,Blood Test,Normal
+1302,3634,Blood Test,Critical
+1967,3635,X-Ray,Abnormal
+407,3636,Blood Test,Critical
+1328,3637,Urine Test,Critical
+3913,3638,Urine Test,Abnormal
+3846,3639,Blood Test,Abnormal
+415,3640,MRI,Normal
+4485,3641,X-Ray,Normal
+3897,3642,Urine Test,Critical
+941,3643,Blood Test,Abnormal
+135,3644,MRI,Critical
+429,3645,MRI,Normal
+3077,3646,Urine Test,Abnormal
+282,3647,Blood Test,Critical
+4918,3648,MRI,Normal
+2055,3649,X-Ray,Normal
+412,3650,X-Ray,Normal
+567,3651,X-Ray,Normal
+281,3652,Urine Test,Abnormal
+2849,3653,MRI,Critical
+2127,3654,Urine Test,Critical
+4128,3655,Blood Test,Abnormal
+3887,3656,Urine Test,Normal
+1791,3657,MRI,Critical
+717,3658,Blood Test,Abnormal
+3274,3659,Urine Test,Abnormal
+1869,3660,X-Ray,Normal
+267,3661,X-Ray,Normal
+4446,3662,Blood Test,Abnormal
+1107,3663,Urine Test,Normal
+445,3664,MRI,Critical
+685,3665,Urine Test,Abnormal
+77,3666,MRI,Abnormal
+946,3667,MRI,Abnormal
+4814,3668,MRI,Critical
+655,3669,X-Ray,Critical
+3492,3670,Urine Test,Abnormal
+2487,3671,MRI,Normal
+2263,3672,Blood Test,Normal
+353,3673,X-Ray,Normal
+1951,3674,MRI,Abnormal
+3546,3675,Urine Test,Abnormal
+4185,3676,Urine Test,Abnormal
+4031,3677,Urine Test,Normal
+1299,3678,Blood Test,Abnormal
+810,3679,X-Ray,Critical
+4701,3680,MRI,Normal
+1541,3681,Blood Test,Critical
+3780,3682,MRI,Critical
+2307,3683,MRI,Normal
+1846,3684,Urine Test,Critical
+4388,3685,Urine Test,Normal
+4706,3686,Urine Test,Critical
+4115,3687,Blood Test,Abnormal
+988,3688,Urine Test,Abnormal
+2251,3689,Blood Test,Normal
+1063,3690,X-Ray,Normal
+1679,3691,X-Ray,Normal
+1267,3692,MRI,Abnormal
+4693,3693,Blood Test,Abnormal
+3386,3694,X-Ray,Critical
+577,3695,Urine Test,Critical
+673,3696,X-Ray,Normal
+1435,3697,Urine Test,Normal
+4232,3698,MRI,Critical
+1352,3699,X-Ray,Abnormal
+897,3700,Urine Test,Abnormal
+4518,3701,MRI,Abnormal
+4425,3702,Blood Test,Critical
+1257,3703,Blood Test,Normal
+2683,3704,Urine Test,Critical
+3876,3705,X-Ray,Normal
+3215,3706,Blood Test,Normal
+287,3707,Urine Test,Abnormal
+4668,3708,X-Ray,Critical
+2644,3709,Blood Test,Abnormal
+2581,3710,MRI,Normal
+452,3711,Urine Test,Normal
+4752,3712,Urine Test,Normal
+4083,3713,Blood Test,Abnormal
+4493,3714,MRI,Abnormal
+582,3715,X-Ray,Critical
+324,3716,Blood Test,Critical
+4315,3717,X-Ray,Critical
+3100,3718,X-Ray,Abnormal
+2998,3719,Blood Test,Abnormal
+2883,3720,Blood Test,Abnormal
+3596,3721,Urine Test,Abnormal
+1844,3722,Urine Test,Critical
+3060,3723,Blood Test,Abnormal
+3753,3724,MRI,Normal
+298,3725,MRI,Critical
+1760,3726,MRI,Normal
+2820,3727,MRI,Critical
+3054,3728,Urine Test,Normal
+648,3729,Urine Test,Abnormal
+918,3730,Urine Test,Abnormal
+3323,3731,Blood Test,Normal
+1369,3732,X-Ray,Critical
+618,3733,Blood Test,Abnormal
+1014,3734,X-Ray,Critical
+2937,3735,Blood Test,Abnormal
+319,3736,X-Ray,Critical
+2755,3737,MRI,Normal
+1273,3738,X-Ray,Normal
+510,3739,X-Ray,Abnormal
+3206,3740,X-Ray,Normal
+4059,3741,MRI,Critical
+4152,3742,X-Ray,Abnormal
+903,3743,X-Ray,Abnormal
+2984,3744,Blood Test,Normal
+3644,3745,Urine Test,Critical
+2275,3746,MRI,Abnormal
+4997,3747,X-Ray,Critical
+4949,3748,Urine Test,Abnormal
+1711,3749,Urine Test,Abnormal
+4536,3750,X-Ray,Normal
+1673,3751,X-Ray,Normal
+1846,3752,Blood Test,Normal
+1098,3753,MRI,Normal
+1268,3754,MRI,Critical
+4139,3755,Blood Test,Abnormal
+3245,3756,Blood Test,Normal
+4086,3757,X-Ray,Abnormal
+3736,3758,MRI,Normal
+271,3759,MRI,Abnormal
+4369,3760,MRI,Normal
+1547,3761,MRI,Normal
+4635,3762,Blood Test,Abnormal
+89,3763,Blood Test,Critical
+3535,3764,MRI,Normal
+1383,3765,MRI,Abnormal
+2929,3766,Blood Test,Critical
+4060,3767,X-Ray,Critical
+2790,3768,X-Ray,Critical
+1122,3769,Blood Test,Normal
+3509,3770,X-Ray,Critical
+2614,3771,X-Ray,Normal
+1203,3772,Urine Test,Critical
+948,3773,MRI,Normal
+1880,3774,MRI,Critical
+4250,3775,MRI,Critical
+3073,3776,Blood Test,Abnormal
+1992,3777,Urine Test,Abnormal
+710,3778,X-Ray,Abnormal
+623,3779,MRI,Normal
+3609,3780,X-Ray,Critical
+3372,3781,MRI,Abnormal
+4950,3782,Urine Test,Critical
+4620,3783,MRI,Normal
+2094,3784,Urine Test,Abnormal
+2687,3785,Blood Test,Critical
+240,3786,X-Ray,Critical
+3755,3787,Urine Test,Abnormal
+1923,3788,Urine Test,Critical
+842,3789,X-Ray,Normal
+2871,3790,MRI,Critical
+3390,3791,MRI,Normal
+1100,3792,Urine Test,Normal
+2205,3793,Blood Test,Critical
+410,3794,Blood Test,Critical
+1672,3795,X-Ray,Critical
+1127,3796,X-Ray,Critical
+273,3797,Blood Test,Abnormal
+2153,3798,Urine Test,Critical
+2165,3799,MRI,Abnormal
+4058,3800,MRI,Critical
+2204,3801,Blood Test,Abnormal
+1393,3802,X-Ray,Critical
+831,3803,Urine Test,Abnormal
+4687,3804,MRI,Normal
+1766,3805,Blood Test,Normal
+3463,3806,X-Ray,Abnormal
+926,3807,MRI,Abnormal
+4274,3808,X-Ray,Abnormal
+180,3809,X-Ray,Abnormal
+1782,3810,MRI,Normal
+149,3811,MRI,Abnormal
+3665,3812,X-Ray,Critical
+4122,3813,MRI,Normal
+1379,3814,Blood Test,Normal
+3169,3815,MRI,Critical
+3459,3816,MRI,Critical
+4256,3817,MRI,Critical
+4190,3818,MRI,Critical
+1283,3819,MRI,Abnormal
+4303,3820,Blood Test,Critical
+271,3821,Blood Test,Abnormal
+218,3822,X-Ray,Critical
+1343,3823,X-Ray,Critical
+4879,3824,Blood Test,Normal
+1370,3825,X-Ray,Critical
+4019,3826,Blood Test,Critical
+4165,3827,MRI,Abnormal
+4027,3828,X-Ray,Normal
+395,3829,X-Ray,Critical
+1396,3830,Blood Test,Critical
+4727,3831,MRI,Normal
+2736,3832,Blood Test,Critical
+179,3833,X-Ray,Abnormal
+2127,3834,MRI,Normal
+3318,3835,Urine Test,Abnormal
+2277,3836,MRI,Normal
+3537,3837,X-Ray,Abnormal
+4528,3838,X-Ray,Critical
+2333,3839,X-Ray,Critical
+751,3840,MRI,Normal
+3705,3841,MRI,Normal
+2001,3842,MRI,Critical
+3704,3843,MRI,Normal
+3919,3844,Urine Test,Normal
+4590,3845,MRI,Critical
+2671,3846,Urine Test,Normal
+2691,3847,MRI,Abnormal
+1049,3848,Blood Test,Abnormal
+3267,3849,MRI,Normal
+2741,3850,MRI,Normal
+2647,3851,Urine Test,Critical
+3619,3852,Blood Test,Abnormal
+978,3853,Urine Test,Normal
+2138,3854,Urine Test,Critical
+4044,3855,X-Ray,Abnormal
+1914,3856,MRI,Abnormal
+3113,3857,Urine Test,Normal
+1572,3858,Blood Test,Critical
+797,3859,Urine Test,Normal
+2966,3860,X-Ray,Critical
+3174,3861,X-Ray,Normal
+29,3862,Urine Test,Normal
+4398,3863,X-Ray,Critical
+3010,3864,MRI,Abnormal
+1126,3865,MRI,Abnormal
+4678,3866,Blood Test,Critical
+3651,3867,Urine Test,Normal
+3515,3868,Urine Test,Normal
+2725,3869,MRI,Normal
+4350,3870,Urine Test,Normal
+4116,3871,MRI,Critical
+4530,3872,X-Ray,Normal
+538,3873,Urine Test,Critical
+2288,3874,MRI,Normal
+223,3875,Urine Test,Normal
+4436,3876,Blood Test,Abnormal
+3690,3877,X-Ray,Critical
+3069,3878,Urine Test,Normal
+4579,3879,MRI,Critical
+4964,3880,MRI,Normal
+2839,3881,X-Ray,Critical
+1238,3882,MRI,Abnormal
+1291,3883,MRI,Normal
+954,3884,Blood Test,Abnormal
+4427,3885,Urine Test,Critical
+4742,3886,MRI,Normal
+3015,3887,X-Ray,Critical
+2873,3888,MRI,Normal
+3107,3889,Urine Test,Normal
+3450,3890,Blood Test,Critical
+4944,3891,Blood Test,Abnormal
+4336,3892,Urine Test,Normal
+2349,3893,Urine Test,Critical
+747,3894,Blood Test,Critical
+1897,3895,X-Ray,Normal
+378,3896,MRI,Critical
+965,3897,Blood Test,Abnormal
+3306,3898,MRI,Normal
+2830,3899,Blood Test,Abnormal
+476,3900,Blood Test,Critical
+4429,3901,X-Ray,Abnormal
+2137,3902,X-Ray,Abnormal
+1190,3903,Blood Test,Normal
+1682,3904,Blood Test,Normal
+4019,3905,Urine Test,Abnormal
+4899,3906,MRI,Normal
+4845,3907,X-Ray,Normal
+1425,3908,X-Ray,Normal
+4008,3909,X-Ray,Abnormal
+293,3910,X-Ray,Normal
+1469,3911,MRI,Normal
+1835,3912,Urine Test,Critical
+1494,3913,MRI,Critical
+3796,3914,MRI,Normal
+436,3915,Blood Test,Normal
+362,3916,MRI,Normal
+2415,3917,MRI,Normal
+1654,3918,Blood Test,Normal
+868,3919,Blood Test,Abnormal
+93,3920,X-Ray,Abnormal
+3397,3921,X-Ray,Normal
+2315,3922,Urine Test,Normal
+3128,3923,X-Ray,Abnormal
+4746,3924,Urine Test,Normal
+578,3925,X-Ray,Abnormal
+1592,3926,Blood Test,Normal
+2669,3927,X-Ray,Normal
+260,3928,Urine Test,Critical
+398,3929,MRI,Abnormal
+4412,3930,Urine Test,Normal
+434,3931,MRI,Abnormal
+2793,3932,X-Ray,Normal
+1224,3933,MRI,Abnormal
+1202,3934,MRI,Normal
+3230,3935,Urine Test,Abnormal
+1169,3936,X-Ray,Abnormal
+1351,3937,Blood Test,Normal
+4622,3938,MRI,Abnormal
+3054,3939,Blood Test,Normal
+2868,3940,Blood Test,Critical
+665,3941,X-Ray,Abnormal
+3244,3942,Blood Test,Abnormal
+4951,3943,MRI,Critical
+3998,3944,X-Ray,Normal
+2263,3945,X-Ray,Normal
+623,3946,Urine Test,Abnormal
+3429,3947,MRI,Abnormal
+4354,3948,X-Ray,Normal
+4492,3949,X-Ray,Normal
+2196,3950,Urine Test,Critical
+4898,3951,Blood Test,Abnormal
+2428,3952,Blood Test,Normal
+2522,3953,MRI,Normal
+2166,3954,X-Ray,Critical
+3546,3955,MRI,Abnormal
+1625,3956,MRI,Critical
+2907,3957,X-Ray,Normal
+839,3958,Blood Test,Normal
+2103,3959,MRI,Normal
+3721,3960,MRI,Critical
+2216,3961,MRI,Critical
+3061,3962,Blood Test,Normal
+3931,3963,MRI,Abnormal
+2899,3964,Urine Test,Critical
+866,3965,Blood Test,Normal
+324,3966,MRI,Normal
+4767,3967,Blood Test,Abnormal
+1537,3968,MRI,Critical
+118,3969,X-Ray,Normal
+1777,3970,X-Ray,Critical
+453,3971,Blood Test,Normal
+408,3972,X-Ray,Abnormal
+730,3973,Blood Test,Critical
+2491,3974,MRI,Normal
+2675,3975,MRI,Normal
+785,3976,Blood Test,Critical
+210,3977,X-Ray,Abnormal
+48,3978,MRI,Abnormal
+3587,3979,Urine Test,Normal
+1257,3980,MRI,Abnormal
+563,3981,X-Ray,Critical
+881,3982,X-Ray,Critical
+3393,3983,X-Ray,Critical
+1474,3984,Urine Test,Normal
+4919,3985,Urine Test,Normal
+4612,3986,Blood Test,Critical
+1417,3987,MRI,Abnormal
+369,3988,Urine Test,Critical
+4379,3989,MRI,Normal
+2621,3990,X-Ray,Normal
+4363,3991,Blood Test,Abnormal
+2238,3992,Urine Test,Normal
+929,3993,MRI,Normal
+2655,3994,X-Ray,Normal
+13,3995,Urine Test,Normal
+4100,3996,X-Ray,Normal
+1388,3997,Urine Test,Normal
+1124,3998,MRI,Abnormal
+2320,3999,Urine Test,Abnormal
+3020,4000,Blood Test,Normal
+2851,4001,MRI,Critical
+615,4002,X-Ray,Normal
+1514,4003,Blood Test,Critical
+4774,4004,MRI,Critical
+551,4005,Urine Test,Critical
+496,4006,Urine Test,Abnormal
+2315,4007,Blood Test,Normal
+3597,4008,X-Ray,Critical
+1833,4009,Blood Test,Abnormal
+893,4010,MRI,Critical
+526,4011,Blood Test,Critical
+686,4012,X-Ray,Critical
+311,4013,Blood Test,Abnormal
+3894,4014,Urine Test,Critical
+2812,4015,Blood Test,Critical
+743,4016,MRI,Normal
+215,4017,Urine Test,Abnormal
+604,4018,Urine Test,Normal
+1721,4019,Blood Test,Abnormal
+2067,4020,MRI,Abnormal
+3307,4021,X-Ray,Critical
+1729,4022,Blood Test,Abnormal
+1440,4023,MRI,Critical
+128,4024,Blood Test,Critical
+2428,4025,Urine Test,Abnormal
+1421,4026,MRI,Normal
+1176,4027,MRI,Abnormal
+5000,4028,Blood Test,Normal
+2808,4029,Urine Test,Normal
+1479,4030,X-Ray,Abnormal
+1534,4031,Blood Test,Abnormal
+2764,4032,X-Ray,Abnormal
+1818,4033,MRI,Abnormal
+4943,4034,Urine Test,Normal
+263,4035,MRI,Abnormal
+357,4036,Urine Test,Critical
+4599,4037,Blood Test,Abnormal
+2206,4038,X-Ray,Critical
+817,4039,MRI,Normal
+1620,4040,Blood Test,Normal
+2943,4041,Blood Test,Critical
+4515,4042,Blood Test,Abnormal
+3095,4043,Blood Test,Normal
+1113,4044,Urine Test,Normal
+2548,4045,MRI,Abnormal
+3248,4046,Blood Test,Critical
+4795,4047,Blood Test,Critical
+2808,4048,MRI,Normal
+2625,4049,MRI,Critical
+586,4050,X-Ray,Critical
+3369,4051,Blood Test,Critical
+3010,4052,X-Ray,Normal
+1983,4053,MRI,Normal
+4885,4054,Urine Test,Critical
+3408,4055,X-Ray,Abnormal
+2752,4056,Blood Test,Abnormal
+3082,4057,X-Ray,Normal
+2953,4058,Urine Test,Normal
+2278,4059,MRI,Abnormal
+4353,4060,Blood Test,Abnormal
+4215,4061,Urine Test,Abnormal
+3607,4062,X-Ray,Critical
+2014,4063,Urine Test,Abnormal
+2983,4064,Urine Test,Critical
+646,4065,Urine Test,Critical
+533,4066,Urine Test,Critical
+4970,4067,X-Ray,Critical
+261,4068,X-Ray,Normal
+4577,4069,Urine Test,Critical
+2973,4070,Urine Test,Critical
+2297,4071,Blood Test,Normal
+294,4072,Urine Test,Normal
+426,4073,MRI,Critical
+3748,4074,Blood Test,Normal
+611,4075,MRI,Abnormal
+2205,4076,X-Ray,Normal
+2243,4077,MRI,Critical
+1967,4078,Urine Test,Normal
+516,4079,Blood Test,Abnormal
+785,4080,X-Ray,Normal
+3619,4081,MRI,Normal
+1905,4082,X-Ray,Normal
+3623,4083,X-Ray,Abnormal
+3108,4084,MRI,Abnormal
+257,4085,Urine Test,Normal
+4848,4086,MRI,Critical
+3723,4087,Urine Test,Abnormal
+1503,4088,MRI,Normal
+604,4089,MRI,Abnormal
+2188,4090,Blood Test,Abnormal
+1390,4091,X-Ray,Critical
+1191,4092,X-Ray,Normal
+501,4093,MRI,Normal
+4710,4094,X-Ray,Critical
+183,4095,MRI,Critical
+206,4096,Urine Test,Normal
+780,4097,Urine Test,Normal
+1840,4098,X-Ray,Normal
+218,4099,X-Ray,Critical
+4164,4100,Blood Test,Normal
+569,4101,MRI,Normal
+3329,4102,Urine Test,Normal
+2654,4103,Urine Test,Abnormal
+3128,4104,Blood Test,Abnormal
+2784,4105,Blood Test,Abnormal
+3699,4106,MRI,Abnormal
+49,4107,MRI,Critical
+330,4108,X-Ray,Normal
+1327,4109,MRI,Normal
+2012,4110,MRI,Normal
+3611,4111,Urine Test,Abnormal
+3223,4112,MRI,Normal
+1673,4113,Blood Test,Critical
+3625,4114,MRI,Abnormal
+4571,4115,Blood Test,Normal
+546,4116,X-Ray,Abnormal
+2665,4117,Urine Test,Normal
+3202,4118,Blood Test,Abnormal
+3767,4119,X-Ray,Abnormal
+4222,4120,Urine Test,Normal
+2775,4121,Blood Test,Critical
+963,4122,Blood Test,Abnormal
+2772,4123,MRI,Normal
+3366,4124,X-Ray,Abnormal
+2561,4125,Urine Test,Abnormal
+1748,4126,Urine Test,Normal
+2999,4127,Urine Test,Abnormal
+261,4128,Urine Test,Critical
+1253,4129,Blood Test,Normal
+779,4130,MRI,Normal
+1627,4131,MRI,Normal
+4590,4132,X-Ray,Abnormal
+3393,4133,Blood Test,Critical
+689,4134,Urine Test,Abnormal
+3279,4135,X-Ray,Abnormal
+2984,4136,Urine Test,Critical
+718,4137,MRI,Normal
+4316,4138,Urine Test,Abnormal
+4727,4139,MRI,Abnormal
+4627,4140,Urine Test,Normal
+1483,4141,Blood Test,Normal
+2606,4142,Urine Test,Critical
+3847,4143,X-Ray,Abnormal
+1314,4144,Urine Test,Critical
+1414,4145,Blood Test,Abnormal
+3741,4146,Blood Test,Abnormal
+3446,4147,X-Ray,Critical
+1319,4148,Urine Test,Critical
+898,4149,Blood Test,Critical
+1240,4150,Urine Test,Abnormal
+2268,4151,X-Ray,Critical
+3942,4152,Urine Test,Abnormal
+2447,4153,Urine Test,Critical
+4512,4154,MRI,Normal
+2282,4155,MRI,Abnormal
+2851,4156,Blood Test,Abnormal
+2785,4157,MRI,Critical
+4206,4158,X-Ray,Critical
+1740,4159,X-Ray,Critical
+3378,4160,Blood Test,Normal
+1671,4161,X-Ray,Normal
+1751,4162,X-Ray,Critical
+4235,4163,Blood Test,Critical
+4627,4164,X-Ray,Critical
+1200,4165,Blood Test,Critical
+723,4166,Blood Test,Abnormal
+4109,4167,MRI,Abnormal
+1119,4168,X-Ray,Normal
+2478,4169,X-Ray,Abnormal
+4182,4170,X-Ray,Abnormal
+4515,4171,X-Ray,Normal
+2067,4172,X-Ray,Critical
+4655,4173,MRI,Abnormal
+4709,4174,X-Ray,Normal
+4712,4175,Urine Test,Abnormal
+616,4176,X-Ray,Critical
+3110,4177,MRI,Critical
+1590,4178,Urine Test,Abnormal
+3302,4179,X-Ray,Normal
+4905,4180,X-Ray,Critical
+4692,4181,Blood Test,Abnormal
+1237,4182,MRI,Normal
+2652,4183,Urine Test,Abnormal
+2260,4184,X-Ray,Normal
+2337,4185,X-Ray,Normal
+2400,4186,Urine Test,Abnormal
+2988,4187,X-Ray,Abnormal
+3524,4188,Blood Test,Critical
+2881,4189,MRI,Critical
+4753,4190,MRI,Normal
+3744,4191,X-Ray,Critical
+1362,4192,MRI,Abnormal
+3854,4193,Urine Test,Normal
+2719,4194,Urine Test,Normal
+273,4195,X-Ray,Abnormal
+2674,4196,MRI,Critical
+3063,4197,Blood Test,Critical
+1022,4198,Urine Test,Abnormal
+1195,4199,Blood Test,Abnormal
+656,4200,MRI,Abnormal
+2748,4201,X-Ray,Abnormal
+2212,4202,Urine Test,Critical
+4809,4203,Urine Test,Normal
+2202,4204,Blood Test,Normal
+1164,4205,Blood Test,Normal
+19,4206,Blood Test,Normal
+1796,4207,Blood Test,Abnormal
+4575,4208,X-Ray,Normal
+2321,4209,Blood Test,Abnormal
+1842,4210,MRI,Abnormal
+2269,4211,Blood Test,Abnormal
+1086,4212,MRI,Critical
+4530,4213,MRI,Abnormal
+3281,4214,Blood Test,Critical
+904,4215,X-Ray,Critical
+352,4216,X-Ray,Normal
+3926,4217,X-Ray,Abnormal
+3851,4218,MRI,Critical
+2753,4219,MRI,Critical
+815,4220,Blood Test,Normal
+726,4221,Blood Test,Critical
+1238,4222,X-Ray,Abnormal
+1970,4223,Blood Test,Abnormal
+4867,4224,MRI,Abnormal
+2165,4225,X-Ray,Normal
+4926,4226,Urine Test,Critical
+3937,4227,MRI,Critical
+1387,4228,Blood Test,Abnormal
+2791,4229,MRI,Abnormal
+2738,4230,MRI,Critical
+847,4231,Blood Test,Normal
+1197,4232,Blood Test,Abnormal
+3025,4233,Urine Test,Abnormal
+4537,4234,Urine Test,Normal
+409,4235,Urine Test,Abnormal
+4978,4236,Blood Test,Normal
+1598,4237,MRI,Normal
+1523,4238,Blood Test,Normal
+4095,4239,Urine Test,Abnormal
+3362,4240,Urine Test,Abnormal
+4679,4241,Blood Test,Abnormal
+859,4242,Blood Test,Abnormal
+4222,4243,X-Ray,Abnormal
+608,4244,X-Ray,Abnormal
+3929,4245,Blood Test,Critical
+2444,4246,X-Ray,Normal
+4525,4247,X-Ray,Abnormal
+2688,4248,MRI,Normal
+2488,4249,Urine Test,Abnormal
+4318,4250,Blood Test,Abnormal
+4200,4251,Blood Test,Normal
+211,4252,Blood Test,Normal
+1098,4253,X-Ray,Critical
+4868,4254,Urine Test,Critical
+4150,4255,Blood Test,Critical
+1474,4256,X-Ray,Normal
+1649,4257,Urine Test,Normal
+4692,4258,MRI,Abnormal
+3322,4259,Blood Test,Abnormal
+2901,4260,X-Ray,Normal
+2733,4261,Blood Test,Normal
+3318,4262,MRI,Abnormal
+1990,4263,X-Ray,Critical
+1365,4264,X-Ray,Normal
+36,4265,Blood Test,Normal
+2162,4266,X-Ray,Critical
+2881,4267,X-Ray,Critical
+2657,4268,X-Ray,Critical
+2543,4269,Blood Test,Normal
+2695,4270,X-Ray,Critical
+4673,4271,Blood Test,Critical
+442,4272,MRI,Abnormal
+2366,4273,X-Ray,Critical
+2389,4274,Blood Test,Critical
+2966,4275,MRI,Abnormal
+4507,4276,Blood Test,Abnormal
+1209,4277,Urine Test,Critical
+3296,4278,X-Ray,Critical
+2180,4279,MRI,Normal
+995,4280,Blood Test,Normal
+2722,4281,Urine Test,Normal
+3464,4282,MRI,Normal
+4573,4283,Blood Test,Normal
+1816,4284,Blood Test,Normal
+2773,4285,Blood Test,Abnormal
+4126,4286,X-Ray,Normal
+4743,4287,Urine Test,Abnormal
+2452,4288,Urine Test,Abnormal
+4574,4289,X-Ray,Abnormal
+616,4290,Urine Test,Normal
+2653,4291,Blood Test,Abnormal
+349,4292,Urine Test,Critical
+331,4293,Urine Test,Abnormal
+240,4294,MRI,Normal
+4569,4295,X-Ray,Abnormal
+3293,4296,Urine Test,Normal
+4811,4297,Urine Test,Abnormal
+2227,4298,Blood Test,Abnormal
+1573,4299,X-Ray,Critical
+112,4300,Urine Test,Abnormal
+721,4301,Urine Test,Abnormal
+2063,4302,Blood Test,Normal
+1243,4303,MRI,Abnormal
+2923,4304,Urine Test,Normal
+911,4305,MRI,Critical
+1506,4306,Urine Test,Normal
+4637,4307,Urine Test,Abnormal
+1992,4308,Blood Test,Abnormal
+4971,4309,MRI,Critical
+178,4310,Urine Test,Normal
+1879,4311,Urine Test,Normal
+4929,4312,X-Ray,Abnormal
+1238,4313,MRI,Normal
+3349,4314,X-Ray,Abnormal
+315,4315,X-Ray,Abnormal
+2085,4316,MRI,Normal
+2548,4317,Blood Test,Abnormal
+3443,4318,X-Ray,Critical
+2255,4319,Urine Test,Critical
+2270,4320,MRI,Critical
+2827,4321,MRI,Abnormal
+3894,4322,MRI,Critical
+4668,4323,X-Ray,Critical
+2043,4324,MRI,Critical
+604,4325,X-Ray,Abnormal
+491,4326,X-Ray,Abnormal
+3245,4327,Blood Test,Abnormal
+4139,4328,Urine Test,Abnormal
+1395,4329,X-Ray,Abnormal
+2330,4330,Urine Test,Normal
+2400,4331,Blood Test,Normal
+3774,4332,MRI,Critical
+3674,4333,X-Ray,Critical
+2635,4334,MRI,Abnormal
+2763,4335,Blood Test,Normal
+4886,4336,Blood Test,Abnormal
+4962,4337,Urine Test,Abnormal
+388,4338,Blood Test,Abnormal
+4004,4339,MRI,Abnormal
+4845,4340,Urine Test,Normal
+477,4341,Urine Test,Critical
+276,4342,X-Ray,Critical
+182,4343,MRI,Critical
+812,4344,MRI,Normal
+1043,4345,MRI,Critical
+1446,4346,MRI,Normal
+4225,4347,Blood Test,Normal
+3850,4348,X-Ray,Normal
+1939,4349,Urine Test,Critical
+1999,4350,Blood Test,Normal
+2094,4351,X-Ray,Abnormal
+284,4352,MRI,Normal
+3752,4353,MRI,Normal
+375,4354,X-Ray,Normal
+4839,4355,Blood Test,Abnormal
+1664,4356,MRI,Abnormal
+2794,4357,Urine Test,Normal
+1257,4358,X-Ray,Critical
+1063,4359,MRI,Critical
+4762,4360,MRI,Critical
+4262,4361,X-Ray,Abnormal
+2609,4362,X-Ray,Normal
+1342,4363,Urine Test,Abnormal
+2059,4364,Urine Test,Abnormal
+2610,4365,MRI,Normal
+2932,4366,Blood Test,Normal
+4060,4367,Blood Test,Normal
+1216,4368,MRI,Abnormal
+4289,4369,MRI,Abnormal
+2752,4370,Urine Test,Abnormal
+3170,4371,X-Ray,Abnormal
+1865,4372,Blood Test,Normal
+4382,4373,X-Ray,Abnormal
+1239,4374,Blood Test,Normal
+437,4375,MRI,Critical
+3860,4376,Urine Test,Abnormal
+2162,4377,Urine Test,Critical
+3580,4378,Blood Test,Abnormal
+3820,4379,MRI,Critical
+605,4380,MRI,Abnormal
+4493,4381,Urine Test,Abnormal
+3132,4382,Blood Test,Critical
+3137,4383,Urine Test,Abnormal
+1193,4384,Urine Test,Critical
+1514,4385,X-Ray,Normal
+3189,4386,Blood Test,Normal
+2598,4387,Blood Test,Critical
+1092,4388,Urine Test,Abnormal
+4450,4389,MRI,Normal
+1863,4390,Urine Test,Abnormal
+3599,4391,Urine Test,Critical
+1634,4392,X-Ray,Normal
+4374,4393,MRI,Critical
+519,4394,X-Ray,Abnormal
+1180,4395,X-Ray,Abnormal
+1634,4396,X-Ray,Normal
+2897,4397,Urine Test,Normal
+2619,4398,MRI,Abnormal
+3054,4399,MRI,Critical
+3425,4400,Blood Test,Abnormal
+1931,4401,MRI,Critical
+4084,4402,MRI,Abnormal
+837,4403,Blood Test,Normal
+3269,4404,MRI,Abnormal
+2693,4405,MRI,Abnormal
+3606,4406,MRI,Critical
+4709,4407,X-Ray,Abnormal
+3576,4408,Blood Test,Abnormal
+2235,4409,MRI,Critical
+3173,4410,Blood Test,Normal
+2152,4411,MRI,Critical
+1974,4412,Urine Test,Normal
+1269,4413,Urine Test,Critical
+2892,4414,Blood Test,Abnormal
+359,4415,X-Ray,Normal
+1949,4416,Urine Test,Critical
+4862,4417,MRI,Critical
+1903,4418,Blood Test,Critical
+4597,4419,MRI,Normal
+2121,4420,X-Ray,Critical
+2118,4421,X-Ray,Normal
+2119,4422,Blood Test,Normal
+4559,4423,MRI,Critical
+347,4424,MRI,Abnormal
+3217,4425,Urine Test,Abnormal
+2461,4426,MRI,Critical
+2687,4427,Urine Test,Critical
+2770,4428,Blood Test,Abnormal
+2278,4429,MRI,Abnormal
+1864,4430,Urine Test,Critical
+3119,4431,X-Ray,Critical
+1066,4432,Urine Test,Normal
+4208,4433,X-Ray,Normal
+2957,4434,X-Ray,Critical
+1653,4435,Urine Test,Critical
+4011,4436,MRI,Abnormal
+4810,4437,MRI,Normal
+1077,4438,Urine Test,Abnormal
+4722,4439,Blood Test,Abnormal
+4548,4440,Urine Test,Critical
+3994,4441,MRI,Abnormal
+1525,4442,X-Ray,Normal
+236,4443,Blood Test,Critical
+2738,4444,MRI,Abnormal
+2547,4445,Urine Test,Normal
+2211,4446,MRI,Critical
+2641,4447,Urine Test,Critical
+1558,4448,Urine Test,Abnormal
+4650,4449,Urine Test,Normal
+2340,4450,X-Ray,Abnormal
+4905,4451,Urine Test,Normal
+4595,4452,Blood Test,Abnormal
+1202,4453,X-Ray,Critical
+3420,4454,Urine Test,Critical
+1749,4455,X-Ray,Critical
+4951,4456,Blood Test,Abnormal
+1985,4457,Urine Test,Normal
+2411,4458,Urine Test,Abnormal
+3182,4459,MRI,Critical
+1593,4460,X-Ray,Abnormal
+4269,4461,MRI,Abnormal
+4808,4462,Blood Test,Normal
+2412,4463,Urine Test,Critical
+4731,4464,MRI,Normal
+3979,4465,X-Ray,Abnormal
+19,4466,Blood Test,Critical
+656,4467,Blood Test,Abnormal
+4337,4468,Urine Test,Critical
+1713,4469,MRI,Abnormal
+838,4470,Urine Test,Critical
+3810,4471,MRI,Abnormal
+3356,4472,X-Ray,Normal
+1502,4473,MRI,Critical
+2306,4474,X-Ray,Critical
+1288,4475,MRI,Critical
+129,4476,Urine Test,Normal
+1884,4477,Blood Test,Critical
+1963,4478,X-Ray,Abnormal
+1178,4479,Blood Test,Abnormal
+3567,4480,Urine Test,Normal
+1336,4481,Urine Test,Abnormal
+3319,4482,Blood Test,Abnormal
+3501,4483,MRI,Normal
+1387,4484,Blood Test,Normal
+829,4485,MRI,Critical
+2416,4486,X-Ray,Critical
+4171,4487,Blood Test,Normal
+2788,4488,MRI,Normal
+3757,4489,X-Ray,Normal
+3962,4490,MRI,Critical
+1828,4491,X-Ray,Critical
+4833,4492,MRI,Critical
+2944,4493,Blood Test,Abnormal
+547,4494,X-Ray,Abnormal
+3583,4495,Urine Test,Normal
+3444,4496,Urine Test,Critical
+1025,4497,X-Ray,Critical
+4031,4498,Blood Test,Critical
+4429,4499,Urine Test,Normal
+871,4500,MRI,Normal
+1329,4501,Urine Test,Critical
+524,4502,MRI,Abnormal
+3566,4503,Blood Test,Abnormal
+2504,4504,MRI,Abnormal
+2584,4505,X-Ray,Critical
+127,4506,Urine Test,Abnormal
+1615,4507,Blood Test,Critical
+4267,4508,Urine Test,Critical
+2135,4509,X-Ray,Normal
+2873,4510,MRI,Critical
+3263,4511,Urine Test,Abnormal
+4150,4512,X-Ray,Abnormal
+2239,4513,X-Ray,Critical
+4932,4514,MRI,Normal
+1597,4515,Urine Test,Abnormal
+2082,4516,Urine Test,Critical
+2165,4517,MRI,Abnormal
+3829,4518,X-Ray,Critical
+3328,4519,X-Ray,Critical
+436,4520,X-Ray,Critical
+3412,4521,MRI,Critical
+1718,4522,Blood Test,Normal
+4268,4523,Blood Test,Abnormal
+4411,4524,MRI,Critical
+2027,4525,Blood Test,Critical
+390,4526,X-Ray,Critical
+4852,4527,Blood Test,Normal
+1272,4528,Blood Test,Critical
+1050,4529,Blood Test,Normal
+306,4530,MRI,Normal
+4155,4531,Urine Test,Abnormal
+1764,4532,MRI,Critical
+681,4533,Blood Test,Abnormal
+3068,4534,X-Ray,Critical
+4641,4535,Blood Test,Critical
+2060,4536,Urine Test,Critical
+1197,4537,X-Ray,Abnormal
+256,4538,X-Ray,Normal
+4494,4539,Urine Test,Normal
+1941,4540,Blood Test,Critical
+307,4541,Blood Test,Critical
+1087,4542,MRI,Critical
+316,4543,X-Ray,Abnormal
+2553,4544,MRI,Critical
+4299,4545,Urine Test,Normal
+830,4546,Blood Test,Normal
+20,4547,Blood Test,Normal
+368,4548,Urine Test,Normal
+2122,4549,X-Ray,Critical
+173,4550,Blood Test,Critical
+4910,4551,Blood Test,Abnormal
+593,4552,MRI,Critical
+4124,4553,MRI,Abnormal
+1381,4554,Blood Test,Abnormal
+1359,4555,Blood Test,Normal
+3097,4556,X-Ray,Abnormal
+3580,4557,MRI,Critical
+1648,4558,Blood Test,Normal
+4376,4559,Blood Test,Normal
+4406,4560,Urine Test,Abnormal
+644,4561,MRI,Critical
+4013,4562,Blood Test,Abnormal
+1665,4563,Blood Test,Normal
+3880,4564,MRI,Critical
+2376,4565,Urine Test,Abnormal
+317,4566,Blood Test,Critical
+1556,4567,MRI,Normal
+4125,4568,Blood Test,Critical
+1423,4569,MRI,Critical
+4828,4570,Urine Test,Abnormal
+4854,4571,MRI,Abnormal
+1189,4572,Blood Test,Critical
+503,4573,X-Ray,Abnormal
+2698,4574,Blood Test,Abnormal
+2714,4575,X-Ray,Abnormal
+3905,4576,Blood Test,Normal
+456,4577,MRI,Normal
+375,4578,X-Ray,Normal
+543,4579,X-Ray,Critical
+4152,4580,X-Ray,Abnormal
+1750,4581,MRI,Normal
+1981,4582,X-Ray,Abnormal
+1225,4583,X-Ray,Normal
+4211,4584,MRI,Critical
+3498,4585,Blood Test,Normal
+4182,4586,X-Ray,Abnormal
+4543,4587,MRI,Normal
+4574,4588,Urine Test,Abnormal
+189,4589,Urine Test,Critical
+1999,4590,Blood Test,Critical
+2263,4591,Urine Test,Normal
+680,4592,Urine Test,Critical
+1377,4593,MRI,Critical
+2104,4594,MRI,Normal
+2610,4595,X-Ray,Abnormal
+1305,4596,X-Ray,Normal
+200,4597,MRI,Abnormal
+1330,4598,X-Ray,Abnormal
+1922,4599,Urine Test,Abnormal
+3158,4600,X-Ray,Abnormal
+1626,4601,MRI,Normal
+3423,4602,X-Ray,Normal
+3878,4603,MRI,Normal
+3599,4604,X-Ray,Critical
+4973,4605,X-Ray,Critical
+161,4606,Urine Test,Abnormal
+2424,4607,Urine Test,Critical
+553,4608,Urine Test,Critical
+7,4609,Blood Test,Critical
+4242,4610,Urine Test,Normal
+1522,4611,Urine Test,Normal
+2541,4612,MRI,Critical
+1456,4613,Blood Test,Normal
+2389,4614,MRI,Critical
+804,4615,MRI,Normal
+412,4616,Urine Test,Critical
+4153,4617,X-Ray,Critical
+3415,4618,MRI,Abnormal
+211,4619,X-Ray,Critical
+4187,4620,Blood Test,Normal
+3562,4621,Blood Test,Normal
+2075,4622,Urine Test,Abnormal
+1776,4623,X-Ray,Normal
+2748,4624,X-Ray,Abnormal
+4328,4625,MRI,Normal
+1273,4626,MRI,Normal
+198,4627,Blood Test,Abnormal
+1128,4628,X-Ray,Critical
+4083,4629,MRI,Normal
+691,4630,Blood Test,Normal
+4636,4631,Urine Test,Critical
+4934,4632,MRI,Critical
+1564,4633,X-Ray,Normal
+2056,4634,MRI,Abnormal
+3252,4635,MRI,Critical
+2576,4636,X-Ray,Abnormal
+2382,4637,MRI,Normal
+3901,4638,Urine Test,Normal
+3909,4639,Blood Test,Critical
+581,4640,MRI,Normal
+2928,4641,Blood Test,Normal
+3892,4642,Blood Test,Normal
+3496,4643,Urine Test,Normal
+3696,4644,Urine Test,Normal
+670,4645,MRI,Critical
+2201,4646,Blood Test,Critical
+1920,4647,Urine Test,Abnormal
+2233,4648,Urine Test,Abnormal
+576,4649,X-Ray,Normal
+1834,4650,X-Ray,Critical
+155,4651,X-Ray,Abnormal
+1134,4652,X-Ray,Critical
+2850,4653,MRI,Critical
+417,4654,Urine Test,Normal
+2580,4655,MRI,Critical
+66,4656,Urine Test,Critical
+4549,4657,X-Ray,Normal
+3455,4658,MRI,Abnormal
+805,4659,Urine Test,Critical
+4328,4660,Blood Test,Normal
+3948,4661,X-Ray,Critical
+3400,4662,X-Ray,Critical
+1864,4663,Urine Test,Normal
+3636,4664,X-Ray,Normal
+1240,4665,X-Ray,Critical
+3127,4666,X-Ray,Critical
+1654,4667,Urine Test,Normal
+1165,4668,Urine Test,Abnormal
+3775,4669,Blood Test,Abnormal
+2077,4670,X-Ray,Abnormal
+3741,4671,X-Ray,Normal
+4136,4672,Urine Test,Normal
+3130,4673,Blood Test,Normal
+2877,4674,Urine Test,Critical
+874,4675,Blood Test,Critical
+534,4676,Urine Test,Critical
+3056,4677,Urine Test,Normal
+3983,4678,X-Ray,Critical
+1021,4679,Urine Test,Critical
+3920,4680,Urine Test,Abnormal
+479,4681,X-Ray,Normal
+2898,4682,X-Ray,Normal
+994,4683,MRI,Critical
+4920,4684,X-Ray,Normal
+3151,4685,X-Ray,Critical
+2669,4686,X-Ray,Normal
+1065,4687,MRI,Abnormal
+3116,4688,MRI,Critical
+3610,4689,Urine Test,Critical
+4992,4690,Blood Test,Normal
+518,4691,Urine Test,Normal
+3468,4692,X-Ray,Abnormal
+4847,4693,X-Ray,Abnormal
+3417,4694,Urine Test,Critical
+956,4695,MRI,Critical
+3371,4696,Urine Test,Normal
+3768,4697,Urine Test,Abnormal
+460,4698,MRI,Normal
+685,4699,X-Ray,Abnormal
+3303,4700,Blood Test,Normal
+4361,4701,X-Ray,Normal
+2834,4702,MRI,Normal
+3243,4703,X-Ray,Normal
+1922,4704,X-Ray,Normal
+3943,4705,Urine Test,Critical
+3338,4706,X-Ray,Abnormal
+4086,4707,X-Ray,Abnormal
+3911,4708,X-Ray,Critical
+449,4709,X-Ray,Normal
+3168,4710,Urine Test,Abnormal
+2748,4711,MRI,Critical
+846,4712,X-Ray,Abnormal
+4637,4713,Urine Test,Abnormal
+655,4714,Blood Test,Abnormal
+3075,4715,Urine Test,Abnormal
+508,4716,X-Ray,Normal
+1288,4717,MRI,Critical
+3884,4718,Urine Test,Abnormal
+2188,4719,X-Ray,Normal
+4329,4720,Blood Test,Critical
+4710,4721,MRI,Normal
+4901,4722,Urine Test,Abnormal
+2027,4723,MRI,Abnormal
+1431,4724,Blood Test,Critical
+3932,4725,Blood Test,Abnormal
+389,4726,Urine Test,Critical
+1740,4727,X-Ray,Normal
+3183,4728,Blood Test,Normal
+3371,4729,MRI,Normal
+377,4730,Urine Test,Normal
+37,4731,Blood Test,Critical
+1633,4732,Urine Test,Normal
+3037,4733,Blood Test,Abnormal
+508,4734,MRI,Abnormal
+1860,4735,Blood Test,Abnormal
+165,4736,MRI,Abnormal
+3546,4737,Urine Test,Abnormal
+4972,4738,X-Ray,Critical
+1542,4739,Urine Test,Critical
+3103,4740,MRI,Abnormal
+2911,4741,X-Ray,Normal
+3339,4742,Urine Test,Abnormal
+835,4743,MRI,Abnormal
+2877,4744,MRI,Normal
+1263,4745,MRI,Abnormal
+3675,4746,MRI,Critical
+4327,4747,X-Ray,Normal
+3126,4748,Urine Test,Abnormal
+4809,4749,MRI,Abnormal
+3182,4750,MRI,Critical
+4294,4751,MRI,Normal
+786,4752,MRI,Critical
+2230,4753,X-Ray,Critical
+4644,4754,Urine Test,Abnormal
+3002,4755,MRI,Abnormal
+1973,4756,MRI,Normal
+1590,4757,X-Ray,Critical
+4129,4758,X-Ray,Normal
+2687,4759,X-Ray,Abnormal
+467,4760,MRI,Critical
+942,4761,Urine Test,Abnormal
+376,4762,X-Ray,Critical
+1499,4763,Blood Test,Abnormal
+3561,4764,Blood Test,Abnormal
+2820,4765,Blood Test,Abnormal
+3919,4766,Urine Test,Abnormal
+2906,4767,Urine Test,Critical
+2620,4768,Blood Test,Normal
+467,4769,Urine Test,Abnormal
+1699,4770,MRI,Critical
+4377,4771,Blood Test,Abnormal
+264,4772,MRI,Abnormal
+3353,4773,Urine Test,Normal
+1888,4774,Blood Test,Critical
+4404,4775,Urine Test,Abnormal
+3030,4776,MRI,Normal
+3162,4777,MRI,Critical
+1962,4778,Blood Test,Normal
+1980,4779,X-Ray,Critical
+3981,4780,MRI,Abnormal
+2225,4781,X-Ray,Critical
+714,4782,MRI,Abnormal
+3752,4783,MRI,Critical
+1696,4784,Urine Test,Abnormal
+4780,4785,X-Ray,Critical
+1243,4786,X-Ray,Abnormal
+2647,4787,MRI,Abnormal
+3267,4788,X-Ray,Normal
+3260,4789,MRI,Critical
+1693,4790,X-Ray,Critical
+1441,4791,X-Ray,Normal
+4511,4792,Blood Test,Critical
+4396,4793,Blood Test,Critical
+3152,4794,MRI,Normal
+4689,4795,X-Ray,Normal
+3471,4796,Urine Test,Normal
+2316,4797,Urine Test,Critical
+958,4798,Urine Test,Normal
+1016,4799,MRI,Critical
+3813,4800,X-Ray,Abnormal
+3614,4801,MRI,Abnormal
+3116,4802,Urine Test,Normal
+2192,4803,Urine Test,Normal
+3006,4804,X-Ray,Normal
+734,4805,X-Ray,Abnormal
+1185,4806,X-Ray,Critical
+3562,4807,Urine Test,Critical
+2554,4808,MRI,Critical
+1576,4809,MRI,Normal
+361,4810,MRI,Critical
+1031,4811,Urine Test,Abnormal
+347,4812,X-Ray,Normal
+3768,4813,MRI,Critical
+3928,4814,X-Ray,Normal
+865,4815,X-Ray,Critical
+596,4816,X-Ray,Normal
+91,4817,MRI,Normal
+1082,4818,X-Ray,Critical
+1786,4819,X-Ray,Normal
+1972,4820,MRI,Abnormal
+980,4821,Blood Test,Abnormal
+3353,4822,X-Ray,Critical
+4484,4823,MRI,Abnormal
+4630,4824,MRI,Normal
+4046,4825,MRI,Critical
+1281,4826,X-Ray,Normal
+3155,4827,Blood Test,Critical
+628,4828,Urine Test,Critical
+1427,4829,MRI,Critical
+3682,4830,Urine Test,Normal
+1365,4831,Blood Test,Abnormal
+1668,4832,MRI,Abnormal
+2331,4833,X-Ray,Normal
+3655,4834,X-Ray,Critical
+4054,4835,Blood Test,Critical
+4715,4836,X-Ray,Abnormal
+679,4837,MRI,Normal
+3589,4838,Urine Test,Normal
+4107,4839,X-Ray,Critical
+4914,4840,MRI,Critical
+2174,4841,Blood Test,Abnormal
+2810,4842,X-Ray,Normal
+1767,4843,X-Ray,Critical
+2067,4844,Blood Test,Critical
+3069,4845,Urine Test,Abnormal
+862,4846,Blood Test,Abnormal
+4269,4847,Urine Test,Abnormal
+4482,4848,Blood Test,Abnormal
+2154,4849,X-Ray,Abnormal
+812,4850,X-Ray,Critical
+35,4851,Blood Test,Critical
+4700,4852,MRI,Normal
+841,4853,MRI,Critical
+43,4854,MRI,Critical
+1184,4855,X-Ray,Abnormal
+4086,4856,Urine Test,Abnormal
+2020,4857,Blood Test,Normal
+261,4858,X-Ray,Normal
+442,4859,Urine Test,Normal
+2771,4860,X-Ray,Normal
+2534,4861,Blood Test,Normal
+1923,4862,MRI,Critical
+256,4863,Blood Test,Normal
+252,4864,Urine Test,Critical
+4750,4865,Urine Test,Normal
+875,4866,Blood Test,Critical
+2097,4867,X-Ray,Normal
+1213,4868,MRI,Abnormal
+1351,4869,Blood Test,Normal
+4845,4870,MRI,Abnormal
+4878,4871,Urine Test,Abnormal
+143,4872,Blood Test,Critical
+43,4873,Urine Test,Abnormal
+4432,4874,Urine Test,Critical
+2824,4875,MRI,Critical
+540,4876,Blood Test,Normal
+4606,4877,Blood Test,Normal
+4866,4878,Urine Test,Critical
+4561,4879,Blood Test,Abnormal
+3833,4880,Blood Test,Normal
+2035,4881,Urine Test,Abnormal
+4545,4882,Blood Test,Normal
+2354,4883,X-Ray,Normal
+3665,4884,X-Ray,Abnormal
+806,4885,Urine Test,Normal
+3467,4886,X-Ray,Critical
+2413,4887,Urine Test,Normal
+4333,4888,Blood Test,Normal
+1647,4889,Urine Test,Critical
+1673,4890,Blood Test,Critical
+1873,4891,Urine Test,Abnormal
+90,4892,X-Ray,Normal
+4141,4893,X-Ray,Normal
+3573,4894,Urine Test,Abnormal
+2561,4895,Urine Test,Normal
+4777,4896,X-Ray,Abnormal
+876,4897,X-Ray,Critical
+3151,4898,Urine Test,Critical
+818,4899,X-Ray,Normal
+356,4900,X-Ray,Critical
+2608,4901,Urine Test,Abnormal
+4156,4902,MRI,Normal
+4944,4903,Urine Test,Abnormal
+3024,4904,MRI,Critical
+3539,4905,X-Ray,Critical
+4728,4906,Blood Test,Critical
+1158,4907,Urine Test,Abnormal
+526,4908,X-Ray,Critical
+4890,4909,MRI,Normal
+4850,4910,Urine Test,Normal
+1612,4911,MRI,Abnormal
+3719,4912,Urine Test,Normal
+2799,4913,Blood Test,Critical
+3680,4914,MRI,Critical
+4425,4915,Blood Test,Abnormal
+242,4916,Urine Test,Critical
+4438,4917,Urine Test,Abnormal
+3288,4918,Urine Test,Abnormal
+3491,4919,Urine Test,Abnormal
+3658,4920,Urine Test,Normal
+3139,4921,Urine Test,Critical
+2167,4922,X-Ray,Critical
+108,4923,X-Ray,Abnormal
+3502,4924,MRI,Critical
+2384,4925,Blood Test,Critical
+1155,4926,Blood Test,Critical
+2318,4927,MRI,Normal
+3367,4928,Blood Test,Critical
+3089,4929,X-Ray,Normal
+1199,4930,Blood Test,Normal
+772,4931,Blood Test,Abnormal
+4611,4932,X-Ray,Abnormal
+1203,4933,MRI,Normal
+435,4934,MRI,Normal
+4112,4935,Urine Test,Critical
+4867,4936,MRI,Normal
+3218,4937,Blood Test,Abnormal
+3849,4938,X-Ray,Critical
+4128,4939,X-Ray,Critical
+3506,4940,Urine Test,Critical
+3347,4941,Urine Test,Critical
+2032,4942,Urine Test,Critical
+4501,4943,Blood Test,Abnormal
+4372,4944,X-Ray,Normal
+215,4945,Urine Test,Abnormal
+3974,4946,Urine Test,Abnormal
+47,4947,X-Ray,Normal
+3415,4948,X-Ray,Critical
+959,4949,Blood Test,Normal
+4195,4950,X-Ray,Critical
+3021,4951,Blood Test,Normal
+1631,4952,MRI,Normal
+1254,4953,Urine Test,Normal
+3373,4954,MRI,Normal
+1799,4955,Urine Test,Normal
+195,4956,MRI,Abnormal
+4415,4957,Urine Test,Abnormal
+641,4958,MRI,Normal
+1505,4959,MRI,Abnormal
+789,4960,Blood Test,Critical
+4232,4961,MRI,Abnormal
+261,4962,X-Ray,Normal
+1644,4963,Urine Test,Normal
+4535,4964,X-Ray,Normal
+3488,4965,X-Ray,Abnormal
+1411,4966,Blood Test,Critical
+3705,4967,MRI,Normal
+1617,4968,X-Ray,Normal
+3784,4969,Blood Test,Critical
+3176,4970,Urine Test,Normal
+2001,4971,X-Ray,Abnormal
+1183,4972,Urine Test,Abnormal
+4317,4973,MRI,Critical
+4314,4974,MRI,Normal
+4321,4975,X-Ray,Normal
+3006,4976,MRI,Critical
+741,4977,X-Ray,Normal
+251,4978,MRI,Critical
+335,4979,Urine Test,Normal
+4196,4980,X-Ray,Abnormal
+3088,4981,Blood Test,Abnormal
+3933,4982,X-Ray,Abnormal
+3499,4983,Blood Test,Critical
+4520,4984,Urine Test,Normal
+1172,4985,Urine Test,Critical
+233,4986,X-Ray,Abnormal
+4150,4987,Blood Test,Abnormal
+2830,4988,Urine Test,Abnormal
+1956,4989,MRI,Abnormal
+2742,4990,X-Ray,Normal
+2471,4991,MRI,Abnormal
+2376,4992,MRI,Critical
+1094,4993,Urine Test,Abnormal
+3190,4994,Urine Test,Abnormal
+684,4995,Blood Test,Abnormal
+35,4996,Blood Test,Critical
+103,4997,Urine Test,Normal
+2084,4998,MRI,Normal
+2855,4999,MRI,Abnormal
+2135,5000,X-Ray,Critical

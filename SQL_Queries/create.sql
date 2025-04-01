@@ -246,60 +246,65 @@ END $$;
 DO $$
 BEGIN
     IF NOT EXISTS (SELECT FROM pg_tables WHERE schemaname = 'public' AND tablename = 'prescription') THEN
-		-- Prescription Table
-		CREATE TABLE Prescription (
-			PrescriptionID INT NOT NULL,
-			MedicineID INT NOT NULL,
-			PatientID INT NOT NULL,
-			Dosage INT NOT NULL,
-			Frequency INT NOT NULL,
-			PRIMARY KEY (PrescriptionID, MedicineID, PatientID),
-			CONSTRAINT fk_prescription_pharmacy
-				FOREIGN KEY (MedicineID)
-				REFERENCES Pharmacy (MedicineID)
-				ON DELETE RESTRICT,
-			CONSTRAINT fk_prescription_patient
-				FOREIGN KEY (PatientID)
-				REFERENCES Patient (PatientID)
-				ON DELETE CASCADE
-		);
-		RAISE NOTICE 'Table Prescription was created successfully.';
+        -- Prescription Table
+        CREATE TABLE Prescription (
+            PrescriptionID SERIAL PRIMARY KEY,
+            MedicineID INT NOT NULL,
+            PatientID INT NOT NULL,
+            Dosage INT NOT NULL,
+            Frequency INT NOT NULL,
+            CONSTRAINT fk_prescription_pharmacy
+                FOREIGN KEY (MedicineID)
+                REFERENCES Pharmacy (MedicineID)
+                ON DELETE RESTRICT,
+            CONSTRAINT fk_prescription_patient
+                FOREIGN KEY (PatientID)
+                REFERENCES Patient (PatientID)
+                ON DELETE CASCADE
+        );
+        RAISE NOTICE 'Table Prescription was created successfully.';
     ELSE
         RAISE NOTICE 'Table Prescription already exists.';
     END IF;
 END $$;
 
 
+
 DO $$
 BEGIN
     IF NOT EXISTS (SELECT FROM pg_tables WHERE schemaname = 'public' AND tablename = 'medicalhistory') THEN
-		-- Medical History Table
-		CREATE TABLE MedicalHistory (
-			HistoryID SERIAL PRIMARY KEY,
-			PatientID INT NOT NULL,
-			DoctorID INT NOT NULL,
-			NurseID INT NOT NULL,
-			DateOfVisit DATE NOT NULL,
-			FollowUpRequired BOOLEAN NOT NULL,
-			FollowUpDate DATE,
-			Symptoms VARCHAR(50),
-			Diagnosis VARCHAR(50),
-			Treatment VARCHAR(50),
-			EmergencyContact VARCHAR(15),
-			CONSTRAINT fk_medicalhistory_patient
-				FOREIGN KEY (PatientID)
-				REFERENCES Patient (PatientID)
-				ON DELETE CASCADE,
-			CONSTRAINT fk_medicalhistory_doctor
-				FOREIGN KEY (DoctorID)
-				REFERENCES Staff (StaffID)
-				ON DELETE CASCADE,
-			CONSTRAINT fk_medicalhistory_nurse
-				FOREIGN KEY (NurseID)
-				REFERENCES Staff (StaffID)
-				ON DELETE CASCADE
-		);
-		RAISE NOTICE 'Table MedicalHistory was created successfully.';
+        -- Medical History Table
+        CREATE TABLE MedicalHistory (
+            HistoryID SERIAL PRIMARY KEY,
+            PatientID INT NOT NULL,
+            DoctorID INT NOT NULL,
+            NurseID INT NOT NULL,
+            DateOfVisit DATE NOT NULL,
+            FollowUpRequired BOOLEAN NOT NULL,
+            FollowUpDate DATE,
+            Symptoms VARCHAR(50),
+            Diagnosis VARCHAR(50),
+            Treatment VARCHAR(50),
+            EmergencyContact VARCHAR(15),
+            PrescriptionID INT,
+            CONSTRAINT fk_medicalhistory_patient
+                FOREIGN KEY (PatientID)
+                REFERENCES Patient (PatientID)
+                ON DELETE CASCADE,
+            CONSTRAINT fk_medicalhistory_doctor
+                FOREIGN KEY (DoctorID)
+                REFERENCES Staff (StaffID)
+                ON DELETE CASCADE,
+            CONSTRAINT fk_medicalhistory_nurse
+                FOREIGN KEY (NurseID)
+                REFERENCES Staff (StaffID)
+                ON DELETE CASCADE,
+            CONSTRAINT fk_medicalhistory_prescription
+                FOREIGN KEY (PrescriptionID)
+                REFERENCES Prescription (PrescriptionID)
+                ON DELETE SET NULL
+        );
+        RAISE NOTICE 'Table MedicalHistory was created successfully.';
     ELSE
         RAISE NOTICE 'Table MedicalHistory already exists.';
     END IF;
